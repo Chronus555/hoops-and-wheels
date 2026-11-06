@@ -1,0 +1,25 @@
+/* Monster Maker */
+body[data-screen="monster"] { background: linear-gradient(#1d3557 0 calc(var(--oy) + 112px * var(--s)), #3a0ca3 0 calc(var(--oy) + 760px * var(--s)), #7209b7 0 calc(var(--oy) + 828px * var(--s)), #a0673c 0); }
+.monster .wall { position: absolute; inset: 0; background: radial-gradient(circle at 50% 40%, #7b2cbf, #3a0ca3 70%); }
+.monster .floor { position: absolute; left: 0; right: 0; top: 760px; bottom: 0; background: #7209b7; }
+.p-mbuild .lamp { position: absolute; left: 600px; top: 112px; width: 200px; height: 60px; border-radius: 0 0 100px 100px; background: #ffd166; box-shadow: 0 60px 160px 60px rgba(255, 209, 102, .25); }
+.p-mfeed .table { position: absolute; left: 0; right: 0; top: 700px; height: 60px; background: #9d4edd; }
+.monster .mon { position: absolute; left: 470px; top: 180px; width: 460px; height: 575px; z-index: 2; transform-origin: 50% 100%; transition: transform .4s cubic-bezier(.3, 1.6, .5, 1); }
+.monster .mon svg { width: 100%; height: 100%; overflow: visible; }
+.monster .mon.wobble svg { animation: wobble .6s; }
+@keyframes wobble { 25% { transform: scale(1.08, .92); } 50% { transform: scale(.94, 1.06); } 75% { transform: scale(1.03, .97); } }
+.monster .pupil { animation: look 4s ease-in-out infinite; }
+@keyframes look { 30% { transform: translate(-6px, 0); } 60% { transform: translate(6px, 2px); } }
+.p-mbuild .mtabs { position: absolute; left: 40px; top: 150px; display: flex; flex-direction: column; gap: 12px; }
+.p-mbuild .mtab { width: 90px; height: 76px; border-radius: 22px; background: #fff; display: grid; place-items: center; font-size: 44px; box-shadow: 0 5px 0 rgba(0, 0, 0, .2); }
+.p-mbuild .mtab.on { background: #ffd166; transform: translateX(16px); }
+.monster .options { display: flex; gap: 18px; }
+.monster .mopt { width: 120px; height: 120px; border-radius: 24px; background: rgba(255, 255, 255, .85); display: grid; place-items: center; overflow: hidden; }
+.monster .mopt.on { box-shadow: 0 0 0 6px #ffd166; }
+.monster .mopt svg { width: 100%; height: 100%; overflow: visible; }
+.monster .minimon { width: 100px; height: 108px; }
+.monster .swatch { width: 80px; height: 80px; border-radius: 50%; border: 5px solid #2b2d42; }
+.monster .eyecount { font-size: 26px; line-height: 1.1; text-align: center; padding: 6px; word-break: break-all; }
+.monster .none { font-size: 50px; }
+.monster .emo { display: grid; place-items: center; width: 100%; height: 100%; font-size: 70px; line-height: 1; }
+.monster .tray-row { gap: 22px; }

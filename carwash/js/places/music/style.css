@@ -1,0 +1,43 @@
+/* Music Stage */
+body[data-screen="music"] { background: linear-gradient(#1d3557 0 calc(var(--oy) + 112px * var(--s)), #240046 0 calc(var(--oy) + 700px * var(--s)), #8d5a3b 0 calc(var(--oy) + 828px * var(--s)), #a0673c 0); }
+.p-music { --spot: #ffd166; }
+.p-music .backdrop { position: absolute; inset: 0; background: radial-gradient(circle at 50% 30%, #5a189a, #240046 70%); }
+.p-music .curtain { position: absolute; top: 112px; width: 170px; height: 600px; background: repeating-linear-gradient(90deg, #9d0208 0 30px, #6a040f 30px 60px); }
+.p-music .curtain.cl { left: 0; border-radius: 0 0 80px 0; }
+.p-music .curtain.cr { right: 0; border-radius: 0 0 0 80px; }
+.p-music .spots i { position: absolute; top: 112px; width: 220px; height: 600px; background: linear-gradient(var(--spot), transparent); opacity: .25; clip-path: polygon(40% 0, 60% 0, 100% 100%, 0 100%); transition: background .3s; }
+.p-music .spots i:nth-child(1) { left: 250px; }
+.p-music .spots i:nth-child(2) { left: 590px; }
+.p-music .spots i:nth-child(3) { left: 930px; }
+.p-music.party .spots i { animation: sway 1.2s ease-in-out infinite alternate; opacity: .4; }
+@keyframes sway { from { transform: rotate(-10deg); } to { transform: rotate(10deg); } }
+.p-music .disco { position: absolute; left: 650px; top: 112px; width: 100px; height: 100px; border-radius: 50%; background: repeating-conic-gradient(#dee2e6 0 10deg, #adb5bd 0 20deg); opacity: 0; transition: opacity .3s; }
+.p-music.disco-on .disco { opacity: 1; animation: spin 3s linear infinite; box-shadow: 0 0 60px var(--spot); }
+.p-music .stagefloor { position: absolute; left: 0; right: 0; top: 700px; bottom: 0; background: repeating-linear-gradient(90deg, #8d5a3b 0 90px, #7f5539 90px 180px); }
+.p-music .player { position: absolute; z-index: 1; }
+.p-music .player.pl0 { left: 230px; top: 380px; }
+.p-music .player.pl1 { left: 640px; top: 330px; }
+.p-music .player.pl2 { left: 1080px; top: 400px; }
+.p-music .kit { position: absolute; left: 140px; top: 430px; width: 360px; height: 330px; z-index: 2; }
+.p-music .drum { position: absolute; border-radius: 50%; cursor: pointer; }
+.p-music .drum.hit { animation: honk .25s; }
+.p-music .kick { left: 90px; top: 130px; width: 190px; height: 190px; background: radial-gradient(#fff 0 55%, #ef476f 56%); border: 10px solid #adb5bd; display: grid; place-items: center; font-size: 60px; color: #ef476f; }
+.p-music .snare { left: 0; top: 110px; width: 110px; height: 60px; background: #dee2e6; border: 8px solid #ef476f; }
+.p-music .tom { left: 260px; top: 100px; width: 110px; height: 66px; background: #dee2e6; border: 8px solid #ef476f; }
+.p-music .cymbal { left: 0; top: 0; width: 140px; height: 34px; background: radial-gradient(#ffe066, #e09f3e); }
+.p-music .xylo { position: absolute; left: 520px; top: 540px; width: 430px; height: 200px; display: flex; gap: 8px; align-items: center; z-index: 2; padding: 0 10px; background: linear-gradient(transparent 44%, #6d4128 44% 52%, transparent 52%); }
+.p-music .bar { flex: 1; border-radius: 12px; box-shadow: inset 0 -8px 0 rgba(0, 0, 0, .15); cursor: pointer; }
+.p-music .bar.hit { animation: honk .25s; }
+.p-music .bar.glow { animation: glowbar .8s ease-in-out infinite; }
+@keyframes glowbar { 50% { box-shadow: 0 0 0 8px #fff, 0 0 40px 10px #fff; transform: translateY(-10px); } }
+.p-music .horn { position: absolute; left: 980px; top: 520px; font-size: 110px; line-height: 1; z-index: 2; cursor: pointer; transform: rotate(-20deg); }
+.p-music .horn.hit { animation: honk .3s; }
+.p-music .mic { position: absolute; left: 1220px; top: 420px; width: 70px; height: 340px; z-index: 2; cursor: pointer; }
+.p-music .mic .head { position: absolute; left: 5px; top: 0; width: 60px; height: 80px; border-radius: 30px; background: repeating-linear-gradient(45deg, #adb5bd 0 6px, #6c757d 6px 12px); }
+.p-music .mic .stick { position: absolute; left: 28px; top: 80px; width: 14px; height: 260px; background: #343a40; }
+.p-music .mic .rec { position: absolute; left: 22px; top: -40px; width: 26px; height: 26px; border-radius: 50%; background: #ef233c; opacity: 0; }
+.p-music .mic.on .rec { opacity: 1; animation: blinkA .5s steps(1) infinite; }
+.p-music .mic.on .head { box-shadow: 0 0 30px #ef233c; }
+.music .roundbtn { width: 110px; height: 110px; border-radius: 50%; background: #f1faee; display: grid; place-items: center; box-shadow: 0 6px 0 rgba(0, 0, 0, .25); }
+.music .roundbtn span { font-size: 60px; line-height: 1; }
+.music .tray-row { gap: 44px; }

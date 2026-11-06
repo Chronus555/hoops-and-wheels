@@ -1,0 +1,47 @@
+/* Robot Workshop */
+body[data-screen="robot"] { background: linear-gradient(#1d3557 0 calc(var(--oy) + 112px * var(--s)), #caf0f8 0 calc(var(--oy) + 760px * var(--s)), #6c757d 0 calc(var(--oy) + 828px * var(--s)), #a0673c 0); }
+.p-robot .wall { position: absolute; inset: 0; background: linear-gradient(#caf0f8, #90e0ef); }
+.p-robot .floor { position: absolute; left: 0; right: 0; top: 760px; bottom: 0; background: repeating-linear-gradient(90deg, #6c757d 0 60px, #5c636a 60px 120px); }
+.p-robot .gears i { position: absolute; border-radius: 50%; border: 22px dotted #adb5bd; animation: spin 8s linear infinite; }
+.p-robot .gears i:nth-child(1) { left: 1100px; top: 150px; width: 160px; height: 160px; }
+.p-robot .gears i:nth-child(2) { left: 1210px; top: 270px; width: 110px; height: 110px; animation-direction: reverse; animation-duration: 5s; }
+.p-robot .blueprint { position: absolute; left: 1060px; top: 430px; width: 260px; height: 200px; border-radius: 12px; background: repeating-linear-gradient(0deg, transparent 0 24px, rgba(255, 255, 255, .25) 24px 26px), repeating-linear-gradient(90deg, transparent 0 24px, rgba(255, 255, 255, .25) 24px 26px), #0077b6; }
+.p-robot .robotstand { position: absolute; left: 500px; top: 170px; width: 400px; height: 600px; }
+.p-robot .platform { position: absolute; left: 20px; right: 20px; top: 560px; height: 40px; border-radius: 20px; background: #ffd166; box-shadow: 0 8px 0 #e09f3e; }
+.p-robot .bot { position: absolute; left: 0; top: 40px; width: 400px; height: 520px; transform-origin: 50% 100%; }
+.p-robot .bot svg { width: 100%; height: 100%; overflow: visible; }
+.p-robot .bot.jiggle { animation: honk .4s; }
+.p-robot .bot .eye { transition: fill .3s; }
+.p-robot .bot.alive .eye { fill: #4cc9f0; filter: drop-shadow(0 0 8px #4cc9f0); }
+.p-robot .bot .light { opacity: .35; }
+.p-robot .bot.alive .light { animation: blinkA .5s steps(1) infinite; opacity: 1; }
+.p-robot .bot.alive .l2 { animation-delay: .17s; }
+.p-robot .bot.alive .l3 { animation-delay: .34s; }
+.p-robot .bot .jet { opacity: 0; transform-box: fill-box; transform-origin: 50% 0; }
+.p-robot .bot.alive .jet { opacity: 1; animation: flick .1s infinite alternate; }
+.p-robot .bot .spinner { transform-box: fill-box; transform-origin: center; }
+.p-robot .bot.alive .spinner { animation: spin .3s linear infinite; }
+.p-robot .bot.alive .blink { animation: blinkA .4s steps(1) infinite; }
+.p-robot .bot.alive .bulb { fill: #ffe066; filter: drop-shadow(0 0 16px #ffe066); }
+.p-robot .bot.alive .part-head { transform-box: fill-box; transform-origin: 50% 100%; animation: wig 1.2s ease-in-out infinite; }
+.p-robot .bot.dance-wheels { animation: rollabout 2s ease-in-out infinite; }
+@keyframes rollabout { 25% { transform: translateX(-120px) rotate(-3deg); } 75% { transform: translateX(120px) rotate(3deg); } }
+.p-robot .bot.dance-legs { animation: hop .7s ease-in-out infinite; }
+.p-robot .bot.dance-tracks { animation: rumble .1s infinite alternate, rollabout 3s ease-in-out infinite; }
+.p-robot .bot.dance-rocket { animation: liftoff 2.4s ease-in-out infinite; }
+@keyframes liftoff { 50% { transform: translateY(-160px) rotate(4deg); } }
+.p-robot .bot.alive.dance-wheels .wheel, .p-robot .bot.alive.dance-tracks .wheel { transform-box: fill-box; transform-origin: center; animation: spin .5s linear infinite; }
+.p-robot .helper { position: absolute; left: 140px; top: 484px; }
+.goggles { position: absolute; left: 24%; top: 21%; width: 52%; height: 9%; border-radius: 20px; border: 5px solid #343a40; background: rgba(144, 224, 239, .4); pointer-events: none; }
+.p-robot .parttabs { position: absolute; left: 40px; top: 140px; display: flex; flex-direction: column; gap: 14px; }
+.p-robot .parttab { width: 90px; height: 60px; border-radius: 20px; background: #fff; display: grid; place-items: center; font-size: 40px; box-shadow: 0 5px 0 rgba(0, 0, 0, .15); }
+.p-robot .parttab.on { background: #ffd166; transform: translateX(16px); }
+.robot .options { display: flex; gap: 22px; }
+.robot .partopt { width: 120px; height: 110px; border-radius: 22px; background: rgba(255, 255, 255, .85); padding: 8px; }
+.robot .partopt.on { box-shadow: 0 0 0 6px #ffd166; }
+.robot .partopt svg { width: 100%; height: 100%; overflow: visible; }
+.robot .partopt .none { display: grid; place-items: center; height: 100%; font-size: 50px; }
+.robot .roundbtn, .robot .powerbtn { width: 110px; height: 110px; border-radius: 50%; background: #f1faee; display: grid; place-items: center; box-shadow: 0 6px 0 rgba(0, 0, 0, .25); }
+.robot .powerbtn { background: #ef476f; }
+.robot .roundbtn span, .robot .powerbtn span { font-size: 60px; line-height: 1; }
+.robot .tray-row { gap: 40px; }

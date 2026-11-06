@@ -54,4 +54,24 @@ export const BUILDINGS = {
     html: `<div class="firewall"></div><div class="fireroof"></div><div class="bigsign">🚒</div>
       <div class="door firedoor"><div class="shutter"></div></div>`,
   },
+  robot: {
+    width: 450,
+    html: `<div class="labwall"></div><div class="labroof"></div><div class="bigsign">🤖</div><div class="gearsign"></div>
+      <div class="door labdoor"><div class="shutter"></div></div>`,
+  },
+  monster: {
+    width: 450,
+    html: `<div class="monwall"></div><div class="monroof"></div><div class="bigsign">👾</div><div class="window wl">👀</div>
+      <div class="door shopdoor"><div class="shutter"></div></div>`,
+  },
+  music: {
+    width: 450,
+    html: `<div class="hallwall"></div><div class="hallroof"></div><div class="bigsign">🎵</div><div class="notes">♪ ♫ ♪</div>
+      <div class="door halldoor"><div class="shutter"></div></div>`,
+  },
+  art: {
+    width: 450,
+    html: `<div class="artwall"></div><div class="awning rainbow"></div><div class="bigsign">🎨</div><div class="window wl">🖍️</div>
+      <div class="door shopdoor"><div class="shutter"></div></div>`,
+  },
 };

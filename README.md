@@ -115,6 +115,10 @@ Places so far:
 | ✂️ **Salon & Dress-up** | Grow hair with the spray, snip it short (even bald), comb it spiky or curly, and dye it any colour (named out loud). Then hats, glasses, a silly mustache, outfits and a photo, with a mirror showing the new look. |
 | 🛒 **Grocery Store** | A shopper shows a picture list. Find the foods on the shelves (each one is named), scan them at the checkout (counted), then pay by counting coins into the register. |
 | 🚒 **Fire Station** | Slide down the pole, ring the bell, put on a helmet. At the house, spray the cartoon flames until each goes out (counted), raise the ladder to bring the kitten down, and the family says thank you. |
+| 🤖 **Robot Workshop** | Build a robot from shape parts: square, circle, triangle and oval heads and bodies (each shape is named), arms, wheels or legs or a rocket, and something on top. Paint it, then press ⚡ to power it up: it beeps, talks and dances its own way. The robot is remembered. |
+| 👾 **Monster Maker** | Make a friendly monster: shape, colour, 1 to 5 eyes (counted out loud), mouth, horns and pattern. Then feed it (it says "Yucky!" to broccoli and loves socks). It grows with each bite, then burps. Tickle its tummy. |
+| 🎵 **Music Stage** | A drum kit, rainbow xylophone, horn and microphone with a band of friends. ⭐ and 🐑 light up the next bar of Twinkle Twinkle or Mary Had a Little Lamb. 🥁 starts a beat to dance to. 🎤 records him singing and plays it back with an echo. |
+| 🎨 **Art Studio** | Finger-paint with named colours, a rainbow brush, glitter, stamps and an eraser. Tap-to-fill coloring pages (car, house, fish, rocket). Pictures go on the fridge. |
  Muddy cars wait on the road outside; tap one to drive it in. Each car has an animal driver (hippo, frog, lion, pig, elephant or bear) who giggles, cheers and talks with the recorded voice.
 
 **Car Wash & Garage stations:**

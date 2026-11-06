@@ -430,3 +430,17 @@ svg { display: block; }
 .tb-fire .firewall { position: absolute; left: 0; right: 0; top: 120px; bottom: 0; background: #e63946; }
 .tb-fire .fireroof { position: absolute; left: -20px; right: -20px; top: 90px; height: 50px; border-radius: 14px; background: #9d0208; }
 .tb-fire .firedoor { left: 60px; top: 210px; width: 330px; height: 254px; border-radius: 20px 20px 0 0; background: #2b2d42; border: 10px solid #fff; border-bottom: 0; }
+
+/* Batch 3 buildings */
+.tb-robot .labwall { position: absolute; left: 0; right: 0; top: 120px; bottom: 0; background: #90e0ef; }
+.tb-robot .labroof { position: absolute; left: -16px; right: -16px; top: 100px; height: 40px; border-radius: 12px; background: #0077b6; }
+.tb-robot .gearsign { position: absolute; left: 40px; top: 210px; width: 110px; height: 110px; border-radius: 50%; border: 20px dotted #495057; animation: spin 6s linear infinite; }
+.tb-robot .labdoor { left: 200px; top: 240px; width: 200px; height: 224px; border-radius: 16px 16px 0 0; background: #2b2d42; }
+.tb-monster .monwall { position: absolute; left: 0; right: 0; top: 120px; bottom: 0; background: #9d4edd; }
+.tb-monster .monroof { position: absolute; left: -10px; right: -10px; top: 92px; height: 50px; background: radial-gradient(circle at 30px 0, transparent 26px, #7209b7 27px) 0 0 / 60px 50px repeat-x; }
+.tb-music .hallwall { position: absolute; left: 0; right: 0; top: 140px; bottom: 0; background: #5a189a; }
+.tb-music .hallroof { position: absolute; left: -20px; right: -20px; top: 100px; height: 60px; border-radius: 30px 30px 0 0; background: #ffd166; }
+.tb-music .notes { position: absolute; left: 30px; top: 210px; font-size: 60px; color: #ffd166; animation: notes 1.4s ease-in-out infinite; }
+.tb-music .halldoor { left: 120px; top: 260px; width: 210px; height: 204px; border-radius: 100px 100px 0 0; background: #2b2d42; }
+.tb-art .artwall { position: absolute; left: 0; right: 0; top: 120px; bottom: 0; background: #fefae0; }
+.tb .awning.rainbow { background: linear-gradient(90deg, #ef476f, #f8961e, #ffd166, #06d6a0, #4895ef, #9b5de5); }
