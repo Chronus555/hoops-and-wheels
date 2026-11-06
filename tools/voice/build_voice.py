@@ -11,7 +11,9 @@ Setup (once):
   https://github.com/thewh1teagle/kokoro-onnx/releases (model-files-v1.0)
   into tools/voice/.cache/
 Run:
-  npm run voice:build
+  npm run voice:build      (Hoops & Wheels)
+  npm run voice:carwash    (Sudsy Garage)
+Optional arguments: <lines.json> <output folder>, both relative to the project root.
 """
 
 import json
@@ -57,7 +59,11 @@ def tidy(samples: np.ndarray, sr: int) -> np.ndarray:
 
 
 def main() -> None:
-    lines = json.loads((ROOT / "tools/voice/lines.json").read_text(encoding="utf8"))
+    global OUT
+    lines_file = ROOT / (sys.argv[1] if len(sys.argv) > 1 else "tools/voice/lines.json")
+    if len(sys.argv) > 2:
+        OUT = ROOT / sys.argv[2]
+    lines = json.loads(lines_file.read_text(encoding="utf8"))
     OUT.mkdir(parents=True, exist_ok=True)
     meta_path = OUT / "meta.json"  # remembers what text each clip was recorded from
     meta = json.loads(meta_path.read_text(encoding="utf8")) if meta_path.exists() else {}

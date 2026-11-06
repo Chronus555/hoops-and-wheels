@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "voice:collect": "node tools/voice/collect.mjs",
-    "voice:build": "node tools/voice/collect.mjs && tools/voice/.venv/Scripts/python -I tools/voice/build_voice.py"
+    "voice:build": "node tools/voice/collect.mjs && tools/voice/.venv/Scripts/python -I tools/voice/build_voice.py",
+    "voice:carwash": "node tools/voice/collect_carwash.mjs && tools/voice/.venv/Scripts/python -I tools/voice/build_voice.py tools/voice/carwash-lines.json carwash/audio/voice"
   }
 }

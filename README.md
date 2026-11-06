@@ -97,6 +97,28 @@ npm run voice:build
 
 One-time setup for that command is described at the top of `tools/voice/build_voice.py`. On localhost, any sentence without a recording is logged to the browser console as `[voice] no recording:`, so add it to `tools/voice/collect.mjs` if it isn't picked up automatically.
 
+## Sudsy Garage (second app, in `carwash/`)
+
+An open-ended play garage with no rules, no scores and nothing to lose. Muddy cars wait on the road outside; tap one to drive it in. Each car has an animal driver (hippo, frog, lion, pig, elephant or bear) who giggles, cheers and talks with the recorded voice.
+
+| Station | What he can do |
+|---|---|
+| 🧽 **Wash** | Scrub mud with the sponge, add soap bubbles, rinse with the hose, dry with the towel, or pull the lever for the automatic brushes. The mud bucket makes it muddy again. A sparkly-clean moment plays when it's all clean. |
+| 🔧 **Fix-it** | Swap wheels from the rack (monster, basketball, donut, square, tiny...), pump the tyres until they pop, raise the lift, pick a horn (honk, quack, moo, trumpet), put a toy on the roof (siren, hoop, crown, propeller, rocket, ice cream). Tap the radio for music. |
+| 🎨 **Paint** | Tap a paint bucket to repaint the whole car (the driver names the colour), or drag the spray can to draw. Tap the can to change its colour. |
+| ⭐ **Stickers** | Shapes, numbers 0 to 9, racing stripes, flames, checkers and rainbows. The driver names each one. Drag stickers around or pull them off. |
+| ⛽ **Fuel** | Put the nozzle in the car and the pump counts to 10 out loud. Take a photo, then press the green light to drive away. |
+
+Finished cars park in the lot (up to 8) and can be brought back in any time. Tapping any tool also works: it sweeps over the car by itself.
+
+It's at `https://chronus555.github.io/hoops-and-wheels/carwash/`. Add it to the Home Screen the same way as Hoops & Wheels. It's built for landscape.
+
+After changing what the drivers say (`carwash/js/lines.js`), re-record with:
+
+```bash
+npm run voice:carwash
+```
+
 ## Files
 
 - `index.html`, `styles.css`, `manifest.webmanifest`, `sw.js`: the app shell and offline support
@@ -104,4 +126,6 @@ One-time setup for that command is described at the top of `tools/voice/build_vo
 - `js/screens/`: one file per screen (start, home, world, the games, reward, garage, rest, grown-up corner)
 - `audio/voice/`: the recorded voice clips and their index
 - `tools/voice/`: scripts that collect every spoken line and record it
+- `carwash/`: the Sudsy Garage app (its own page, code, voice clips and icons)
+- `tools/devserver.py`: local test server that turns off browser caching
 - `icons/`: home-screen icons

@@ -1,7 +1,7 @@
 // Offline support: serve from cache right away, refresh the cache in the background.
 // Bump VERSION when files are added or removed.
 
-const VERSION = 'hw-v4';
+const VERSION = 'hw-v5';
 const FILES = [
   './',
   'index.html',
@@ -68,8 +68,9 @@ self.addEventListener('install', e => {
   self.skipWaiting();
 });
 
+// Only this app's old caches are removed (Sudsy Garage lives on the same site).
 self.addEventListener('activate', e => {
-  e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== VERSION).map(k => caches.delete(k)))));
+  e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k.startsWith('hw-') && k !== VERSION).map(k => caches.delete(k)))));
   self.clients.claim();
 });
 
