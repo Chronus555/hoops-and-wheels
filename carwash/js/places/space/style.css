@@ -1,0 +1,42 @@
+/* Space Station */
+body[data-screen="space"] { background: linear-gradient(#1d3557 0 calc(var(--oy) + 112px * var(--s)), #10002b 0 calc(var(--oy) + 828px * var(--s)), #a0673c 0); }
+.p-pad .sky { position: absolute; inset: 0; background: linear-gradient(#023e8a, #48cae4 80%); }
+.p-pad .ground { position: absolute; left: 0; right: 0; top: 760px; bottom: 0; background: #6c757d; }
+.p-pad .padbase { position: absolute; left: 560px; top: 740px; width: 280px; height: 30px; border-radius: 10px; background: #495057; }
+.p-pad .tower { position: absolute; left: 880px; top: 240px; width: 70px; height: 520px; background: repeating-linear-gradient(45deg, #e63946 0 10px, #9d0208 10px 20px); }
+.p-pad .tower i { position: absolute; left: -110px; width: 110px; height: 14px; background: #9d0208; }
+.p-pad .tower i:nth-child(1) { top: 120px; }
+.p-pad .tower i:nth-child(2) { top: 260px; }
+.p-pad .tower i:nth-child(3) { top: 400px; }
+.p-pad .rocket { position: absolute; left: 620px; top: 360px; width: 160px; height: 400px; z-index: 2; transition: transform 2.6s cubic-bezier(.6, 0, .9, .5); }
+.p-pad .rocket svg, .p-space .spaceship svg { width: 100%; height: 100%; overflow: visible; }
+.p-pad .rocket .exhaust { opacity: 0; transform-box: fill-box; transform-origin: 50% 0; }
+.p-pad .rocket.lift { transform: translateY(-1100px); animation: rumble .08s infinite alternate; }
+.p-pad .rocket.lift .exhaust { opacity: 1; animation: flick .08s infinite alternate; }
+.p-pad .rocket.jump svg { animation: honk .4s; }
+.p-pad .rocketoutline { position: absolute; left: 650px; top: 400px; width: 100px; height: 360px; border: 6px dashed rgba(255, 255, 255, .6); border-radius: 60px 60px 10px 10px; transition: opacity .3s; }
+.p-pad .astronaut { position: absolute; left: 340px; top: 538px; z-index: 3; transition: transform .8s ease-in; cursor: pointer; }
+.p-pad .astronaut.climbing { transform: translate(300px, -260px) scale(.5); }
+.space .helmet { position: absolute; left: 15%; top: 2%; width: 70%; height: 36%; border-radius: 50%; border: 6px solid #dee2e6; background: rgba(195, 232, 255, .3); pointer-events: none; }
+.p-pad .countdown { position: absolute; left: 1020px; top: 200px; width: 240px; height: 200px; display: grid; place-items: center; font-size: 160px; font-weight: 900; color: #fff; text-shadow: 0 8px 0 #1d3557; }
+.p-pad .countdown.jump { animation: pop .3s; }
+.space .partsrow { display: flex; gap: 20px; }
+.space .roundbtn { width: 110px; height: 110px; border-radius: 50%; background: #f1faee; display: grid; place-items: center; box-shadow: 0 6px 0 rgba(0, 0, 0, .25); }
+.space .roundbtn.go { background: #ffd166; }
+.space .roundbtn.launch { width: 140px; height: 140px; background: #ef233c; }
+.space .roundbtn span { font-size: 60px; line-height: 1; }
+.space .tray-row { gap: 50px; }
+.space .partsrow.hint { animation: hint .9s ease-in-out 2; }
+.p-space { background: radial-gradient(circle at 70% 30%, #3c096c, #10002b 70%); }
+.p-space .starfield i { position: absolute; width: 5px; height: 5px; border-radius: 50%; background: #fff; animation: twinkle 2.4s ease-in-out infinite; }
+.p-space .spaceship { position: absolute; left: 0; top: 0; width: 160px; height: 400px; z-index: 2; transform-origin: 50% 50%; }
+.p-space .planet { position: absolute; display: grid; place-items: center; line-height: 1; cursor: pointer; }
+.p-space .planet.jump { animation: hop .6s; filter: drop-shadow(0 0 30px #fff6a8); }
+.p-space .pl-jupiter { filter: hue-rotate(-10deg); }
+.p-space .flag { position: absolute; font-size: 50px; animation: pop .4s; }
+.p-space .alien { position: absolute; font-size: 70px; animation: pop .4s, bobble 1s ease-in-out infinite; }
+.p-space .spacewalker { position: absolute; left: 0; top: 0; z-index: 3; opacity: 0; pointer-events: none; transition: opacity .5s; }
+.p-space .spacewalker.out { opacity: 1; pointer-events: auto; cursor: grab; }
+.p-space .spacewalker .tether { display: none; }
+.p-space .comet { position: absolute; left: 1500px; font-size: 80px; animation: cometfly 2.2s linear forwards; z-index: 1; }
+@keyframes cometfly { to { transform: translate(-1800px, 300px); } }

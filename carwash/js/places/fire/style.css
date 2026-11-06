@@ -42,7 +42,9 @@ body[data-screen="fire"] { background: linear-gradient(#1d3557 0 calc(var(--oy) 
 .p-blaze .house .w3 { left: 40px; top: 230px; }
 .p-blaze .house .w4 { left: 240px; top: 230px; }
 .p-blaze .house .housedoor { position: absolute; left: 175px; top: 330px; width: 90px; height: 140px; border-radius: 40px 40px 0 0; background: #8d5a3b; }
-.p-blaze .flame { position: absolute; width: 100px; height: 120px; font-size: 96px; line-height: 1.2; text-align: center; animation: flick .2s infinite alternate; transition: transform .2s; pointer-events: none; z-index: 2; }
+.p-blaze .flame { position: absolute; width: 100px; height: 120px; font-size: 96px; line-height: 1.2; text-align: center; transition: transform .2s; pointer-events: none; z-index: 2; transform-origin: 50% 100%; }
+/* The flicker is on the inner emoji so it doesn't undo the shrinking as the fire is sprayed. */
+.p-blaze .flame span { display: inline-block; animation: flick .2s infinite alternate; transform-origin: 50% 100%; }
 .p-blaze .flame.out { opacity: 0; transition: opacity .6s, transform .6s; transform: scale(0) !important; }
 .p-blaze .tree { position: absolute; left: 180px; top: 240px; width: 260px; height: 470px; }
 .p-blaze .tree i { position: absolute; left: 110px; top: 200px; width: 40px; height: 270px; border-radius: 12px; background: #8d5a3b; }

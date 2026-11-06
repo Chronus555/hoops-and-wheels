@@ -1,0 +1,40 @@
+/* Airport */
+body[data-screen="airport"] { background: linear-gradient(#1d3557 0 calc(var(--oy) + 112px * var(--s)), #a5d8ff 0 calc(var(--oy) + 620px * var(--s)), #6c757d 0 calc(var(--oy) + 828px * var(--s)), #a0673c 0); }
+.p-gate .sky { position: absolute; inset: 0; background: linear-gradient(#74c0fc, #d0f4ff); }
+.p-gate .tarmac { position: absolute; left: 0; right: 0; top: 620px; bottom: 0; background: #6c757d; background-image: repeating-linear-gradient(90deg, #ffd166 0 60px, transparent 60px 140px); background-size: 100% 8px; background-repeat: no-repeat; background-position: 0 90px; }
+.p-gate .terminal { position: absolute; left: 20px; top: 300px; width: 300px; height: 320px; border-radius: 20px 20px 0 0; background: #e9ecef; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; padding: 30px 20px; }
+.p-gate .terminal i { background: #90e0ef; border-radius: 8px; height: 80px; }
+.p-gate .tower { position: absolute; left: 1250px; top: 160px; width: 60px; height: 460px; background: #adb5bd; }
+.p-gate .tower::before { content: ""; position: absolute; left: -40px; top: -40px; width: 140px; height: 70px; border-radius: 20px; background: #48cae4; border: 6px solid #adb5bd; }
+.airport .plane { position: absolute; left: 380px; top: 290px; width: 900px; height: 360px; transition: transform 1.4s ease-in; }
+.airport .plane svg, .airport .flyer svg { width: 100%; height: 100%; overflow: visible; }
+.airport .plane.jump { animation: honk .3s; }
+.airport .plane.takeoff { transform: translate(700px, -500px) rotate(-14deg); }
+.p-gate .belt { position: absolute; left: 330px; top: 640px; width: 460px; height: 100px; }
+.p-gate .belt i { position: absolute; left: 0; right: 0; bottom: 0; height: 28px; border-radius: 14px; background: repeating-linear-gradient(90deg, #343a40 0 20px, #212529 20px 40px); animation: roll .6s linear infinite; }
+.p-gate .bag { position: absolute; top: 4px; width: 80px; height: 70px; transition: transform .6s ease-in, opacity .6s; }
+.p-gate .bag svg { width: 100%; height: 100%; }
+.p-gate .bag.loaded { transform: translate(250px, -150px) scale(.4); opacity: 0; }
+.p-gate .fueltruck { position: absolute; left: 1150px; top: 560px; font-size: 100px; line-height: 1; transition: transform .6s; }
+.p-gate .fueltruck.fueling { animation: honk .3s 4; }
+.p-gate .queue { position: absolute; left: 60px; top: 460px; display: flex; gap: 6px; z-index: 2; }
+.p-gate .queue .friend { transition: transform .8s ease-in; cursor: pointer; }
+.p-gate .queue .friend.boarding { transform: translate(560px, -80px) scale(.6); }
+.airport .roundbtn { width: 110px; height: 110px; border-radius: 50%; background: #f1faee; display: grid; place-items: center; box-shadow: 0 6px 0 rgba(0, 0, 0, .25); }
+.airport .roundbtn.go { background: #ffd166; }
+.airport .roundbtn span { font-size: 60px; line-height: 1; }
+.airport .tool svg { width: 100%; height: 100%; }
+.airport .tray-row { gap: 50px; }
+.p-sky .skyfill { position: absolute; inset: 0; background: linear-gradient(#4895ef, #bde0fe); }
+.p-sky .clouds i { position: absolute; width: 240px; height: 80px; border-radius: 40px; background: #fff; opacity: .9; animation: cloudby 7s linear infinite; }
+.p-sky .clouds i::before { content: ""; position: absolute; left: 50px; top: -40px; width: 110px; height: 110px; border-radius: 50%; background: #fff; }
+.p-sky .clouds i:nth-child(1) { top: 200px; }
+.p-sky .clouds i:nth-child(2) { top: 420px; animation-delay: -2s; animation-duration: 9s; }
+.p-sky .clouds i:nth-child(3) { top: 620px; animation-delay: -4.5s; }
+.p-sky .clouds i:nth-child(4) { top: 320px; animation-delay: -6s; animation-duration: 11s; transform: scale(.7); }
+@keyframes cloudby { from { left: 1500px; } to { left: -300px; } }
+.p-sky .ground { position: absolute; left: 0; right: 0; top: 800px; bottom: 0; background: #74c69d; }
+.p-sky .flyer { position: absolute; left: 0; top: 0; width: 500px; height: 200px; z-index: 2; }
+.p-sky .starlayer { position: absolute; inset: 0; z-index: 3; pointer-events: none; }
+.p-sky .flyitem { position: absolute; left: 0; top: 0; font-size: 70px; line-height: 1; }
+.p-sky .starcount { position: absolute; right: 30px; top: 130px; z-index: 4; padding: 8px 22px; border-radius: 30px; background: rgba(255, 255, 255, .85); font-size: 44px; font-weight: 900; }

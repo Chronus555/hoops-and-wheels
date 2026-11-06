@@ -20,4 +20,10 @@ export const PLACES = [
   { id: 'ocean', load: () => import('../places/ocean/index.js') },
   { id: 'camp', load: () => import('../places/camp/index.js') },
   { id: 'dino', load: () => import('../places/dino/index.js') },
+  { id: 'airport', load: () => import('../places/airport/index.js') },
+  { id: 'train', load: () => import('../places/train/index.js') },
+  { id: 'harbor', load: () => import('../places/harbor/index.js') },
+  { id: 'space', load: () => import('../places/space/index.js') },
+  { id: 'playground', load: () => import('../places/playground/index.js') },
+  { id: 'home', load: () => import('../places/home/index.js') },
 ];

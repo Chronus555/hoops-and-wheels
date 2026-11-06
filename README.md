@@ -99,7 +99,7 @@ One-time setup for that command is described at the top of `tools/voice/build_vo
 
 ## Sudsy Town (second app, in `carwash/`)
 
-A town of open-ended play places (it started as Sudsy Garage). There are no rules, no scores and nothing to lose. The app opens on a street the child swipes along; each building is a place to play. More places are being added in batches.
+A town of 24 open-ended play places (it started as Sudsy Garage). There are no rules, no scores and nothing to lose. The app opens on a street the child swipes along; each building is a place to play.
 
 Places so far:
 
@@ -123,6 +123,12 @@ Places so far:
 | 🌊 **Ocean Dive** | Steer a submarine with a finger. It gets darker the deeper it goes (turn on the headlight). Sea creatures are named as he finds them: the pufferfish puffs, the octopus squirts ink, the whale sings. Treasure chests on the seabed count out gems. |
 | 🏕️ **Campground** | Pitch the tent in three counted steps and build a campfire. At night, toast marshmallows (golden is yummy, too long is crunchy), find hidden animals with the flashlight, and connect numbered stars to make a picture. |
 | 🦕 **Dinosaur Dig** | Brush away sand to find five bones (counted). In the museum, put them on the skeleton outline; the dinosaur is named (T. rex, Triceratops, Brachiosaurus) and roars. Tap the egg three times to hatch a baby. |
+| ✈️ **Airport** | Load five suitcases (counted), fuel the plane and board the friends, then take off. In the sky, touch to fly up and down and catch stars (counted). Land for another trip. |
+| 🚂 **Train Yard** | Fill three gaps in the track (counted), load the red, blue and yellow cars, then blow the whistle: the train goes through the tunnel and over the bridge. With a gap left, it stops and asks for more track. |
+| ⚓ **Harbor** | Drag the tugboat to push the big ship to the dock, where the crane unloads four containers (counted). Go fishing (a fish, a crab, a silly boot...), shine the lighthouse, and wave to the seagulls. |
+| 🚀 **Space Station** | Build a rocket from three parts, put the astronaut in, and count down from ten to blast off. Fly to Earth, the Moon (plant a flag), Mars, Jupiter and Saturn, each named, and go on a floaty spacewalk. |
+| 🛝 **Playground** | Push the swing higher (pushes are counted), slide down the slide, bounce the seesaw, build and knock down a sand castle, pop bubbles (counted), and fling a bouncy ball. |
+| 🛏️ **Home & Bedtime** | Bath time with soap bubbles, a shower, rubber ducks and a ten-count tooth brushing. Then pajamas, a teddy, a short bedtime story read aloud, and lights out with glowing stars and a lullaby. A calm way to end. |
  Muddy cars wait on the road outside; tap one to drive it in. Each car has an animal driver (hippo, frog, lion, pig, elephant or bear) who giggles, cheers and talks with the recorded voice.
 
 **Car Wash & Garage stations:**

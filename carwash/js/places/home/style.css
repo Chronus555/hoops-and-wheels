@@ -1,0 +1,56 @@
+/* Home & Bedtime */
+body[data-screen="home"] { background: linear-gradient(#1d3557 0 calc(var(--oy) + 112px * var(--s)), #caf0f8 0 calc(var(--oy) + 760px * var(--s)), #dee2e6 0 calc(var(--oy) + 828px * var(--s)), #a0673c 0); }
+.p-bath .tiles { position: absolute; inset: 0; background-color: #caf0f8; background-image: linear-gradient(rgba(255, 255, 255, .7) 3px, transparent 3px), linear-gradient(90deg, rgba(255, 255, 255, .7) 3px, transparent 3px); background-size: 60px 60px; }
+.p-bath .floor { position: absolute; left: 0; right: 0; top: 760px; bottom: 0; background: #dee2e6; }
+.p-bath .mirror { position: absolute; left: 100px; top: 170px; width: 200px; height: 260px; border-radius: 100px 100px 20px 20px; background: linear-gradient(135deg, #e0fbfc, #c3e8ff); border: 12px solid #fff; }
+.p-bath .sink { position: absolute; left: 90px; top: 480px; width: 220px; height: 90px; border-radius: 0 0 60px 60px; background: #fff; box-shadow: 0 200px 0 -80px #adb5bd; }
+.p-bath .bather { position: absolute; left: 590px; top: 260px; z-index: 1; }
+.p-bath .tub { position: absolute; left: 420px; top: 520px; width: 560px; height: 250px; z-index: 2; }
+.p-bath .tub .water { position: absolute; left: 20px; right: 20px; top: 0; height: 40px; border-radius: 50%; background: rgba(144, 224, 239, .9); box-shadow: 0 -10px 0 0 rgba(255, 255, 255, .7); }
+.p-bath .tub .tubfront { position: absolute; left: 0; right: 0; top: 20px; bottom: 0; border-radius: 30px 30px 120px 120px; background: #fff; box-shadow: inset 0 -20px 0 #dee2e6; }
+.p-bath .foam { position: absolute; inset: 0; z-index: 3; pointer-events: none; }
+.p-bath .sud { position: absolute; border-radius: 50%; background: radial-gradient(circle at 35% 35%, #fff 0 30%, rgba(240, 248, 255, .95) 60%, rgba(200, 230, 245, .9)); box-shadow: 0 0 0 2px rgba(150, 200, 230, .6); animation: pop .2s; }
+.p-bath .ducks { position: absolute; inset: 0; z-index: 3; pointer-events: none; }
+.p-bath .duck { position: absolute; top: 470px; font-size: 64px; pointer-events: auto; cursor: pointer; animation: pop .3s, bobble 2s ease-in-out .3s infinite; }
+.p-bath .duck.jump { animation: hop .5s; }
+.p-bath .toothbrush { position: absolute; left: 720px; top: 330px; font-size: 64px; z-index: 4; animation: brushing .25s ease-in-out infinite alternate; }
+@keyframes brushing { from { transform: translateX(-20px) rotate(-10deg); } to { transform: translateX(20px) rotate(10deg); } }
+.home .roundbtn { width: 110px; height: 110px; border-radius: 50%; background: #f1faee; display: grid; place-items: center; box-shadow: 0 6px 0 rgba(0, 0, 0, .25); }
+.home .roundbtn.go { background: #ffd166; }
+.home .roundbtn span { font-size: 60px; line-height: 1; }
+.home .tool svg { width: 100%; height: 100%; }
+.home .tray-row { gap: 40px; }
+.p-bed .wall { position: absolute; inset: 0; background: #e0c3fc; }
+.p-bed .floor { position: absolute; left: 0; right: 0; top: 760px; bottom: 0; background: #b08968; }
+.p-bed .window { position: absolute; left: 980px; top: 170px; width: 260px; height: 220px; border-radius: 16px; background: linear-gradient(#03045e, #3a0ca3); border: 14px solid #fff; overflow: hidden; }
+.p-bed .window .moon { position: absolute; left: 140px; top: 30px; width: 70px; height: 70px; border-radius: 50%; box-shadow: -18px 10px 0 0 #fff3b0; }
+.p-bed .ceiling i { position: absolute; font-size: 30px; font-style: normal; opacity: .15; transition: opacity 1s; }
+.p-bed.night .ceiling i { opacity: 1; animation: twinkle 2.4s ease-in-out infinite; z-index: 6; }
+.p-bed .bedframe { position: absolute; left: 300px; top: 520px; width: 560px; height: 240px; border-radius: 30px 30px 10px 10px; background: #8d5a3b; z-index: 1; }
+.p-bed .blanket { z-index: 3; }
+.p-bed .pillow { position: absolute; left: 20px; top: -30px; width: 160px; height: 70px; border-radius: 30px; background: #fff; }
+.p-bed .blanket { position: absolute; left: 140px; right: -10px; top: -20px; height: 140px; border-radius: 30px; background: repeating-linear-gradient(45deg, #4895ef 0 30px, #90e0ef 30px 60px); }
+.p-bed .sleeper { position: absolute; left: 860px; top: 465px; z-index: 3; transition: transform 1s ease-in-out; transform-origin: 50% 100%; }
+.p-bed .sleeper.inbed { opacity: 0; pointer-events: none; }
+.p-bed .sleephead { position: absolute; left: 330px; top: 410px; width: 130px; height: 130px; z-index: 2; opacity: 0; transition: opacity .8s; transform: rotate(-12deg); }
+.p-bed .sleephead svg { width: 100%; height: 100%; overflow: visible; }
+.p-bed.night .sleephead { opacity: 1; }
+.p-bed .sleeper { transition: opacity .8s; }
+.p-bed .teddy { position: absolute; left: 120px; top: 640px; font-size: 100px; line-height: 1; cursor: pointer; z-index: 2; }
+.p-bed .teddy.jump { animation: hop .6s; }
+.p-bed .book { position: absolute; left: 1070px; top: 560px; width: 160px; height: 120px; border-radius: 10px; background: #ef476f; box-shadow: inset 12px 0 0 #c9184a; cursor: pointer; z-index: 4; transition: all .4s; }
+.p-bed .book.open { left: 470px; top: 150px; width: 460px; height: 300px; background: #fff; box-shadow: 0 10px 30px rgba(0, 0, 0, .2), inset 230px 0 0 #fff8f0; }
+.p-bed .book .pagepic { position: absolute; inset: 0; display: grid; place-items: center; font-size: 160px; line-height: 1; }
+.p-bed .book .pagenum { position: absolute; right: 20px; bottom: 10px; font-size: 30px; font-weight: 900; color: #adb5bd; }
+.p-bed .lamp { position: absolute; left: 160px; top: 380px; width: 120px; height: 260px; cursor: pointer; z-index: 2; }
+.p-bed .lamp .shade { position: absolute; left: 0; top: 0; width: 120px; height: 90px; background: #ffd166; clip-path: polygon(20% 0, 80% 0, 100% 100%, 0 100%); }
+.p-bed .lamp .glow { position: absolute; left: -100px; top: -60px; width: 320px; height: 320px; border-radius: 50%; background: radial-gradient(rgba(255, 246, 168, .5), transparent 70%); pointer-events: none; transition: opacity 1s; }
+.p-bed .lamp::after { content: ""; position: absolute; left: 52px; top: 90px; width: 16px; height: 170px; background: #6d4128; }
+.p-bed .dark { position: absolute; inset: 112px 0 0; background: #03045e; opacity: 0; pointer-events: none; transition: opacity 1.2s; z-index: 5; }
+.p-bed.night .dark { opacity: .72; }
+.p-bed.night .lamp .glow { opacity: 0; }
+.p-bed .zzz { position: absolute; left: 430px; top: 300px; font-size: 60px; font-weight: 900; color: #fff; z-index: 6; opacity: 0; }
+.p-bed.night .zzz { opacity: 1; }
+.p-bed .zzz b { display: inline-block; animation: zz 2.4s ease-in-out infinite; opacity: 0; }
+.p-bed .zzz b:nth-child(2) { animation-delay: .8s; }
+.p-bed .zzz b:nth-child(3) { animation-delay: 1.6s; }

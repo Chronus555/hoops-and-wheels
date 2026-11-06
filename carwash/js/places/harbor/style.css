@@ -1,0 +1,50 @@
+/* Harbor */
+body[data-screen="harbor"] { background: linear-gradient(#1d3557 0 calc(var(--oy) + 112px * var(--s)), #a5d8ff 0 calc(var(--oy) + 520px * var(--s)), #0096c7 0 calc(var(--oy) + 828px * var(--s)), #a0673c 0); }
+.p-harbor .sky { position: absolute; inset: 0; background: linear-gradient(#74c0fc, #d0f4ff); }
+.p-harbor .sun { position: absolute; left: 640px; top: 160px; width: 110px; height: 110px; border-radius: 50%; background: #ffd166; box-shadow: 0 0 0 18px rgba(255, 209, 102, .35); }
+.p-harbor .sea { position: absolute; left: 0; right: 0; top: 520px; bottom: 0; background: linear-gradient(#48cae4, #0077b6); overflow: hidden; }
+.p-harbor .sea i { position: absolute; left: -100px; right: -100px; height: 20px; background: repeating-radial-gradient(circle at 30px 0, transparent 0 20px, rgba(255, 255, 255, .5) 21px 24px, transparent 25px) 0 0 / 60px 20px; animation: waves 3s linear infinite; }
+.p-harbor .sea i:nth-child(1) { top: 10px; }
+.p-harbor .sea i:nth-child(2) { top: 150px; animation-duration: 4.5s; animation-direction: reverse; }
+@keyframes waves { to { transform: translateX(60px); } }
+.p-harbor .dock { position: absolute; left: 1000px; top: 470px; width: 400px; height: 70px; background: #8d5a3b; box-shadow: inset 0 -12px 0 #6d4128; z-index: 1; }
+.p-harbor .dock .posts i { position: absolute; top: 60px; width: 26px; height: 140px; background: #6d4128; }
+.p-harbor .dock .posts i:nth-child(1) { left: 30px; }
+.p-harbor .dock .posts i:nth-child(2) { left: 190px; }
+.p-harbor .dock .posts i:nth-child(3) { left: 350px; }
+.p-harbor .crane { position: absolute; left: 1250px; top: 150px; width: 140px; height: 330px; z-index: 1; }
+.p-harbor .crane .mast { position: absolute; left: 100px; top: 0; width: 30px; height: 330px; background: repeating-linear-gradient(45deg, #ffd166 0 10px, #e09f3e 10px 20px); }
+.p-harbor .crane .arm { position: absolute; left: -160px; top: 0; width: 300px; height: 24px; background: repeating-linear-gradient(-45deg, #ffd166 0 10px, #e09f3e 10px 20px); }
+.p-harbor .crane .rope { position: absolute; left: -110px; top: 24px; width: 4px; height: 160px; background: #343a40; }
+.p-harbor .crane.jump .rope { animation: liftrope .5s ease-in-out; }
+@keyframes liftrope { 50% { height: 60px; } }
+.p-harbor .stack { position: absolute; left: 1040px; top: 360px; width: 180px; display: flex; flex-wrap: wrap-reverse; gap: 4px; z-index: 1; }
+.p-harbor .container { width: 86px; height: 52px; border-radius: 4px; animation: pop .4s; box-shadow: inset 0 -8px 0 rgba(0, 0, 0, .15); }
+.p-harbor .ship { position: absolute; left: 0; top: 0; width: 520px; height: 220px; z-index: 2; }
+.p-harbor .ship svg { animation: bobble 3s ease-in-out infinite; }
+.p-harbor .ship svg, .p-harbor .tug svg { width: 100%; height: 100%; overflow: visible; }
+.p-harbor .ship .box { transition: opacity .3s; }
+.p-harbor .tug { position: absolute; left: 0; top: 0; width: 200px; height: 130px; z-index: 3; cursor: grab; }
+.p-harbor .tug.jump svg { animation: hop .5s; }
+.p-harbor .rock { position: absolute; left: 0; top: 470px; width: 220px; height: 90px; border-radius: 50% 50% 0 0; background: #6c757d; }
+.p-harbor .lighthouse { position: absolute; left: 70px; top: 200px; width: 80px; height: 290px; border-radius: 10px 10px 0 0; background: repeating-linear-gradient(180deg, #e63946 0 50px, #fff 50px 100px); cursor: pointer; }
+.p-harbor .lighthouse .top { position: absolute; left: -10px; top: -50px; width: 100px; height: 54px; border-radius: 50px 50px 6px 6px; background: #ffd166; }
+.p-harbor .lighthouse .beam { position: absolute; left: 40px; top: -30px; width: 600px; height: 70px; background: linear-gradient(90deg, rgba(255, 246, 168, .9), transparent); clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 60%); transform-origin: 0 50%; opacity: 0; }
+.p-harbor .lighthouse.shine .beam { animation: beam 2.4s ease-in-out; }
+@keyframes beam { 0% { opacity: 0; transform: rotate(-20deg); } 20% { opacity: 1; } 80% { opacity: 1; transform: rotate(25deg); } 100% { opacity: 0; transform: rotate(30deg); } }
+.p-harbor .gull { position: absolute; left: 0; top: 230px; font-size: 64px; animation: gullfly 14s linear infinite; cursor: pointer; z-index: 3; }
+@keyframes gullfly { from { transform: translateX(-100px); } to { transform: translateX(1500px); } }
+.p-harbor .rod { position: absolute; left: 1220px; top: 380px; width: 120px; height: 300px; z-index: 2; cursor: pointer; }
+.p-harbor .rod .pole { position: absolute; left: 60px; top: 0; width: 8px; height: 130px; background: #8d5a3b; transform: rotate(-30deg); transform-origin: 50% 100%; }
+.p-harbor .rod .line { position: absolute; left: 30px; top: 12px; width: 2px; height: 120px; background: #343a40; transition: height .4s; }
+.p-harbor .rod.cast .line { height: 250px; }
+.p-harbor .rod .bob { position: absolute; left: 22px; top: 128px; width: 18px; height: 18px; border-radius: 50%; background: #ef476f; transition: top .4s; }
+.p-harbor .rod.cast .bob { top: 258px; }
+.p-harbor .rod.bite .bob { animation: honk .2s 3; }
+.p-harbor .catch { position: absolute; left: 1180px; top: 320px; font-size: 90px; line-height: 1; opacity: 0; z-index: 3; pointer-events: none; }
+.p-harbor .catch.show { animation: catchup 2.6s ease-out forwards; }
+@keyframes catchup { 0% { opacity: 0; transform: translateY(240px); } 20% { opacity: 1; transform: translateY(0) scale(1.2); } 80% { opacity: 1; } 100% { opacity: 0; transform: translateY(-40px); } }
+.harbor .roundbtn { width: 110px; height: 110px; border-radius: 50%; background: #f1faee; display: grid; place-items: center; box-shadow: 0 6px 0 rgba(0, 0, 0, .25); }
+.harbor .roundbtn.go { background: #ffd166; }
+.harbor .roundbtn span { font-size: 60px; line-height: 1; }
+.harbor .tray-row { gap: 60px; }

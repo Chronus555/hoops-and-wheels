@@ -12,8 +12,16 @@
   "text": "A bone!"
  },
  {
+  "key": "a boot silly",
+  "text": "A boot! Silly!"
+ },
+ {
   "key": "a bunny",
   "text": "A bunny!"
+ },
+ {
+  "key": "a comet zoom",
+  "text": "A comet! Zoom!"
  },
  {
   "key": "a cozy campfire",
@@ -68,6 +76,10 @@
   "text": "A roof!"
  },
  {
+  "key": "a sand castle",
+  "text": "A sand castle!"
+ },
+ {
   "key": "a sea turtle",
   "text": "A sea turtle!"
  },
@@ -98,6 +110,10 @@
  {
   "key": "all aboard",
   "text": "All aboard!"
+ },
+ {
+  "key": "all aboard the train",
+  "text": "All aboard the train!"
  },
  {
   "key": "all better",
@@ -152,8 +168,16 @@
   "text": "Apple!"
  },
  {
+  "key": "apples",
+  "text": "Apples!"
+ },
+ {
   "key": "arm",
   "text": "Arm!"
+ },
+ {
+  "key": "back at the station",
+  "text": "Back at the station!"
  },
  {
   "key": "back for more",
@@ -164,12 +188,20 @@
   "text": "Back to the top!"
  },
  {
+  "key": "bags on board",
+  "text": "Bags on board!"
+ },
+ {
   "key": "banana",
   "text": "Banana!"
  },
  {
   "key": "basketball",
   "text": "Basketball!"
+ },
+ {
+  "key": "bath time",
+  "text": "Bath time!"
  },
  {
   "key": "beautiful",
@@ -224,12 +256,24 @@
   "text": "Blue!"
  },
  {
+  "key": "blue car",
+  "text": "Blue car!"
+ },
+ {
   "key": "blueberries",
   "text": "Blueberries!"
  },
  {
   "key": "boom ha ha",
   "text": "Boom! Ha ha!"
+ },
+ {
+  "key": "bounce bounce",
+  "text": "Bounce bounce!"
+ },
+ {
+  "key": "bounce bounce it bounced up to the stars",
+  "text": "Bounce, bounce, it bounced up to the stars."
  },
  {
   "key": "bouncy",
@@ -264,8 +308,16 @@
   "text": "Brush away the sand!"
  },
  {
+  "key": "brush brush brush",
+  "text": "Brush brush brush!"
+ },
+ {
   "key": "bubbles",
   "text": "Bubbles!"
+ },
+ {
+  "key": "build the rocket first",
+  "text": "Build the rocket first!"
  },
  {
   "key": "bumpy bumpy",
@@ -280,6 +332,10 @@
   "text": "Bye bye!"
  },
  {
+  "key": "bye bye big ship",
+  "text": "Bye bye, big ship!"
+ },
+ {
   "key": "can you wash my car",
   "text": "Can you wash my car?"
  },
@@ -288,12 +344,24 @@
   "text": "Candles!"
  },
  {
+  "key": "capsule",
+  "text": "Capsule!"
+ },
+ {
   "key": "car",
   "text": "Car!"
  },
  {
   "key": "carrot",
   "text": "Carrot!"
+ },
+ {
+  "key": "cast the line",
+  "text": "Cast the line!"
+ },
+ {
+  "key": "catch",
+  "text": "Catch!"
  },
  {
   "key": "checkers",
@@ -306,6 +374,10 @@
  {
   "key": "chocolate",
   "text": "Chocolate!"
+ },
+ {
+  "key": "choo choo here we go",
+  "text": "Choo choo! Here we go!"
  },
  {
   "key": "circle",
@@ -346,6 +418,10 @@
  {
   "key": "corn",
   "text": "Corn!"
+ },
+ {
+  "key": "cozy pajamas",
+  "text": "Cozy pajamas!"
  },
  {
   "key": "crack crack",
@@ -392,6 +468,10 @@
   "text": "Ears!"
  },
  {
+  "key": "earth our home",
+  "text": "Earth! Our home!"
+ },
+ {
   "key": "egg",
   "text": "Egg!"
  },
@@ -416,6 +496,10 @@
   "text": "Encore!"
  },
  {
+  "key": "engine",
+  "text": "Engine!"
+ },
+ {
   "key": "everyone gets a medal",
   "text": "Everyone gets a medal!"
  },
@@ -430,6 +514,10 @@
  {
   "key": "fifteen",
   "text": "Fifteen!"
+ },
+ {
+  "key": "fill her up",
+  "text": "Fill her up!"
  },
  {
   "key": "fire",
@@ -504,6 +592,10 @@
   "text": "Frosting!"
  },
  {
+  "key": "fuel tank",
+  "text": "Fuel tank!"
+ },
+ {
   "key": "full let's go",
   "text": "Full! Let's go!"
  },
@@ -526,6 +618,22 @@
  {
   "key": "golden and yummy",
   "text": "Golden and yummy!"
+ },
+ {
+  "key": "good morning",
+  "text": "Good morning!"
+ },
+ {
+  "key": "good night",
+  "text": "Good night!"
+ },
+ {
+  "key": "good night little ball sweet dreams",
+  "text": "Good night, little ball. Sweet dreams!"
+ },
+ {
+  "key": "good night little car sweet dreams",
+  "text": "Good night, little car. Sweet dreams!"
  },
  {
   "key": "got it",
@@ -600,8 +708,20 @@
   "text": "Hello, bus driver!"
  },
  {
+  "key": "helmet on ready",
+  "text": "Helmet on! Ready!"
+ },
+ {
   "key": "help i am stuck",
   "text": "Help! I am stuck!"
+ },
+ {
+  "key": "help the big ship",
+  "text": "Help the big ship!"
+ },
+ {
+  "key": "here comes another ship",
+  "text": "Here comes another ship!"
  },
  {
   "key": "hi",
@@ -638,6 +758,10 @@
  {
   "key": "higher",
   "text": "Higher!"
+ },
+ {
+  "key": "higher higher",
+  "text": "Higher! Higher!"
  },
  {
   "key": "hooray",
@@ -684,6 +808,10 @@
   "text": "I feel so hot!"
  },
  {
+  "key": "i have my ticket",
+  "text": "I have my ticket!"
+ },
+ {
   "key": "i like these",
   "text": "I like these!"
  },
@@ -696,12 +824,20 @@
   "text": "I love my new look!"
  },
  {
+  "key": "i love my teddy",
+  "text": "I love my teddy!"
+ },
+ {
   "key": "i need a bath",
   "text": "I need a bath!"
  },
  {
   "key": "i need these",
   "text": "I need these!"
+ },
+ {
+  "key": "i planted a flag",
+  "text": "I planted a flag!"
  },
  {
   "key": "i'm so muddy",
@@ -720,8 +856,16 @@
   "text": "Into the oven!"
  },
  {
+  "key": "into the tunnel",
+  "text": "Into the tunnel!"
+ },
+ {
   "key": "is that me",
   "text": "Is that me?"
+ },
+ {
+  "key": "it drove home under the big yellow moon",
+  "text": "It drove home under the big yellow moon."
  },
  {
   "key": "it is a bear",
@@ -744,8 +888,16 @@
   "text": "It is getting dark!"
  },
  {
+  "key": "it parked in its cozy garage and turned off its lights",
+  "text": "It parked in its cozy garage and turned off its lights."
+ },
+ {
   "key": "it's growing",
   "text": "It's growing!"
+ },
+ {
+  "key": "jupiter the biggest planet",
+  "text": "Jupiter! The biggest planet!"
  },
  {
   "key": "just right",
@@ -780,6 +932,14 @@
   "text": "Let's build a robot!"
  },
  {
+  "key": "let's build a rocket",
+  "text": "Let's build a rocket!"
+ },
+ {
+  "key": "let's build the track",
+  "text": "Let's build the track!"
+ },
+ {
   "key": "let's dig",
   "text": "Let's dig!"
  },
@@ -800,12 +960,20 @@
   "text": "Let's explore the ocean!"
  },
  {
+  "key": "let's get ready for bed",
+  "text": "Let's get ready for bed!"
+ },
+ {
   "key": "let's go",
   "text": "Let's go!"
  },
  {
   "key": "let's go camping",
   "text": "Let's go camping!"
+ },
+ {
+  "key": "let's go to the playground",
+  "text": "Let's go to the playground!"
  },
  {
   "key": "let's grow some food",
@@ -860,6 +1028,10 @@
   "text": "Little fangs!"
  },
  {
+  "key": "logs",
+  "text": "Logs!"
+ },
+ {
   "key": "long block",
   "text": "Long block!"
  },
@@ -910,6 +1082,10 @@
  {
   "key": "make me fancy",
   "text": "Make me fancy!"
+ },
+ {
+  "key": "mars the red planet",
+  "text": "Mars! The red planet!"
  },
  {
   "key": "me next",
@@ -1024,12 +1200,24 @@
   "text": "Oh no!"
  },
  {
+  "key": "oh no it fell down",
+  "text": "Oh no! It fell down!"
+ },
+ {
   "key": "oh no mud",
   "text": "Oh no, mud!"
  },
  {
   "key": "on the fridge",
   "text": "On the fridge!"
+ },
+ {
+  "key": "once upon a time a bouncy orange ball played all day",
+  "text": "Once upon a time, a bouncy orange ball played all day."
+ },
+ {
+  "key": "once upon a time a little red car was very sleepy",
+  "text": "Once upon a time, a little red car was very sleepy."
  },
  {
   "key": "one",
@@ -1068,6 +1256,10 @@
   "text": "Oops, erase!"
  },
  {
+  "key": "oops we need more track",
+  "text": "Oops! We need more track!"
+ },
+ {
   "key": "orange",
   "text": "Orange!"
  },
@@ -1078,6 +1270,10 @@
  {
   "key": "oval",
   "text": "Oval!"
+ },
+ {
+  "key": "over the bridge",
+  "text": "Over the bridge!"
  },
  {
   "key": "paw prints",
@@ -1120,6 +1316,10 @@
   "text": "Plant a seed!"
  },
  {
+  "key": "pop the bubbles",
+  "text": "Pop the bubbles!"
+ },
+ {
   "key": "power off night night",
   "text": "Power off. Night night!"
  },
@@ -1144,8 +1344,20 @@
   "text": "Purple!"
  },
  {
+  "key": "push me",
+  "text": "Push me!"
+ },
+ {
+  "key": "push push",
+  "text": "Push, push!"
+ },
+ {
   "key": "put the bones together",
   "text": "Put the bones together!"
+ },
+ {
+  "key": "quack quack",
+  "text": "Quack quack!"
  },
  {
   "key": "race again",
@@ -1172,6 +1384,14 @@
   "text": "Rawr! So cool!"
  },
  {
+  "key": "ready for space",
+  "text": "Ready for space?"
+ },
+ {
+  "key": "ready for takeoff",
+  "text": "Ready for takeoff!"
+ },
+ {
   "key": "ready to bake",
   "text": "Ready to bake!"
  },
@@ -1186,6 +1406,10 @@
  {
   "key": "red",
   "text": "Red!"
+ },
+ {
+  "key": "red car",
+  "text": "Red car!"
  },
  {
   "key": "red light stop",
@@ -1220,8 +1444,16 @@
   "text": "Safety first!"
  },
  {
+  "key": "saturn look at the rings",
+  "text": "Saturn! Look at the rings!"
+ },
+ {
   "key": "scoop",
   "text": "Scoop!"
+ },
+ {
+  "key": "scrub a dub dub",
+  "text": "Scrub a dub dub!"
  },
  {
   "key": "scrub scrub",
@@ -1238,6 +1470,10 @@
  {
   "key": "see you soon",
   "text": "See you soon!"
+ },
+ {
+  "key": "seesaw",
+  "text": "Seesaw!"
  },
  {
   "key": "seven",
@@ -1328,6 +1564,10 @@
   "text": "Sparkly clean!"
  },
  {
+  "key": "sparkly teeth",
+  "text": "Sparkly teeth!"
+ },
+ {
   "key": "spiky",
   "text": "Spiky!"
  },
@@ -1366,6 +1606,10 @@
  {
   "key": "square",
   "text": "Square!"
+ },
+ {
+  "key": "squawk",
+  "text": "Squawk!"
  },
  {
   "key": "squirt ink",
@@ -1408,6 +1652,10 @@
   "text": "Super speed!"
  },
  {
+  "key": "sweet dreams",
+  "text": "Sweet dreams!"
+ },
+ {
   "key": "swish",
   "text": "Swish!"
  },
@@ -1426,6 +1674,10 @@
  {
   "key": "tap the glowing bar",
   "text": "Tap the glowing bar!"
+ },
+ {
+  "key": "teddy bears",
+  "text": "Teddy bears!"
  },
  {
   "key": "ten",
@@ -1492,12 +1744,36 @@
   "text": "The kitten is safe!"
  },
  {
+  "key": "the lighthouse is shining",
+  "text": "The lighthouse is shining!"
+ },
+ {
+  "key": "the moon",
+  "text": "The Moon!"
+ },
+ {
   "key": "the pig says oink",
   "text": "The pig says oink!"
  },
  {
+  "key": "the plane is ready",
+  "text": "The plane is ready!"
+ },
+ {
   "key": "the sheep says baa",
   "text": "The sheep says baa!"
+ },
+ {
+  "key": "the ship is docked hooray",
+  "text": "The ship is docked! Hooray!"
+ },
+ {
+  "key": "the track is ready",
+  "text": "The track is ready!"
+ },
+ {
+  "key": "the train is full",
+  "text": "The train is full!"
  },
  {
   "key": "the truck is full",
@@ -1506,6 +1782,10 @@
  {
   "key": "the whale is singing",
   "text": "The whale is singing!"
+ },
+ {
+  "key": "then it rolled into bed and gave a big yawn",
+  "text": "Then it rolled into bed and gave a big yawn."
  },
  {
   "key": "third place",
@@ -1532,8 +1812,16 @@
   "text": "Time for a break!"
  },
  {
+  "key": "time to land",
+  "text": "Time to land!"
+ },
+ {
   "key": "time to pay",
   "text": "Time to pay!"
+ },
+ {
+  "key": "time to play",
+  "text": "Time to play!"
  },
  {
   "key": "to the park please",
@@ -1546,6 +1834,10 @@
  {
   "key": "tomato",
   "text": "Tomato!"
+ },
+ {
+  "key": "toot toot",
+  "text": "Toot toot!"
  },
  {
   "key": "tracks",
@@ -1566,6 +1858,10 @@
  {
   "key": "tummy",
   "text": "Tummy!"
+ },
+ {
+  "key": "tweet tweet",
+  "text": "Tweet tweet!"
  },
  {
   "key": "twelve",
@@ -1612,12 +1908,20 @@
   "text": "Uh oh, rain!"
  },
  {
+  "key": "up and down",
+  "text": "Up and down!"
+ },
+ {
   "key": "up high",
   "text": "Up high!"
  },
  {
   "key": "up the ladder",
   "text": "Up the ladder!"
+ },
+ {
+  "key": "up up and away",
+  "text": "Up, up and away!"
  },
  {
   "key": "vroom tractor ride",
@@ -1648,8 +1952,20 @@
   "text": "Wee woo!"
  },
  {
+  "key": "welcome home",
+  "text": "Welcome home!"
+ },
+ {
+  "key": "welcome to the airport",
+  "text": "Welcome to the airport!"
+ },
+ {
   "key": "welcome to the farm",
   "text": "Welcome to the farm!"
+ },
+ {
+  "key": "welcome to the harbor",
+  "text": "Welcome to the harbor!"
  },
  {
   "key": "welcome to the show",
@@ -1684,8 +2000,20 @@
   "text": "Wheee! Down the pole!"
  },
  {
+  "key": "wheee down the slide",
+  "text": "Wheee! Down the slide!"
+ },
+ {
+  "key": "wheee floating in space",
+  "text": "Wheee! Floating in space!"
+ },
+ {
   "key": "wheels",
   "text": "Wheels!"
+ },
+ {
+  "key": "where shall we fly",
+  "text": "Where shall we fly?"
  },
  {
   "key": "which kart",
@@ -1736,6 +2064,10 @@
   "text": "Wow, so shiny!"
  },
  {
+  "key": "yawn i am sleepy",
+  "text": "Yawn! I am sleepy."
+ },
+ {
   "key": "yay",
   "text": "Yay!"
  },
@@ -1746,6 +2078,10 @@
  {
   "key": "yellow",
   "text": "Yellow!"
+ },
+ {
+  "key": "yellow car",
+  "text": "Yellow car!"
  },
  {
   "key": "yes that one",

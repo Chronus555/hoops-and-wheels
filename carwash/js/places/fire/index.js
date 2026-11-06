@@ -106,7 +106,7 @@ export default {
       scene.querySelectorAll('.flame').forEach(f => f.remove());
       out = 0;
       fires = FIRES.map(([x, y]) => {
-        const el = div('flame', '🔥', scene);
+        const el = div('flame', '<span>🔥</span>', scene);
         el.style.left = `${x - 50}px`;
         el.style.top = `${y - 60}px`;
         return { x, y, hp: 1, el };

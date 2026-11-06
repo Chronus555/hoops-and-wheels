@@ -1,0 +1,37 @@
+/* Train Yard */
+body[data-screen="train"] { background: linear-gradient(#1d3557 0 calc(var(--oy) + 112px * var(--s)), #a5d8ff 0 calc(var(--oy) + 600px * var(--s)), #74c69d 0 calc(var(--oy) + 828px * var(--s)), #a0673c 0); }
+.p-train .sky { position: absolute; inset: 0; background: linear-gradient(#74c0fc, #d0f4ff); }
+.p-train .hills { position: absolute; left: -100px; right: -100px; top: 420px; height: 260px; border-radius: 50% 50% 0 0; background: #95d5b2; }
+.p-train .grass { position: absolute; left: 0; right: 0; top: 690px; bottom: 0; background: #74c69d; }
+.p-train .river { position: absolute; left: 1110px; top: 680px; width: 290px; bottom: 0; background: #48cae4; z-index: 1; }
+.p-train .mountain { position: absolute; left: 760px; top: 330px; width: 320px; height: 370px; background: #8d99ae; clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+.p-train .mountain.back { background: #6c757d; }
+.p-train .mountain.front { z-index: 4; pointer-events: none; clip-path: polygon(50% 0, 100% 100%, 64% 100%, 64% 72%, 36% 72%, 36% 100%, 0 100%); background: #8d99ae; }
+.p-train .mountain::after { content: ""; position: absolute; left: 110px; top: 0; width: 100px; height: 80px; background: #fff; clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+.p-train .rails { position: absolute; left: 0; right: 0; top: 650px; height: 40px; z-index: 2; background: linear-gradient(transparent 6px, #6c757d 6px 14px, transparent 14px 28px, #6c757d 28px 36px, transparent 36px), repeating-linear-gradient(90deg, #8d5a3b 0 22px, transparent 22px 44px); }
+.p-train .bridge { position: absolute; left: 1110px; top: 686px; width: 290px; height: 60px; z-index: 2; background: repeating-linear-gradient(90deg, #a0673c 0 16px, transparent 16px 50px); border-top: 14px solid #8d5a3b; }
+.p-train .gap { position: absolute; top: 640px; width: 120px; height: 60px; z-index: 3; border-radius: 10px; background: rgba(116, 198, 157, .95); border: 5px dashed #fff; cursor: pointer; }
+.p-train .gap .piece { position: absolute; inset: 0; opacity: 0; background: linear-gradient(transparent 16px, #6c757d 16px 24px, transparent 24px 38px, #6c757d 38px 46px, transparent 46px), repeating-linear-gradient(90deg, #8d5a3b 0 22px, transparent 22px 44px); transition: opacity .3s; }
+.p-train .gap.filled { background: transparent; border-color: transparent; }
+.p-train .gap.filled .piece { opacity: 1; animation: pop .4s; }
+.p-train .gap.hint { animation: hint .9s ease-in-out 2; }
+.p-train .platform { position: absolute; left: 0; top: 460px; width: 300px; height: 190px; z-index: 1; }
+.p-train .platform .roof { position: absolute; left: 0; right: 0; top: 0; height: 40px; border-radius: 10px; background: #e63946; box-shadow: 0 150px 0 -10px #adb5bd; }
+.p-train .platform .sign { position: absolute; left: 110px; top: 50px; font-size: 60px; }
+.p-train .trainset { position: absolute; left: 0; top: 540px; height: 130px; display: flex; flex-direction: row-reverse; justify-content: flex-end; align-items: flex-end; z-index: 3; width: 575px; }
+.p-train .engine { width: 170px; height: 130px; flex: none; cursor: pointer; }
+.p-train .car { position: relative; width: 130px; height: 100px; flex: none; margin-right: 5px; cursor: pointer; }
+.p-train .engine svg, .p-train .car svg { width: 100%; height: 100%; overflow: visible; }
+.p-train .car .cargo { position: absolute; left: 6px; right: 6px; top: 0; text-align: center; font-size: 32px; letter-spacing: -8px; }
+.p-train .car.jump { animation: hop .5s; }
+.p-train .wheel { transform-box: fill-box; transform-origin: center; }
+.p-train .trainset.moving .wheel { animation: spin .5s linear infinite; }
+.p-train .trainset.moving .engine, .p-train .trainset.moving .car { animation: rumble .15s infinite alternate; }
+.p-train .smokelayer { position: absolute; inset: 0; z-index: 5; pointer-events: none; }
+.p-train .puff { position: absolute; width: 60px; height: 60px; border-radius: 50%; background: rgba(255, 255, 255, .85); animation: puff 1.6s ease-out forwards; }
+@keyframes puff { to { transform: translate(-80px, -160px) scale(2.4); opacity: 0; } }
+.train .roundbtn { width: 110px; height: 110px; border-radius: 50%; background: #f1faee; display: grid; place-items: center; box-shadow: 0 6px 0 rgba(0, 0, 0, .25); }
+.train .roundbtn.go { background: #ffd166; }
+.train .roundbtn span { font-size: 60px; line-height: 1; }
+.train .tool svg { width: 100%; height: 100%; }
+.train .tray-row { gap: 60px; }

@@ -94,4 +94,34 @@ export const BUILDINGS = {
     html: `<div class="musewall"></div><div class="museroof"></div><div class="bigsign">🦖</div><div class="pillars"><i></i><i></i></div>
       <div class="door shopdoor"><div class="shutter"></div></div>`,
   },
+  airport: {
+    width: 450,
+    html: `<div class="hangar"></div><div class="bigsign">✈️</div><div class="windsock"></div>
+      <div class="door hangardoor"><div class="shutter"></div></div>`,
+  },
+  train: {
+    width: 450,
+    html: `<div class="stationwall"></div><div class="stationroof"></div><div class="bigsign">🚂</div><div class="clock">🕒</div>
+      <div class="door archdoor"><div class="shutter"></div></div>`,
+  },
+  harbor: {
+    width: 450,
+    html: `<div class="harborwall"></div><div class="harborroof"></div><div class="bigsign">⚓</div><div class="window wl">⛵</div>
+      <div class="door shopdoor"><div class="shutter"></div></div>`,
+  },
+  space: {
+    width: 450,
+    html: `<div class="domewall"></div><div class="dome"></div><div class="bigsign">🚀</div><div class="window wl">🪐</div>
+      <div class="door shopdoor"><div class="shutter"></div></div>`,
+  },
+  playground: {
+    width: 450,
+    html: `<div class="parkfence"></div><div class="bigsign">🛝</div><div class="parkslide"></div><div class="parkswing"><i></i></div>
+      <div class="door gate parkgate"><div class="shutter"></div></div>`,
+  },
+  home: {
+    width: 450,
+    html: `<div class="homewall"></div><div class="homeroof"></div><div class="bigsign">🛏️</div><div class="window wl">🌙</div>
+      <div class="door shopdoor"><div class="shutter"></div></div>`,
+  },
 };
