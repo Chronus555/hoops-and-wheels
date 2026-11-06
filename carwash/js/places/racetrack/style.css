@@ -1,0 +1,35 @@
+/* Racetrack (seen from above) */
+body[data-screen="racetrack"] { background: linear-gradient(#1d3557 0 calc(var(--oy) + 112px * var(--s)), #74c69d 0 calc(var(--oy) + 828px * var(--s)), #a0673c 0); }
+.p-race .grass { position: absolute; inset: 0; background: radial-gradient(circle, rgba(255, 255, 255, .12) 3px, transparent 4px) 0 0 / 50px 50px, #74c69d; }
+.p-race .trackart { position: absolute; left: 0; top: 0; width: 1400px; height: 1000px; }
+.p-race .kart { position: absolute; left: 0; top: 0; width: 120px; height: 80px; transform-origin: 60px 40px; filter: drop-shadow(0 6px 4px rgba(0, 0, 0, .25)); }
+.p-race .kart svg, .p-race .pickkart svg { width: 100%; height: 100%; overflow: visible; }
+.p-race .kart .flame { opacity: 0; }
+.p-race .kart.boosting .flame { opacity: 1; animation: flick .08s infinite alternate; transform-box: fill-box; transform-origin: right center; }
+.p-race .startlights { position: absolute; left: 610px; top: 130px; width: 180px; height: 66px; border-radius: 20px; background: #343a40; display: flex; gap: 10px; justify-content: center; align-items: center; opacity: 0; transition: opacity .3s; }
+.p-race .startlights[data-n="1"], .p-race .startlights[data-n="2"], .p-race .startlights[data-n="3"], .p-race .startlights[data-n="go"] { opacity: 1; }
+.p-race .startlights i { width: 44px; height: 44px; border-radius: 50%; background: #5c1a1a; }
+.p-race .startlights[data-n="1"] i:nth-child(1), .p-race .startlights[data-n="2"] i:nth-child(-n+2), .p-race .startlights[data-n="3"] i { background: #ff4d4d; box-shadow: 0 0 16px #ff4d4d; }
+.p-race .startlights[data-n="go"] i { background: #2fbf71; box-shadow: 0 0 16px #2fbf71; }
+.p-race .kartpick { position: absolute; inset: 112px 0 172px; display: none; align-items: center; justify-content: center; gap: 40px; background: rgba(29, 53, 87, .55); z-index: 3; }
+.p-race .kartpick.on { display: flex; }
+.p-race .pickkart { width: 240px; height: 160px; border-radius: 30px; background: rgba(255, 255, 255, .9); padding: 20px; animation: bobble 1.6s ease-in-out infinite; }
+.p-race .pickkart:nth-child(2) { animation-delay: -.4s; }
+.p-race .pickkart:nth-child(3) { animation-delay: -.8s; }
+.p-race .pickkart:nth-child(4) { animation-delay: -1.2s; }
+.p-race .podium { position: absolute; inset: 112px 0 172px; display: none; background: rgba(29, 53, 87, .6); z-index: 4; }
+.p-race .podium.on { display: block; }
+.p-race .podium .steps b { position: absolute; width: 190px; display: grid; place-items: start center; padding-top: 10px; font-size: 70px; font-weight: 900; color: #fff; border-radius: 16px 16px 0 0; }
+.p-race .podium .p1 { left: 600px; top: 300px; height: 416px; background: #ffd166; }
+.p-race .podium .p2 { left: 410px; top: 380px; height: 336px; background: #adb5bd; }
+.p-race .podium .p3 { left: 790px; top: 420px; height: 296px; background: #e09f3e; }
+.p-race .winner { position: absolute; }
+.p-race .medal { position: absolute; left: 50%; top: 38%; transform: translateX(-50%); font-size: 64px; }
+.p-race .againbtn { position: absolute; right: 60px; bottom: 210px; width: 150px; height: 150px; border-radius: 50%; background: #06d6a0; display: none; place-items: center; font-size: 80px; z-index: 5; box-shadow: 0 8px 0 #079470; animation: pulse 1.4s ease-in-out infinite; }
+.p-race .againbtn.on { display: grid; }
+.racetrack .gasbtn { width: 220px; height: 130px; border-radius: 40px; background: #2fbf71; display: grid; place-items: center; box-shadow: 0 10px 0 #1f7a49; }
+.racetrack .gasbtn span { font-size: 64px; font-weight: 900; color: #fff; }
+.racetrack .gasbtn.down { transform: translateY(8px); box-shadow: 0 2px 0 #1f7a49; }
+.racetrack .pitbtn, .racetrack .honkbtn { width: 110px; height: 110px; border-radius: 50%; background: #f1faee; display: grid; place-items: center; box-shadow: 0 6px 0 rgba(0, 0, 0, .25); }
+.racetrack .pitbtn span, .racetrack .honkbtn span { font-size: 60px; line-height: 1; }
+.racetrack .tray-row { gap: 70px; }

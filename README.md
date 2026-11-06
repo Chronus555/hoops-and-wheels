@@ -97,9 +97,22 @@ npm run voice:build
 
 One-time setup for that command is described at the top of `tools/voice/build_voice.py`. On localhost, any sentence without a recording is logged to the browser console as `[voice] no recording:`, so add it to `tools/voice/collect.mjs` if it isn't picked up automatically.
 
-## Sudsy Garage (second app, in `carwash/`)
+## Sudsy Town (second app, in `carwash/`)
 
-An open-ended play garage with no rules, no scores and nothing to lose. Muddy cars wait on the road outside; tap one to drive it in. Each car has an animal driver (hippo, frog, lion, pig, elephant or bear) who giggles, cheers and talks with the recorded voice.
+A town of open-ended play places (it started as Sudsy Garage). There are no rules, no scores and nothing to lose. The app opens on a street the child swipes along; each building is a place to play. More places are being added in batches.
+
+Places so far:
+
+| Place | What he can do |
+|---|---|
+| 🧽 **Car Wash & Garage** | Wash, fix, paint, sticker and fuel muddy cars (details below). |
+| 🏀 **Basketball Court** | Flick a basketball, beach ball, tennis ball or watermelon at the hoop, and drag the hoop higher, lower or closer. The scoreboard counts baskets out loud up to 20. Change the player's jersey, and blow the whistle for a dance party. |
+| 🚌 **Busy Town Roads** | Drive the bus with the pedals. Stop at red lights (tap a light to change it), pick up friends at bus stops, and take them where their bubble says (shop, park, home, ice cream). A puddle splashes mud, and the drive-through wash cleans it. Counts passengers. |
+| 🚜 **Construction Site** | Touch anywhere and the digger's arm reaches there. Scoop dirt into the dump truck (it counts to 5, then drives off to empty). At the crane, stack big, small, long and tall blocks while the friends count them, then knock the tower down with the wrecking ball. |
+| 🏁 **Racetrack** | Pick a kart, count down 3-2-1-Go, and hold GO for two laps. Boost pads and a pit stop give extra speed. Everyone gets a medal on the podium. |
+ Muddy cars wait on the road outside; tap one to drive it in. Each car has an animal driver (hippo, frog, lion, pig, elephant or bear) who giggles, cheers and talks with the recorded voice.
+
+**Car Wash & Garage stations:**
 
 | Station | What he can do |
 |---|---|
@@ -113,10 +126,14 @@ Finished cars park in the lot (up to 8) and can be brought back in any time. Tap
 
 It's at `https://chronus555.github.io/hoops-and-wheels/carwash/`. Add it to the Home Screen the same way as Hoops & Wheels. It's built for landscape.
 
-After changing what the drivers say (`carwash/js/lines.js`), re-record with:
+**Grown-up corner:** press and hold the 🔒 on the town map, then answer the sum. It sets a daily play-time limit (off by default), gives 10 more minutes, or starts the town fresh. When the time runs out, the town goes to sleep.
+
+**How it's built:** `carwash/js/core/` is the shared engine (stage, sound, voice, effects, draggable tools, scenes, saving, the animal friends). `carwash/js/town/` is the street. Each place lives in `carwash/js/places/<name>/` with an `index.js` and a `lines.js` (what the friends say there), and is listed in `town/places.js` and `town/buildings.js`.
+
+**Before publishing a change**, run this. It records any new voice lines, refreshes `carwash/files.json` (the files saved for offline play), and bumps the version so iPads update:
 
 ```bash
-npm run voice:carwash
+npm run carwash:release
 ```
 
 ## Files
@@ -126,6 +143,6 @@ npm run voice:carwash
 - `js/screens/`: one file per screen (start, home, world, the games, reward, garage, rest, grown-up corner)
 - `audio/voice/`: the recorded voice clips and their index
 - `tools/voice/`: scripts that collect every spoken line and record it
-- `carwash/`: the Sudsy Garage app (its own page, code, voice clips and icons)
+- `carwash/`: the Sudsy Town app (its own page, code, voice clips and icons)
 - `tools/devserver.py`: local test server that turns off browser caching
 - `icons/`: home-screen icons

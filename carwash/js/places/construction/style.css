@@ -1,0 +1,28 @@
+/* Construction Site */
+body[data-screen="construction"] { background: linear-gradient(#1d3557 0 calc(var(--oy) + 112px * var(--s)), #a8dadc 0 calc(var(--oy) + 700px * var(--s)), #d4a373 0 calc(var(--oy) + 828px * var(--s)), #a0673c 0); }
+.construction .sky { position: absolute; left: 0; top: 0; width: 100%; height: 700px; background: linear-gradient(#74c0fc, #d8f3dc); }
+.construction .ground { position: absolute; left: 0; top: 700px; width: 100%; height: 300px; background: linear-gradient(#ddb892, #b08968 40%); }
+.p-dig .mound { position: absolute; left: 20px; top: 380px; width: 520px; height: 420px; }
+.p-dig .digart { position: absolute; left: 0; top: 0; width: 1400px; height: 1000px; overflow: visible; pointer-events: none; }
+.p-dig .truck { transition: transform 1.6s ease-in; }
+.p-dig .truckhit { position: absolute; left: 1210px; top: 610px; width: 140px; height: 150px; }
+.construction .tool span { font-size: 64px; line-height: 1; }
+.construction .horn-btn, .construction .go-btn, .construction .more-btn { width: 110px; height: 110px; border-radius: 50%; background: #f1faee; display: grid; place-items: center; box-shadow: 0 6px 0 rgba(0, 0, 0, .25); }
+.p-build .crane .mast { position: absolute; left: 1230px; top: 140px; width: 44px; height: 660px; background: repeating-linear-gradient(45deg, #ffd166 0 12px, #e09f3e 12px 24px); }
+.p-build .crane .jib { position: absolute; left: 150px; top: 140px; width: 1180px; height: 34px; background: repeating-linear-gradient(-45deg, #ffd166 0 12px, #e09f3e 12px 24px); }
+.p-build .crane .counter { position: absolute; left: 1290px; top: 174px; width: 70px; height: 60px; background: #6c757d; }
+.p-build .crane .cab { position: absolute; left: 1196px; top: 176px; width: 70px; height: 60px; border-radius: 10px; background: #e09f3e; box-shadow: inset 12px 10px 0 -2px #c3e8ff; }
+.p-build .trolley { position: absolute; left: -30px; top: 168px; width: 60px; height: 20px; border-radius: 6px; background: #495057; transition: transform .25s; z-index: 1; }
+.p-build .trolley .cable { position: absolute; left: 28px; top: 20px; width: 4px; height: 120px; background: #343a40; transition: height .25s; }
+.p-build .trolley .hook { display: none; }
+.p-build .yard { position: absolute; inset: 0; }
+.p-build .block { position: absolute; left: 0; top: 0; transform-origin: 50% 50%; filter: drop-shadow(0 4px 2px rgba(0, 0, 0, .2)); }
+.p-build .block svg, .construction .trayblock svg, .construction .wreck-btn svg { width: 100%; height: 100%; }
+.p-build .worker { position: absolute; left: 40px; top: 578px; }
+.p-build .hardhat { position: absolute; left: 28%; top: 6%; width: 44%; height: 12%; border-radius: 50% 50% 8px 8px; background: #ffd166; border-bottom: 6px solid #e09f3e; pointer-events: none; }
+.construction .wreck-btn { width: 100px; height: 100px; }
+.p-build .wrecking { position: absolute; top: 174px; width: 120px; height: 600px; transform-origin: 50% 0; transform: rotate(60deg); pointer-events: none; z-index: 3; }
+.p-build .wrecking .chain { position: absolute; left: 58px; top: 0; width: 5px; height: 420px; background: #343a40; }
+.p-build .wrecking .ball { position: absolute; left: 0; top: 400px; width: 120px; height: 120px; border-radius: 50%; background: radial-gradient(circle at 35% 35%, #6c757d, #212529); }
+.p-build .wrecking.swing { animation: wreckswing .9s ease-in forwards; }
+@keyframes wreckswing { from { transform: rotate(70deg); } 70% { transform: rotate(-12deg); } to { transform: rotate(4deg); } }

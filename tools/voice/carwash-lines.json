@@ -1,5 +1,13 @@
 [
  {
+  "key": "a roof",
+  "text": "A roof!"
+ },
+ {
+  "key": "all aboard",
+  "text": "All aboard!"
+ },
+ {
   "key": "all dry",
   "text": "All dry!"
  },
@@ -8,12 +16,28 @@
   "text": "All full!"
  },
  {
+  "key": "almost",
+  "text": "Almost!"
+ },
+ {
+  "key": "back for more",
+  "text": "Back for more!"
+ },
+ {
   "key": "basketball",
   "text": "Basketball!"
  },
  {
   "key": "beep beep",
   "text": "Beep beep!"
+ },
+ {
+  "key": "big block",
+  "text": "Big block!"
+ },
+ {
+  "key": "big scoop",
+  "text": "Big scoop!"
  },
  {
   "key": "big tires",
@@ -30,6 +54,14 @@
  {
   "key": "blue",
   "text": "Blue!"
+ },
+ {
+  "key": "boom ha ha",
+  "text": "Boom! Ha ha!"
+ },
+ {
+  "key": "bouncy",
+  "text": "Bouncy!"
  },
  {
   "key": "bubbles",
@@ -64,20 +96,52 @@
   "text": "Clink clank!"
  },
  {
+  "key": "cool shirt",
+  "text": "Cool shirt!"
+ },
+ {
   "key": "cool wheels",
   "text": "Cool wheels!"
+ },
+ {
+  "key": "crash",
+  "text": "Crash!"
  },
  {
   "key": "dance party",
   "text": "Dance party!"
  },
  {
+  "key": "dig dig dig",
+  "text": "Dig dig dig!"
+ },
+ {
   "key": "eight",
   "text": "Eight!"
  },
  {
+  "key": "eighteen",
+  "text": "Eighteen!"
+ },
+ {
+  "key": "eleven",
+  "text": "Eleven!"
+ },
+ {
+  "key": "everyone gets a medal",
+  "text": "Everyone gets a medal!"
+ },
+ {
+  "key": "fifteen",
+  "text": "Fifteen!"
+ },
+ {
   "key": "fire",
   "text": "Fire!"
+ },
+ {
+  "key": "first place",
+  "text": "First place!"
  },
  {
   "key": "five",
@@ -100,6 +164,18 @@
   "text": "Four!"
  },
  {
+  "key": "fourteen",
+  "text": "Fourteen!"
+ },
+ {
+  "key": "full let's go",
+  "text": "Full! Let's go!"
+ },
+ {
+  "key": "go",
+  "text": "Go!"
+ },
+ {
   "key": "going down",
   "text": "Going down!"
  },
@@ -108,12 +184,36 @@
   "text": "Going up!"
  },
  {
+  "key": "great race",
+  "text": "Great race!"
+ },
+ {
+  "key": "great shot",
+  "text": "Great shot!"
+ },
+ {
   "key": "green",
   "text": "Green!"
  },
  {
+  "key": "green light go",
+  "text": "Green light! Go!"
+ },
+ {
+  "key": "green means go",
+  "text": "Green means go!"
+ },
+ {
   "key": "ha ha ha",
   "text": "Ha ha ha!"
+ },
+ {
+  "key": "ha ha watermelon",
+  "text": "Ha ha, watermelon!"
+ },
+ {
+  "key": "hard hats on",
+  "text": "Hard hats on!"
  },
  {
   "key": "heart",
@@ -128,12 +228,24 @@
   "text": "Hello!"
  },
  {
+  "key": "hello bus driver",
+  "text": "Hello, bus driver!"
+ },
+ {
   "key": "hi",
   "text": "Hi!"
  },
  {
   "key": "hi there",
   "text": "Hi there!"
+ },
+ {
+  "key": "hi throw it in the hoop",
+  "text": "Hi! Throw it in the hoop!"
+ },
+ {
+  "key": "higher",
+  "text": "Higher!"
  },
  {
   "key": "i like these",
@@ -152,20 +264,64 @@
   "text": "I'm so muddy!"
  },
  {
+  "key": "ice cream please",
+  "text": "Ice cream, please!"
+ },
+ {
+  "key": "lap two",
+  "text": "Lap two!"
+ },
+ {
+  "key": "let's build",
+  "text": "Let's build!"
+ },
+ {
+  "key": "let's dig",
+  "text": "Let's dig!"
+ },
+ {
+  "key": "let's drive",
+  "text": "Let's drive!"
+ },
+ {
   "key": "let's go",
   "text": "Let's go!"
+ },
+ {
+  "key": "let's play",
+  "text": "Let's play!"
+ },
+ {
+  "key": "let's play ball",
+  "text": "Let's play ball!"
+ },
+ {
+  "key": "let's race",
+  "text": "Let's race!"
  },
  {
   "key": "lightning bolt",
   "text": "Lightning bolt!"
  },
  {
+  "key": "long block",
+  "text": "Long block!"
+ },
+ {
   "key": "look at all this mud",
   "text": "Look at all this mud!"
  },
  {
+  "key": "lower",
+  "text": "Lower!"
+ },
+ {
   "key": "me next",
   "text": "Me next!"
+ },
+ {
+  "key": "more dirt",
+  "text": "More dirt!"
  },
  {
   "key": "muddy again",
@@ -176,8 +332,28 @@
   "text": "My new color!"
  },
  {
+  "key": "my new jersey",
+  "text": "My new jersey!"
+ },
+ {
+  "key": "new tires",
+  "text": "New tires!"
+ },
+ {
+  "key": "nice shot",
+  "text": "Nice shot!"
+ },
+ {
+  "key": "night night",
+  "text": "Night night!"
+ },
+ {
   "key": "nine",
   "text": "Nine!"
+ },
+ {
+  "key": "nineteen",
+  "text": "Nineteen!"
  },
  {
   "key": "nothing but net",
@@ -196,6 +372,10 @@
   "text": "One!"
  },
  {
+  "key": "one more lap",
+  "text": "One more lap!"
+ },
+ {
   "key": "ooh bubbles",
   "text": "Ooh, bubbles!"
  },
@@ -204,8 +384,16 @@
   "text": "Ooh, new wheels!"
  },
  {
+  "key": "ooh try again",
+  "text": "Ooh, try again!"
+ },
+ {
   "key": "orange",
   "text": "Orange!"
+ },
+ {
+  "key": "pick a kart",
+  "text": "Pick a kart!"
  },
  {
   "key": "pick me",
@@ -216,8 +404,16 @@
   "text": "Pink!"
  },
  {
+  "key": "pit stop",
+  "text": "Pit stop!"
+ },
+ {
   "key": "purple",
   "text": "Purple!"
+ },
+ {
+  "key": "race again",
+  "text": "Race again!"
  },
  {
   "key": "racing stripes",
@@ -232,24 +428,68 @@
   "text": "Red!"
  },
  {
+  "key": "red light stop",
+  "text": "Red light! Stop!"
+ },
+ {
+  "key": "red means stop",
+  "text": "Red means stop!"
+ },
+ {
+  "key": "safety first",
+  "text": "Safety first!"
+ },
+ {
+  "key": "scoop",
+  "text": "Scoop!"
+ },
+ {
   "key": "scrub scrub",
   "text": "Scrub scrub!"
+ },
+ {
+  "key": "second place",
+  "text": "Second place!"
  },
  {
   "key": "see you later",
   "text": "See you later!"
  },
  {
+  "key": "see you soon",
+  "text": "See you soon!"
+ },
+ {
   "key": "seven",
   "text": "Seven!"
+ },
+ {
+  "key": "seventeen",
+  "text": "Seventeen!"
+ },
+ {
+  "key": "shoot the ball",
+  "text": "Shoot the ball!"
  },
  {
   "key": "six",
   "text": "Six!"
  },
  {
+  "key": "sixteen",
+  "text": "Sixteen!"
+ },
+ {
+  "key": "small block",
+  "text": "Small block!"
+ },
+ {
   "key": "smiley face",
   "text": "Smiley face!"
+ },
+ {
+  "key": "so close",
+  "text": "So close!"
  },
  {
   "key": "so fancy",
@@ -272,8 +512,16 @@
   "text": "So splashy!"
  },
  {
+  "key": "so tall",
+  "text": "So tall!"
+ },
+ {
   "key": "sparkly clean",
   "text": "Sparkly clean!"
+ },
+ {
+  "key": "splash muddy",
+  "text": "Splash! Muddy!"
  },
  {
   "key": "splat",
@@ -292,8 +540,20 @@
   "text": "Star!"
  },
  {
+  "key": "super speed",
+  "text": "Super speed!"
+ },
+ {
   "key": "swish",
   "text": "Swish!"
+ },
+ {
+  "key": "take me home please",
+  "text": "Take me home, please!"
+ },
+ {
+  "key": "tall block",
+  "text": "Tall block!"
  },
  {
   "key": "ten",
@@ -304,6 +564,10 @@
   "text": "Thank you!"
  },
  {
+  "key": "that ball is so big",
+  "text": "That ball is so big!"
+ },
+ {
   "key": "that feels nice",
   "text": "That feels nice!"
  },
@@ -312,32 +576,100 @@
   "text": "That tickles!"
  },
  {
+  "key": "the bus is full",
+  "text": "The bus is full!"
+ },
+ {
+  "key": "the truck is full",
+  "text": "The truck is full!"
+ },
+ {
+  "key": "third place",
+  "text": "Third place!"
+ },
+ {
+  "key": "thirteen",
+  "text": "Thirteen!"
+ },
+ {
   "key": "three",
   "text": "Three!"
+ },
+ {
+  "key": "time for a break",
+  "text": "Time for a break!"
+ },
+ {
+  "key": "to the park please",
+  "text": "To the park, please!"
+ },
+ {
+  "key": "to the shop please",
+  "text": "To the shop, please!"
  },
  {
   "key": "triangle",
   "text": "Triangle!"
  },
  {
+  "key": "twelve",
+  "text": "Twelve!"
+ },
+ {
+  "key": "twenty",
+  "text": "Twenty!"
+ },
+ {
+  "key": "twenty baskets wow",
+  "text": "Twenty baskets! Wow!"
+ },
+ {
   "key": "two",
   "text": "Two!"
+ },
+ {
+  "key": "uh oh it fell down",
+  "text": "Uh oh, it fell down!"
  },
  {
   "key": "uh oh mud",
   "text": "Uh oh, mud!"
  },
  {
+  "key": "uh oh rain",
+  "text": "Uh oh, rain!"
+ },
+ {
+  "key": "up high",
+  "text": "Up high!"
+ },
+ {
   "key": "vroom vroom",
   "text": "Vroom vroom!"
+ },
+ {
+  "key": "wanna play",
+  "text": "Wanna play?"
  },
  {
   "key": "wee woo",
   "text": "Wee woo!"
  },
  {
+  "key": "what a sunny day",
+  "text": "What a sunny day!"
+ },
+ {
+  "key": "what a tall tower",
+  "text": "What a tall tower!"
+ },
+ {
   "key": "wheee",
   "text": "Wheee!"
+ },
+ {
+  "key": "which kart",
+  "text": "Which kart?"
  },
  {
   "key": "whirr",
@@ -360,6 +692,10 @@
   "text": "Whoops!"
  },
  {
+  "key": "woo hoo",
+  "text": "Woo hoo!"
+ },
+ {
   "key": "wow",
   "text": "Wow!"
  },
@@ -368,8 +704,20 @@
   "text": "Wow, so shiny!"
  },
  {
+  "key": "yay",
+  "text": "Yay!"
+ },
+ {
+  "key": "yay we are here",
+  "text": "Yay, we are here!"
+ },
+ {
   "key": "yellow",
   "text": "Yellow!"
+ },
+ {
+  "key": "yucky melon",
+  "text": "Yucky melon!"
  },
  {
   "key": "yum",
@@ -382,5 +730,9 @@
  {
   "key": "zero",
   "text": "Zero!"
+ },
+ {
+  "key": "zoom",
+  "text": "Zoom!"
  }
 ]

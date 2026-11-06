@@ -1,0 +1,57 @@
+/* Busy Town Roads */
+body[data-screen="roads"] { background: linear-gradient(#1d3557 0 calc(var(--oy) + 112px * var(--s)), #a5d8ff 0 calc(var(--oy) + 640px * var(--s)), #ced4da 0 calc(var(--oy) + 700px * var(--s)), #495057 0 calc(var(--oy) + 828px * var(--s)), #a0673c 0); }
+.p-roads .sky { position: absolute; inset: 0; background: linear-gradient(#74c0fc, #d0f4ff 70%); }
+.p-roads .far { position: absolute; left: 0; top: 380px; width: 3000px; height: 300px; background: radial-gradient(ellipse 380px 200px at 200px 300px, #74c69d 99%, transparent), radial-gradient(ellipse 420px 230px at 760px 310px, #52b788 99%, transparent), radial-gradient(ellipse 380px 200px at 1300px 300px, #74c69d 99%, transparent); background-size: 1600px 300px; background-repeat: repeat-x; }
+.p-roads .strip { position: absolute; left: 0; top: 0; height: 1000px; }
+.p-roads .strip.front { pointer-events: none; z-index: 2; }
+.p-roads .buslayer { position: absolute; inset: 0; z-index: 1; pointer-events: none; }
+.p-roads .buswrap { position: absolute; left: 0; top: 0; pointer-events: auto; }
+.p-roads .buswrap.left .car { transform: scaleX(-1); }
+.p-roads .sidewalk { position: absolute; left: 0; right: 0; top: 640px; height: 60px; background: #ced4da; border-top: 8px solid #adb5bd; }
+.p-roads .road { position: absolute; left: 0; right: 0; top: 700px; height: 140px; background: #495057; }
+.p-roads .road .dash { position: absolute; left: 0; right: 0; top: 108px; height: 8px; background: repeating-linear-gradient(90deg, #ffd166 0 60px, transparent 60px 120px); }
+.p-roads .spot { position: absolute; top: 300px; width: 320px; height: 350px; }
+.p-roads .spot .sign { position: absolute; left: 115px; top: -40px; width: 90px; height: 90px; border-radius: 50%; background: #fff; display: grid; place-items: center; font-size: 52px; box-shadow: 0 6px 0 rgba(0, 0, 0, .15); }
+.p-roads .spot.jump .art { animation: hop .6s; }
+.p-roads .spot .art { position: absolute; left: 20px; right: 20px; top: 60px; bottom: 0; border-radius: 10px 10px 0 0; }
+.spot-home .art { background: #ffb4a2; clip-path: polygon(50% 0, 100% 35%, 100% 100%, 0 100%, 0 35%); }
+.spot-home .art::after { content: ""; position: absolute; left: 115px; bottom: 0; width: 50px; height: 90px; border-radius: 20px 20px 0 0; background: #8d5a3b; }
+.spot-shop .art { background: #90e0ef; border-top: 50px solid; border-image: repeating-linear-gradient(90deg, #ef476f 0 30px, #fff 30px 60px) 50; }
+.spot-shop .art::after { content: ""; position: absolute; left: 40px; right: 40px; top: 50px; height: 100px; background: #fff; border-radius: 10px; box-shadow: inset 0 0 0 8px #0077b6; }
+.spot-park .art { background: transparent; }
+.spot-park .art::before { content: ""; position: absolute; left: 10px; top: 20px; width: 150px; height: 150px; border-radius: 50%; background: #52b788; box-shadow: 130px 30px 0 -10px #40916c; }
+.spot-park .art::after { content: ""; position: absolute; left: 70px; bottom: 0; width: 140px; height: 120px; border: 10px solid #e76f51; border-bottom: 0; border-radius: 10px 10px 0 0; }
+.spot-ice .art { background: #ffd6e0; border-radius: 30px 30px 0 0; }
+.spot-ice .art::after { content: ""; position: absolute; left: 90px; top: 30px; width: 100px; height: 100px; border-radius: 50%; background: #ff8fc7; box-shadow: 0 60px 0 -30px #e9b872; }
+.p-roads .fence { position: absolute; left: 0; top: 560px; width: 60px; height: 280px; background: repeating-linear-gradient(180deg, #ef233c 0 30px, #fff 30px 60px); border-radius: 10px; }
+.p-roads .busstop { position: absolute; top: 470px; width: 120px; height: 180px; }
+.p-roads .busstop .pole { position: absolute; left: 54px; top: 40px; width: 12px; height: 140px; background: #6c757d; }
+.p-roads .busstop .disc { position: absolute; left: 10px; top: 0; width: 100px; height: 100px; border-radius: 50%; background: #fff; border: 8px solid #0077b6; display: grid; place-items: center; font-size: 48px; }
+.p-roads .busstop .bench { position: absolute; left: 90px; top: 150px; width: 140px; height: 20px; border-radius: 6px; background: #8d5a3b; }
+.p-roads .waiter { position: absolute; top: 520px; z-index: 1; }
+.p-roads .wantbubble { position: absolute; left: 0; top: 0; width: 64px; height: 64px; border-radius: 50%; background: #fff; display: none; place-items: center; font-size: 38px; box-shadow: 0 4px 0 rgba(0, 0, 0, .15); }
+.p-roads .wantbubble.on { display: grid; }
+.p-roads .waiter .wantbubble { left: 12px; top: -70px; animation: bobble 1.4s ease-in-out infinite; }
+.p-roads .puddle { position: absolute; top: 760px; width: 220px; height: 44px; border-radius: 50%; background: #7a5230; box-shadow: inset 0 6px 0 rgba(0, 0, 0, .2); }
+.p-roads .wash { position: absolute; top: 400px; width: 220px; height: 400px; }
+.p-roads .wash.back { background: #457b9d; border-radius: 30px 30px 0 0; }
+.p-roads .wash.back::after { content: ""; position: absolute; left: 24px; right: 24px; top: 60px; bottom: 0; background: #1d3557; border-radius: 16px 16px 0 0; }
+.p-roads .wash .sign { position: absolute; left: 65px; top: -50px; width: 90px; height: 90px; border-radius: 50%; background: #fff; display: grid; place-items: center; font-size: 50px; z-index: 1; }
+.p-roads .wash.front .brush { position: absolute; top: 60px; width: 40px; height: 340px; border-radius: 20px; background: repeating-linear-gradient(180deg, #4895ef 0 14px, #90e0ef 14px 28px); opacity: .85; animation: roll .25s linear infinite; }
+.p-roads .wash.front .b1 { left: 0; }
+.p-roads .wash.front .b2 { right: 0; }
+.p-roads .light { position: absolute; top: 300px; width: 80px; height: 400px; }
+.p-roads .light .pole { position: absolute; left: 34px; top: 150px; width: 12px; height: 250px; background: #495057; }
+.p-roads .light .box { position: absolute; left: 0; top: 0; width: 80px; height: 200px; border-radius: 20px; background: #343a40; }
+.p-roads .light .box i { position: absolute; left: 14px; width: 52px; height: 52px; border-radius: 50%; opacity: .25; }
+.p-roads .light .r { top: 10px; background: #ef233c; }
+.p-roads .light .y { top: 74px; background: #ffd166; }
+.p-roads .light .g { top: 138px; background: #2fbf71; }
+.p-roads .light[data-color="red"] .r, .p-roads .light[data-color="yellow"] .y, .p-roads .light[data-color="green"] .g { opacity: 1; box-shadow: 0 0 24px currentColor; }
+.p-roads .light .line { position: absolute; top: 400px; width: 10px; height: 140px; background: #fff; opacity: .8; }
+.p-roads .light .line.l { left: -40px; }
+.p-roads .light .line.r2 { left: 110px; }
+.roads .pedal, .roads .hornbtn { width: 130px; height: 120px; border-radius: 30px; background: #f1faee; display: grid; place-items: center; box-shadow: 0 8px 0 rgba(0, 0, 0, .25); }
+.roads .pedal span, .roads .hornbtn span { font-size: 70px; line-height: 1; }
+.roads .pedal.down { transform: translateY(6px); box-shadow: 0 2px 0 rgba(0, 0, 0, .25); background: #ffd166; }
+.roads .tray-row { gap: 80px; }

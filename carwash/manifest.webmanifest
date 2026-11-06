@@ -1,7 +1,7 @@
 {
-  "name": "Sudsy Garage",
-  "short_name": "Sudsy Garage",
-  "description": "Wash, fix, paint and decorate cars. An open-ended play garage for little kids.",
+  "name": "Sudsy Town",
+  "short_name": "Sudsy Town",
+  "description": "A town of open-ended play places for little kids: car wash, basketball and more.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

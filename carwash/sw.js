@@ -1,32 +1,12 @@
 // Offline support: serve from cache right away, refresh the cache in the background.
-// Bump VERSION when files change so the iPad picks up the new version.
+// npm run carwash:release bumps VERSION and rewrites files.json; both are needed
+// for the iPad to pick up a new version.
 
-const VERSION = 'sg-v1';
-const FILES = [
-  './',
-  'index.html',
-  'styles.css',
-  'manifest.webmanifest',
-  'icons/icon-180.png',
-  'icons/icon-192.png',
-  'icons/icon-512.png',
-  'audio/voice/index.json',
-  'js/main.js',
-  'js/stage.js',
-  'js/layout.js',
-  'js/art.js',
-  'js/lines.js',
-  'js/car.js',
-  'js/fx.js',
-  'js/sound.js',
-  'js/voice.js',
-  'js/voicekey.js',
-  'js/store.js',
-  'js/tools.js',
-  'js/stations.js',
-  'js/garage.js',
-  'js/lot.js',
-];
+const VERSION = 'sg-v3';
+// The app files are listed in files.json (made by npm run carwash:release).
+async function appFiles() {
+  return ['./', ...(await (await fetch('files.json', { cache: 'no-store' })).json())];
+}
 
 async function cacheVoice(cache) {
   try {
@@ -40,7 +20,7 @@ async function cacheVoice(cache) {
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(async c => {
-    await c.addAll(FILES);
+    await c.addAll(await appFiles());
     await cacheVoice(c);
   }));
   self.skipWaiting();

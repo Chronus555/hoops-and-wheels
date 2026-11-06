@@ -1,0 +1,38 @@
+/* Basketball Court */
+body[data-screen="court"] { background: linear-gradient(#1d3557 0 calc(var(--oy) + 112px * var(--s)), #f4a261 0 calc(var(--oy) + 700px * var(--s)), #d4a373 0 calc(var(--oy) + 828px * var(--s)), #a0673c 0); }
+.p-court .wall { position: absolute; left: 0; top: 0; width: 100%; height: 700px; background: linear-gradient(#ffcf99, #f4a261); }
+.p-court .floor { position: absolute; left: 0; top: 700px; width: 100%; height: 300px; background: repeating-linear-gradient(90deg, #e9c46a 0 70px, #dfb85c 70px 140px); }
+.p-court .floor .line { position: absolute; left: 700px; top: 0; width: 8px; height: 130px; background: #fff; opacity: .8; }
+.p-court .banner { position: absolute; top: 120px; width: 90px; height: 130px; clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%); }
+.p-court .banner.b1 { left: 560px; background: #ef476f; }
+.p-court .banner.b2 { left: 860px; background: #4895ef; }
+.p-court .banner.b3 { left: 1010px; background: #06d6a0; }
+.p-court .lights i { position: absolute; top: 112px; width: 140px; height: 26px; border-radius: 0 0 40px 40px; background: #fff6bf; box-shadow: 0 20px 60px 10px rgba(255, 246, 191, .6); }
+.p-court .lights i:nth-child(1) { left: 180px; }
+.p-court .lights i:nth-child(2) { left: 640px; }
+.p-court .lights i:nth-child(3) { left: 1080px; }
+.p-court .bleachers i { position: absolute; left: 30px; width: 480px; height: 26px; border-radius: 8px; background: #8d5a3b; box-shadow: 0 10px 0 #6d4128; }
+.p-court .bleachers i:nth-child(1) { top: 520px; }
+.p-court .bleachers i:nth-child(2) { top: 640px; }
+.p-court .bleachers i:nth-child(3) { top: 400px; opacity: .6; }
+.p-court .scoreboard { position: absolute; left: 610px; top: 150px; width: 180px; height: 110px; border-radius: 18px; background: #1b263b; border: 6px solid #495057; display: grid; place-items: center; }
+.p-court .scoreboard b { font-size: 80px; font-weight: 900; color: #ff6b6b; font-family: "Arial Rounded MT Bold", "Avenir Next", system-ui, sans-serif; text-shadow: 0 0 14px rgba(255, 107, 107, .7); }
+.p-court .scoreboard.jump { animation: hop .6s; }
+.p-court .fan, .p-court .mascot, .p-court .player { position: absolute; }
+.p-court .mascot { left: 590px; top: 591px; }
+.p-court .player { left: 230px; top: 554px; z-index: 1; }
+.p-court .hoop { position: absolute; left: 0; top: 0; z-index: 2; }
+.hoop .board { position: absolute; left: 0; top: -120px; width: 16px; height: 146px; border-radius: 4px; background: #fff; border: 3px solid #adb5bd; }
+.hoop .board i { position: absolute; left: 2px; top: 50px; width: 6px; height: 50px; background: #ef476f; }
+.hoop .arm { position: absolute; left: 12px; top: -66px; width: 52px; height: 14px; background: #6c757d; }
+.hoop .pole { position: absolute; left: 52px; top: -66px; width: 20px; border-radius: 6px; background: #6c757d; }
+.hoop .rim { position: absolute; left: -138px; top: -6px; width: 136px; height: 12px; border-radius: 6px; background: #f77f00; }
+.hoop .net { position: absolute; left: -136px; top: 2px; width: 132px; height: 86px; transform-origin: top center; }
+.hoop .net.swish { animation: swish .5s; }
+@keyframes swish { 40% { transform: scaleY(1.25) scaleX(.85); } }
+.court .ball { position: absolute; left: 0; top: 0; pointer-events: auto; filter: drop-shadow(0 6px 4px rgba(0, 0, 0, .2)); }
+.court .ball svg { width: 100%; height: 100%; overflow: visible; }
+.court .ball.gone { opacity: 0; transition: opacity .4s; }
+.rackball { width: 104px; height: 104px; }
+.rackball svg, .court .tool svg { width: 100%; height: 100%; }
+.court .jersey, .court .whistle { width: 100px; height: 100px; }
