@@ -159,3 +159,21 @@ export function dragThing(e, { move, end }) {
     end: p => end(p, moved),
   });
 }
+
+// A target that is just an area of the stage (a patient, a bowl, a cart). `rect` is
+// { x, y, w, h } or a function returning one; points stay in stage units.
+export function areaTarget(rect) {
+  const r = () => (typeof rect === 'function' ? rect() : rect);
+  return {
+    toLocal: p => p,
+    toStage: p => p,
+    hit: p => {
+      const a = r();
+      return p.x > a.x && p.x < a.x + a.w && p.y > a.y && p.y < a.y + a.h;
+    },
+    get autoPath() {
+      const a = r();
+      return [[0.2, 0.5], [0.4, 0.3], [0.6, 0.6], [0.8, 0.4], [0.5, 0.7]].map(([fx, fy]) => [a.x + a.w * fx, a.y + a.h * fy]);
+    },
+  };
+}

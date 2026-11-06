@@ -7,4 +7,9 @@ export const PLACES = [
   { id: 'roads', load: () => import('../places/roads/index.js') },
   { id: 'construction', load: () => import('../places/construction/index.js') },
   { id: 'racetrack', load: () => import('../places/racetrack/index.js') },
+  { id: 'bakery', load: () => import('../places/bakery/index.js') },
+  { id: 'doctor', load: () => import('../places/doctor/index.js') },
+  { id: 'salon', load: () => import('../places/salon/index.js') },
+  { id: 'grocery', load: () => import('../places/grocery/index.js') },
+  { id: 'fire', load: () => import('../places/fire/index.js') },
 ];

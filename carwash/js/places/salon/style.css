@@ -1,0 +1,28 @@
+/* Salon & Dress-up */
+body[data-screen="salon"] { background: linear-gradient(#1d3557 0 calc(var(--oy) + 112px * var(--s)), #e0c3fc 0 calc(var(--oy) + 760px * var(--s)), #cdb4db 0 calc(var(--oy) + 828px * var(--s)), #a0673c 0); }
+.salon .wall { position: absolute; inset: 0; background: repeating-linear-gradient(90deg, #f1e4ff 0 70px, #e0c3fc 70px 140px); }
+.salon .floor { position: absolute; left: 0; right: 0; top: 760px; bottom: 0; background: repeating-conic-gradient(#fff 0 25%, #cdb4db 0 50%) 0 0 / 80px 80px; }
+.p-hair .poster { position: absolute; top: 160px; width: 160px; height: 200px; border-radius: 20px; background: #fff; display: grid; place-items: center; font-size: 90px; box-shadow: 0 6px 0 rgba(0, 0, 0, .1); }
+.p-hair .poster.p1 { left: 60px; }
+.p-hair .poster.p2 { left: 640px; }
+.p-dress .rack { position: absolute; left: 640px; top: 200px; width: 200px; height: 360px; border-top: 12px solid #8d5a3b; }
+.p-dress .rack i { position: absolute; top: 20px; width: 34px; height: 120px; border-radius: 10px; }
+.p-dress .rack i:nth-child(1) { left: 0; background: #ef476f; }
+.p-dress .rack i:nth-child(2) { left: 40px; background: #ffd166; }
+.p-dress .rack i:nth-child(3) { left: 80px; background: #06d6a0; }
+.p-dress .rack i:nth-child(4) { left: 120px; background: #4895ef; }
+.p-dress .rack i:nth-child(5) { left: 160px; background: #9b5de5; }
+.salon .chair { position: absolute; left: 330px; top: 560px; width: 220px; height: 240px; border-radius: 40px 40px 20px 20px; background: #6d597a; z-index: 1; box-shadow: 0 60px 0 -40px #343a40; }
+.salon .customer { position: absolute; z-index: 2; }
+.salon .customer .friend, .salon .reflect .friend { position: absolute; inset: 0; }
+.salon .looklayer { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; }
+.salon .mirror { position: absolute; left: 880px; top: 150px; width: 400px; height: 560px; border-radius: 200px 200px 30px 30px; background: linear-gradient(#e0fbfc, #c3e8ff); border: 18px solid #ffd166; overflow: hidden; z-index: 1; }
+.salon .mirror.jump { animation: honk .4s; }
+.salon .mirror .reflect { position: absolute; left: 70px; top: 120px; width: 220px; height: 406px; transform: scaleX(-1); }
+.salon .mirror .shine { position: absolute; left: 40px; top: 40px; width: 40px; height: 300px; border-radius: 20px; background: rgba(255, 255, 255, .5); transform: rotate(20deg); }
+.salon .tool svg { width: 100%; height: 100%; overflow: visible; }
+.salon .dye, .salon .combbtn { width: 76px; height: 86px; }
+.salon .hatbtn { width: 86px; height: 70px; }
+.salon .outfitbtn, .salon .camerabtn, .salon .bellbtn { width: 86px; height: 86px; display: grid; place-items: center; }
+.salon .outfitbtn span, .salon .camerabtn span, .salon .bellbtn span { font-size: 60px; line-height: 1; }
+.salon .tray-row { gap: 12px; }

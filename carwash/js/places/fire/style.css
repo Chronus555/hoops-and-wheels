@@ -1,0 +1,61 @@
+/* Fire Station */
+body[data-screen="fire"] { background: linear-gradient(#1d3557 0 calc(var(--oy) + 112px * var(--s)), #ffccd5 0 calc(var(--oy) + 760px * var(--s)), #adb5bd 0 calc(var(--oy) + 828px * var(--s)), #a0673c 0); }
+.p-station .wall { position: absolute; inset: 0; background: repeating-linear-gradient(180deg, #ffccd5 0 46px, #ffb3c1 46px 50px); }
+.p-station .floor { position: absolute; left: 0; right: 0; top: 760px; bottom: 0; background: #adb5bd; }
+.p-station .door { position: absolute; left: 560px; top: 260px; width: 760px; height: 500px; border-radius: 30px 30px 0 0; background: #6c757d; box-shadow: inset 0 0 0 14px #495057; }
+.p-station .loft { position: absolute; left: 40px; top: 300px; width: 360px; height: 30px; background: #8d5a3b; border-radius: 8px; }
+.p-station .pole { position: absolute; left: 330px; top: 112px; width: 20px; height: 650px; background: linear-gradient(90deg, #adb5bd, #f8f9fa, #adb5bd); }
+.p-station .bell { position: absolute; left: 160px; top: 140px; width: 110px; height: 100px; border-radius: 55px 55px 10px 10px; background: #ffd166; box-shadow: inset -12px 0 0 #e09f3e; }
+.p-station .bell::after { content: ""; position: absolute; left: 44px; bottom: -14px; width: 22px; height: 22px; border-radius: 50%; background: #e09f3e; }
+.p-station .bell.jump { animation: wig .5s 2; }
+.p-station .hooks i { position: absolute; top: 440px; width: 70px; height: 80px; border-radius: 30px 30px 10px 10px; background: #ffd166; }
+.p-station .hooks i:nth-child(1) { left: 40px; }
+.p-station .hooks i:nth-child(2) { left: 130px; background: #e63946; }
+.p-station .hooks i:nth-child(3) { left: 220px; }
+.fire .firefighter { position: absolute; left: 280px; top: 518px; transition: top .9s cubic-bezier(.5, 0, .9, .6); z-index: 2; }
+.fire .firefighter.up { top: 60px; }
+.fire .helmet { position: absolute; left: 20%; top: 3%; width: 60%; height: 15%; border-radius: 50% 50% 10px 10px; background: #e63946; border-bottom: 8px solid #9d0208; pointer-events: none; }
+.firetruck { position: absolute; left: 620px; top: 450px; width: 640px; height: 300px; }
+.firetruck .body { position: absolute; left: 0; top: 80px; width: 470px; height: 160px; border-radius: 20px; background: #e63946; box-shadow: inset 0 -26px 0 #c1121f; }
+.firetruck .cab { position: absolute; left: 460px; top: 40px; width: 180px; height: 200px; border-radius: 20px 60px 20px 20px; background: #e63946; box-shadow: inset 0 -26px 0 #c1121f; }
+.firetruck .cab i { position: absolute; left: 50px; top: 24px; width: 100px; height: 70px; border-radius: 10px 40px 10px 10px; background: #c3e8ff; }
+.firetruck .lights { position: absolute; left: 520px; top: 14px; display: flex; gap: 8px; }
+.firetruck .lights b { width: 30px; height: 26px; border-radius: 10px 10px 0 0; background: #4895ef; }
+.firetruck .lights b:first-child { background: #ef233c; }
+.firetruck.flashing .lights b { animation: blinkA .25s steps(1) 6; }
+.firetruck.flashing .lights b:first-child { animation: blinkB .25s steps(1) 6; }
+.firetruck .ladderrack { position: absolute; left: 20px; top: 50px; width: 430px; height: 26px; background: repeating-linear-gradient(90deg, #dee2e6 0 8px, transparent 8px 40px); border-top: 6px solid #dee2e6; border-bottom: 6px solid #dee2e6; }
+.firetruck .hosereel { position: absolute; left: 60px; top: 120px; width: 90px; height: 90px; border-radius: 50%; background: repeating-radial-gradient(#ffd166 0 6px, #e09f3e 6px 10px); }
+.firetruck .w { position: absolute; top: 210px; width: 90px; height: 90px; border-radius: 50%; background: radial-gradient(#dfe6ee 0 30%, #2f3640 32%); }
+.firetruck .w1 { left: 60px; }
+.firetruck .w2 { left: 300px; }
+.firetruck .w3 { left: 500px; }
+.firetruck.parked { left: 20px; top: 480px; transform: scale(.75); transform-origin: 0 100%; }
+.p-blaze .sky { position: absolute; inset: 0; background: linear-gradient(#74c0fc, #d0f4ff); }
+.p-blaze .grass { position: absolute; left: 0; right: 0; top: 700px; bottom: 0; background: #74c69d; }
+.p-blaze .house { position: absolute; left: 760px; top: 240px; width: 440px; height: 470px; background: #ffd6a5; border-radius: 6px; transition: background .6s; }
+.p-blaze .house .roof { position: absolute; left: -40px; right: -40px; top: -150px; height: 160px; background: #9d0208; clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+.p-blaze .house .win { position: absolute; width: 120px; height: 110px; border-radius: 10px; background: #212529; border: 8px solid #fff; }
+.p-blaze .house.saved .win { background: #c3e8ff; }
+.p-blaze .house .w1 { left: 40px; top: 40px; }
+.p-blaze .house .w2 { left: 240px; top: 40px; }
+.p-blaze .house .w3 { left: 40px; top: 230px; }
+.p-blaze .house .w4 { left: 240px; top: 230px; }
+.p-blaze .house .housedoor { position: absolute; left: 175px; top: 330px; width: 90px; height: 140px; border-radius: 40px 40px 0 0; background: #8d5a3b; }
+.p-blaze .flame { position: absolute; width: 100px; height: 120px; font-size: 96px; line-height: 1.2; text-align: center; animation: flick .2s infinite alternate; transition: transform .2s; pointer-events: none; z-index: 2; }
+.p-blaze .flame.out { opacity: 0; transition: opacity .6s, transform .6s; transform: scale(0) !important; }
+.p-blaze .tree { position: absolute; left: 180px; top: 240px; width: 260px; height: 470px; }
+.p-blaze .tree i { position: absolute; left: 110px; top: 200px; width: 40px; height: 270px; border-radius: 12px; background: #8d5a3b; }
+.p-blaze .tree b { position: absolute; left: 0; top: 0; width: 260px; height: 260px; border-radius: 50%; background: radial-gradient(circle at 30% 30%, #95d5b2, #40916c); }
+.p-blaze .kitten { position: absolute; left: 270px; top: 250px; font-size: 80px; line-height: 1; z-index: 3; transition: transform 1s ease-in-out; cursor: pointer; animation: bobble 1.2s ease-in-out infinite; }
+.p-blaze .kitten.safe { transform: translate(160px, 340px); animation: none; }
+.p-blaze .ladder { position: absolute; left: 420px; bottom: 380px; width: 70px; height: 120px; transform-origin: 50% 100%; transform: rotate(-24deg); background: repeating-linear-gradient(180deg, transparent 0 22px, #dee2e6 22px 30px); border-left: 8px solid #dee2e6; border-right: 8px solid #dee2e6; transition: height .05s; z-index: 2; cursor: pointer; }
+.p-blaze .family { position: absolute; left: 1180px; top: 500px; width: 240px; height: 210px; }
+.p-blaze .family .friend { position: absolute; top: 0; }
+.fire .roundbtn { width: 110px; height: 110px; border-radius: 50%; background: #f1faee; display: grid; place-items: center; box-shadow: 0 6px 0 rgba(0, 0, 0, .25); }
+.fire .roundbtn span { font-size: 62px; line-height: 1; }
+.fire .roundbtn.go { background: #ffd166; }
+.fire .againfire { opacity: .35; }
+.fire .againfire.on { opacity: 1; animation: pulse 1.4s ease-in-out infinite; }
+.fire .tool svg { width: 100%; height: 100%; }
+.fire .tray-row { gap: 50px; }

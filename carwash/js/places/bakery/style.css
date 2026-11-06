@@ -1,0 +1,43 @@
+/* Bakery */
+body[data-screen="bakery"] { background: linear-gradient(#1d3557 0 calc(var(--oy) + 112px * var(--s)), #ffe5ec 0 calc(var(--oy) + 700px * var(--s)), #e9c46a 0 calc(var(--oy) + 828px * var(--s)), #a0673c 0); }
+.bakery .wall { position: absolute; inset: 0; background: repeating-linear-gradient(90deg, #ffe5ec 0 60px, #ffd6e0 60px 120px); }
+.bakery .counter { position: absolute; left: 0; right: 0; top: 700px; bottom: 0; background: #e9c46a; border-top: 16px solid #f4a261; }
+.p-mix .shelf { position: absolute; left: 980px; width: 340px; height: 90px; font-size: 60px; text-align: center; border-bottom: 16px solid #8d5a3b; }
+.p-mix .shelf.s1 { top: 170px; }
+.p-mix .shelf.s2 { top: 330px; }
+.p-mix .chef { position: absolute; left: 140px; top: 424px; }
+.chefhat { position: absolute; left: 24%; top: -6%; width: 52%; height: 16%; border-radius: 40px 40px 6px 6px; background: #fff; box-shadow: 0 4px 0 #dee2e6; pointer-events: none; }
+.p-mix .bowl { position: absolute; left: 500px; top: 470px; width: 400px; height: 260px; }
+.p-mix .bowl svg { width: 100%; height: 100%; overflow: visible; }
+.p-mix .bowl.jump { animation: honk .4s; }
+.p-mix .bowl .bits span { position: absolute; top: 30px; font-size: 44px; animation: bobble 1s ease-in-out infinite; }
+.bakery .emo { display: grid; place-items: center; width: 100%; height: 100%; font-size: 64px; line-height: 1; }
+.bakery .tool svg { width: 100%; height: 100%; }
+.bakery .tray-row { gap: 14px; }
+.p-deco .oven { position: absolute; left: 90px; top: 300px; width: 360px; height: 420px; border-radius: 24px; background: #adb5bd; box-shadow: inset 0 -12px 0 rgba(0, 0, 0, .15); }
+.p-deco .oven .top { position: absolute; left: 20px; right: 20px; top: 20px; height: 50px; display: flex; gap: 20px; justify-content: center; }
+.p-deco .oven .top i { width: 40px; height: 40px; border-radius: 50%; background: #495057; }
+.p-deco .oven .door { position: absolute; left: 24px; right: 24px; top: 90px; bottom: 30px; border-radius: 18px; background: #6c757d; }
+.p-deco .oven .glass { position: absolute; inset: 30px; border-radius: 14px; background: #212529; overflow: hidden; }
+.p-deco .oven.on .glass { background: radial-gradient(circle at 50% 100%, #f8961e, #9d0208 70%); }
+.p-deco .oven .tin { position: absolute; left: 30%; right: 30%; bottom: 20px; height: 50px; border-radius: 6px; background: #f3e0b5; border: 6px solid #6c757d; transition: opacity .3s; }
+.p-deco .oven.on .tin { animation: rise 2.6s ease-in-out forwards; }
+@keyframes rise { to { height: 90px; } }
+.p-deco .oven .timer { position: absolute; left: 0; right: 0; top: -90px; text-align: center; font-size: 80px; font-weight: 900; color: #ef476f; }
+.p-deco .oven.hint { animation: hint .9s ease-in-out 2; }
+.p-deco .stand { position: absolute; left: 600px; top: 380px; width: 420px; height: 380px; }
+.p-deco .stand svg, .p-party .partycake svg { width: 100%; height: 100%; overflow: visible; }
+.bakery .flame { animation: flick .12s infinite alternate; transform-box: fill-box; transform-origin: 50% 100%; }
+.bakery .frost, .bakery .candlebtn, .bakery .knifebtn, .bakery .againbtn { width: 86px; height: 86px; }
+.p-party .wall { background: #e0fbfc; }
+.p-party .bunting { position: absolute; left: 0; right: 0; top: 112px; height: 60px; background: conic-gradient(from 135deg at 50% 0, #ef476f 0 25%, transparent 0) 0 0 / 80px 60px repeat-x; }
+.p-party .balloons i { position: absolute; top: 200px; width: 80px; height: 100px; border-radius: 50%; animation: bobble 2s ease-in-out infinite; }
+.p-party .balloons i:nth-child(1) { left: 560px; background: #ffd166; }
+.p-party .balloons i:nth-child(2) { left: 680px; top: 180px; background: #06d6a0; animation-delay: -.6s; }
+.p-party .balloons i:nth-child(3) { left: 800px; background: #9b5de5; animation-delay: -1.2s; }
+.p-party .guest { position: absolute; top: 400px; }
+.p-party .table { position: absolute; left: 40px; right: 40px; top: 630px; height: 140px; border-radius: 20px; background: repeating-linear-gradient(90deg, #ef476f 0 40px, #fff 40px 80px); box-shadow: 0 10px 0 rgba(0, 0, 0, .15); z-index: 1; }
+.p-party .plate { position: absolute; top: 640px; width: 170px; height: 40px; border-radius: 50%; background: #fff; border: 4px solid #dee2e6; z-index: 2; }
+.p-party .partycake { position: absolute; left: 540px; top: 370px; width: 320px; height: 290px; z-index: 2; }
+.p-party .partycake.hint { animation: hint .9s ease-in-out 2; }
+.p-party .slice { position: absolute; left: 0; top: 0; width: 120px; height: 100px; z-index: 5; pointer-events: none; }

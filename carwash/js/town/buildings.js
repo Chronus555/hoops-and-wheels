@@ -29,4 +29,29 @@ export const BUILDINGS = {
     html: `<div class="stand"></div><div class="standroof"></div><div class="flags"><i></i><i></i><i></i></div>
       <div class="door archway"><div class="checker"></div><div class="shutter"></div></div>`,
   },
+  bakery: {
+    width: 450,
+    html: `<div class="shopwall"></div><div class="awning"></div><div class="bigsign">🧁</div>
+      <div class="window wl">🎂</div><div class="door shopdoor"><div class="shutter"></div></div>`,
+  },
+  doctor: {
+    width: 450,
+    html: `<div class="clinicwall"></div><div class="clinicroof"></div><div class="redcross"></div>
+      <div class="window wl">🩺</div><div class="door clinicdoor"><div class="shutter"></div></div>`,
+  },
+  salon: {
+    width: 450,
+    html: `<div class="salonwall"></div><div class="awning purple"></div><div class="bigsign">✂️</div><div class="barberpole"></div>
+      <div class="door shopdoor"><div class="shutter"></div></div>`,
+  },
+  grocery: {
+    width: 450,
+    html: `<div class="storewall"></div><div class="awning green"></div><div class="bigsign">🛒</div>
+      <div class="fruitstand">🍎🍌🍉</div><div class="door shopdoor right"><div class="shutter"></div></div>`,
+  },
+  fire: {
+    width: 450,
+    html: `<div class="firewall"></div><div class="fireroof"></div><div class="bigsign">🚒</div>
+      <div class="door firedoor"><div class="shutter"></div></div>`,
+  },
 };

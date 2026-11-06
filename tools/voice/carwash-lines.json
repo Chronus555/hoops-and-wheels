@@ -1,11 +1,43 @@
 [
  {
+  "key": "a haircut",
+  "text": "A haircut!"
+ },
+ {
+  "key": "a lollipop yay",
+  "text": "A lollipop! Yay!"
+ },
+ {
+  "key": "a pickle",
+  "text": "A pickle?"
+ },
+ {
   "key": "a roof",
   "text": "A roof!"
  },
  {
+  "key": "a sock silly",
+  "text": "A sock? Silly!"
+ },
+ {
+  "key": "achoo",
+  "text": "Achoo!"
+ },
+ {
+  "key": "achoo i have the sniffles",
+  "text": "Achoo! I have the sniffles."
+ },
+ {
   "key": "all aboard",
   "text": "All aboard!"
+ },
+ {
+  "key": "all better",
+  "text": "All better!"
+ },
+ {
+  "key": "all done time to pay",
+  "text": "All done! Time to pay!"
  },
  {
   "key": "all dry",
@@ -20,8 +52,20 @@
   "text": "Almost!"
  },
  {
+  "key": "apple",
+  "text": "Apple!"
+ },
+ {
+  "key": "arm",
+  "text": "Arm!"
+ },
+ {
   "key": "back for more",
   "text": "Back for more!"
+ },
+ {
+  "key": "banana",
+  "text": "Banana!"
  },
  {
   "key": "basketball",
@@ -56,12 +100,32 @@
   "text": "Blue!"
  },
  {
+  "key": "blueberries",
+  "text": "Blueberries!"
+ },
+ {
   "key": "boom ha ha",
   "text": "Boom! Ha ha!"
  },
  {
   "key": "bouncy",
   "text": "Bouncy!"
+ },
+ {
+  "key": "bread",
+  "text": "Bread!"
+ },
+ {
+  "key": "broccoli",
+  "text": "Broccoli!"
+ },
+ {
+  "key": "brown",
+  "text": "Brown!"
+ },
+ {
+  "key": "brrr cold",
+  "text": "Brrr, cold!"
  },
  {
   "key": "bubbles",
@@ -72,12 +136,24 @@
   "text": "Bumpy bumpy!"
  },
  {
+  "key": "butter",
+  "text": "Butter!"
+ },
+ {
   "key": "bye bye",
   "text": "Bye bye!"
  },
  {
   "key": "can you wash my car",
   "text": "Can you wash my car?"
+ },
+ {
+  "key": "candles",
+  "text": "Candles!"
+ },
+ {
+  "key": "carrot",
+  "text": "Carrot!"
  },
  {
   "key": "checkers",
@@ -88,12 +164,24 @@
   "text": "Cheese!"
  },
  {
+  "key": "chocolate",
+  "text": "Chocolate!"
+ },
+ {
   "key": "circle",
   "text": "Circle!"
  },
  {
   "key": "clink clank",
   "text": "Clink clank!"
+ },
+ {
+  "key": "coins please",
+  "text": "Coins, please!"
+ },
+ {
+  "key": "cookies",
+  "text": "Cookies!"
  },
  {
   "key": "cool shirt",
@@ -108,12 +196,40 @@
   "text": "Crash!"
  },
  {
+  "key": "curly",
+  "text": "Curly!"
+ },
+ {
   "key": "dance party",
   "text": "Dance party!"
  },
  {
+  "key": "delicious",
+  "text": "Delicious!"
+ },
+ {
   "key": "dig dig dig",
   "text": "Dig dig dig!"
+ },
+ {
+  "key": "ding ding time to go",
+  "text": "Ding ding! Time to go!"
+ },
+ {
+  "key": "ding the cake is ready",
+  "text": "Ding! The cake is ready!"
+ },
+ {
+  "key": "ears",
+  "text": "Ears!"
+ },
+ {
+  "key": "egg",
+  "text": "Egg!"
+ },
+ {
+  "key": "eggs",
+  "text": "Eggs!"
  },
  {
   "key": "eight",
@@ -132,6 +248,14 @@
   "text": "Everyone gets a medal!"
  },
  {
+  "key": "excuse me",
+  "text": "Excuse me!"
+ },
+ {
+  "key": "eyes",
+  "text": "Eyes!"
+ },
+ {
   "key": "fifteen",
   "text": "Fifteen!"
  },
@@ -140,8 +264,16 @@
   "text": "Fire!"
  },
  {
+  "key": "fire fighters ready",
+  "text": "Fire fighters, ready!"
+ },
+ {
   "key": "first place",
   "text": "First place!"
+ },
+ {
+  "key": "fish",
+  "text": "Fish!"
  },
  {
   "key": "five",
@@ -156,8 +288,20 @@
   "text": "Flames!"
  },
  {
+  "key": "flour",
+  "text": "Flour!"
+ },
+ {
   "key": "flower",
   "text": "Flower!"
+ },
+ {
+  "key": "fluffy",
+  "text": "Fluffy!"
+ },
+ {
+  "key": "foot",
+  "text": "Foot!"
  },
  {
   "key": "four",
@@ -166,6 +310,10 @@
  {
   "key": "fourteen",
   "text": "Fourteen!"
+ },
+ {
+  "key": "frosting",
+  "text": "Frosting!"
  },
  {
   "key": "full let's go",
@@ -182,6 +330,10 @@
  {
   "key": "going up",
   "text": "Going up!"
+ },
+ {
+  "key": "got it",
+  "text": "Got it!"
  },
  {
   "key": "great race",
@@ -204,6 +356,10 @@
   "text": "Green means go!"
  },
  {
+  "key": "ha ha a mustache",
+  "text": "Ha ha, a mustache!"
+ },
+ {
   "key": "ha ha ha",
   "text": "Ha ha ha!"
  },
@@ -212,8 +368,16 @@
   "text": "Ha ha, watermelon!"
  },
  {
+  "key": "hand",
+  "text": "Hand!"
+ },
+ {
   "key": "hard hats on",
   "text": "Hard hats on!"
+ },
+ {
+  "key": "head",
+  "text": "Head!"
  },
  {
   "key": "heart",
@@ -232,8 +396,32 @@
   "text": "Hello, bus driver!"
  },
  {
+  "key": "help i am stuck",
+  "text": "Help! I am stuck!"
+ },
+ {
   "key": "hi",
   "text": "Hi!"
+ },
+ {
+  "key": "hi baker",
+  "text": "Hi, baker!"
+ },
+ {
+  "key": "hi can i get a new look",
+  "text": "Hi! Can I get a new look?"
+ },
+ {
+  "key": "hi can you help me shop",
+  "text": "Hi! Can you help me shop?"
+ },
+ {
+  "key": "hi doctor",
+  "text": "Hi, doctor!"
+ },
+ {
+  "key": "hi put on your helmet",
+  "text": "Hi! Put on your helmet!"
  },
  {
   "key": "hi there",
@@ -248,6 +436,38 @@
   "text": "Higher!"
  },
  {
+  "key": "hooray",
+  "text": "Hooray!"
+ },
+ {
+  "key": "hooray the fire is out",
+  "text": "Hooray! The fire is out!"
+ },
+ {
+  "key": "hot",
+  "text": "Hot!"
+ },
+ {
+  "key": "i bumped my knee",
+  "text": "I bumped my knee!"
+ },
+ {
+  "key": "i can see",
+  "text": "I can see!"
+ },
+ {
+  "key": "i feel better",
+  "text": "I feel better!"
+ },
+ {
+  "key": "i feel funny",
+  "text": "I feel funny."
+ },
+ {
+  "key": "i feel so hot",
+  "text": "I feel so hot!"
+ },
+ {
   "key": "i like these",
   "text": "I like these!"
  },
@@ -260,6 +480,10 @@
   "text": "I need a bath!"
  },
  {
+  "key": "i need these",
+  "text": "I need these!"
+ },
+ {
   "key": "i'm so muddy",
   "text": "I'm so muddy!"
  },
@@ -268,8 +492,32 @@
   "text": "Ice cream, please!"
  },
  {
+  "key": "into the oven",
+  "text": "Into the oven!"
+ },
+ {
+  "key": "is that me",
+  "text": "Is that me?"
+ },
+ {
+  "key": "it's growing",
+  "text": "It's growing!"
+ },
+ {
+  "key": "just right",
+  "text": "Just right!"
+ },
+ {
+  "key": "knee",
+  "text": "Knee!"
+ },
+ {
   "key": "lap two",
   "text": "Lap two!"
+ },
+ {
+  "key": "let's bake a cake",
+  "text": "Let's bake a cake!"
  },
  {
   "key": "let's build",
@@ -286,6 +534,10 @@
  {
   "key": "let's go",
   "text": "Let's go!"
+ },
+ {
+  "key": "let's make another cake",
+  "text": "Let's make another cake!"
  },
  {
   "key": "let's play",
@@ -308,20 +560,60 @@
   "text": "Long block!"
  },
  {
+  "key": "longer hair",
+  "text": "Longer hair!"
+ },
+ {
   "key": "look at all this mud",
   "text": "Look at all this mud!"
+ },
+ {
+  "key": "look inside",
+  "text": "Look inside!"
+ },
+ {
+  "key": "looking good",
+  "text": "Looking good!"
  },
  {
   "key": "lower",
   "text": "Lower!"
  },
  {
+  "key": "make a wish",
+  "text": "Make a wish!"
+ },
+ {
+  "key": "make me fancy",
+  "text": "Make me fancy!"
+ },
+ {
   "key": "me next",
   "text": "Me next!"
  },
  {
+  "key": "meow",
+  "text": "Meow!"
+ },
+ {
+  "key": "milk",
+  "text": "Milk!"
+ },
+ {
+  "key": "mix it up",
+  "text": "Mix it up!"
+ },
+ {
+  "key": "more cake please",
+  "text": "More cake, please!"
+ },
+ {
   "key": "more dirt",
   "text": "More dirt!"
+ },
+ {
+  "key": "mouth",
+  "text": "Mouth!"
  },
  {
   "key": "muddy again",
@@ -334,6 +626,10 @@
  {
   "key": "my new jersey",
   "text": "My new jersey!"
+ },
+ {
+  "key": "my tummy hurts",
+  "text": "My tummy hurts!"
  },
  {
   "key": "new tires",
@@ -354,6 +650,10 @@
  {
   "key": "nineteen",
   "text": "Nineteen!"
+ },
+ {
+  "key": "nose",
+  "text": "Nose!"
  },
  {
   "key": "nothing but net",
@@ -382,6 +682,10 @@
  {
   "key": "ooh new wheels",
   "text": "Ooh, new wheels!"
+ },
+ {
+  "key": "ooh that too",
+  "text": "Ooh, that too!"
  },
  {
   "key": "ooh try again",
@@ -422,6 +726,10 @@
  {
   "key": "rainbow",
   "text": "Rainbow!"
+ },
+ {
+  "key": "ready to bake",
+  "text": "Ready to bake!"
  },
  {
   "key": "red",
@@ -472,6 +780,10 @@
   "text": "Shoot the ball!"
  },
  {
+  "key": "silly",
+  "text": "Silly!"
+ },
+ {
   "key": "six",
   "text": "Six!"
  },
@@ -486,6 +798,10 @@
  {
   "key": "smiley face",
   "text": "Smiley face!"
+ },
+ {
+  "key": "snip snip",
+  "text": "Snip snip!"
  },
  {
   "key": "so close",
@@ -512,12 +828,24 @@
   "text": "So splashy!"
  },
  {
+  "key": "so stylish",
+  "text": "So stylish!"
+ },
+ {
   "key": "so tall",
   "text": "So tall!"
  },
  {
   "key": "sparkly clean",
   "text": "Sparkly clean!"
+ },
+ {
+  "key": "spiky",
+  "text": "Spiky!"
+ },
+ {
+  "key": "splash",
+  "text": "Splash!"
  },
  {
   "key": "splash muddy",
@@ -532,12 +860,32 @@
   "text": "Splish splash!"
  },
  {
+  "key": "spray the water",
+  "text": "Spray the water!"
+ },
+ {
+  "key": "sprinkles",
+  "text": "Sprinkles!"
+ },
+ {
   "key": "square",
   "text": "Square!"
  },
  {
   "key": "star",
   "text": "Star!"
+ },
+ {
+  "key": "stir stir stir",
+  "text": "Stir stir stir!"
+ },
+ {
+  "key": "strawberry",
+  "text": "Strawberry!"
+ },
+ {
+  "key": "sugar",
+  "text": "Sugar!"
  },
  {
   "key": "super speed",
@@ -564,6 +912,18 @@
   "text": "Thank you!"
  },
  {
+  "key": "thank you bye",
+  "text": "Thank you! Bye!"
+ },
+ {
+  "key": "thank you doctor",
+  "text": "Thank you, doctor!"
+ },
+ {
+  "key": "thank you fire fighters",
+  "text": "Thank you, fire fighters!"
+ },
+ {
   "key": "that ball is so big",
   "text": "That ball is so big!"
  },
@@ -576,8 +936,16 @@
   "text": "That tickles!"
  },
  {
+  "key": "that's everything",
+  "text": "That's everything!"
+ },
+ {
   "key": "the bus is full",
   "text": "The bus is full!"
+ },
+ {
+  "key": "the kitten is safe",
+  "text": "The kitten is safe!"
  },
  {
   "key": "the truck is full",
@@ -596,8 +964,16 @@
   "text": "Three!"
  },
  {
+  "key": "thump thump",
+  "text": "Thump thump!"
+ },
+ {
   "key": "time for a break",
   "text": "Time for a break!"
+ },
+ {
+  "key": "time to pay",
+  "text": "Time to pay!"
  },
  {
   "key": "to the park please",
@@ -610,6 +986,10 @@
  {
   "key": "triangle",
   "text": "Triangle!"
+ },
+ {
+  "key": "tummy",
+  "text": "Tummy!"
  },
  {
   "key": "twelve",
@@ -632,8 +1012,16 @@
   "text": "Uh oh, it fell down!"
  },
  {
+  "key": "uh oh more fire",
+  "text": "Uh oh, more fire!"
+ },
+ {
   "key": "uh oh mud",
   "text": "Uh oh, mud!"
+ },
+ {
+  "key": "uh oh no hair ha ha",
+  "text": "Uh oh, no hair! Ha ha!"
  },
  {
   "key": "uh oh rain",
@@ -644,6 +1032,10 @@
   "text": "Up high!"
  },
  {
+  "key": "up the ladder",
+  "text": "Up the ladder!"
+ },
+ {
   "key": "vroom vroom",
   "text": "Vroom vroom!"
  },
@@ -652,8 +1044,16 @@
   "text": "Wanna play?"
  },
  {
+  "key": "watermelon",
+  "text": "Watermelon!"
+ },
+ {
   "key": "wee woo",
   "text": "Wee woo!"
+ },
+ {
+  "key": "what a cool hat",
+  "text": "What a cool hat!"
  },
  {
   "key": "what a sunny day",
@@ -664,8 +1064,16 @@
   "text": "What a tall tower!"
  },
  {
+  "key": "what is that",
+  "text": "What is that?"
+ },
+ {
   "key": "wheee",
   "text": "Wheee!"
+ },
+ {
+  "key": "wheee down the pole",
+  "text": "Wheee! Down the pole!"
  },
  {
   "key": "which kart",
@@ -700,6 +1108,10 @@
   "text": "Wow!"
  },
  {
+  "key": "wow look at me",
+  "text": "Wow, look at me!"
+ },
+ {
   "key": "wow so shiny",
   "text": "Wow, so shiny!"
  },
@@ -716,16 +1128,36 @@
   "text": "Yellow!"
  },
  {
+  "key": "yes that one",
+  "text": "Yes, that one!"
+ },
+ {
+  "key": "yuck a pickle",
+  "text": "Yuck! A pickle!"
+ },
+ {
   "key": "yucky melon",
   "text": "Yucky melon!"
+ },
+ {
+  "key": "yucky who put a sock in the cake",
+  "text": "Yucky! Who put a sock in the cake?"
  },
  {
   "key": "yum",
   "text": "Yum!"
  },
  {
+  "key": "yum bubble medicine",
+  "text": "Yum, bubble medicine!"
+ },
+ {
   "key": "yum thank you",
   "text": "Yum, thank you!"
+ },
+ {
+  "key": "yummy frosting",
+  "text": "Yummy frosting!"
  },
  {
   "key": "zero",

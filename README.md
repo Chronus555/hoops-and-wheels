@@ -110,6 +110,11 @@ Places so far:
 | 🚌 **Busy Town Roads** | Drive the bus with the pedals. Stop at red lights (tap a light to change it), pick up friends at bus stops, and take them where their bubble says (shop, park, home, ice cream). A puddle splashes mud, and the drive-through wash cleans it. Counts passengers. |
 | 🚜 **Construction Site** | Touch anywhere and the digger's arm reaches there. Scoop dirt into the dump truck (it counts to 5, then drives off to empty). At the crane, stack big, small, long and tall blocks while the friends count them, then knock the tower down with the wrecking ball. |
 | 🏁 **Racetrack** | Pick a kart, count down 3-2-1-Go, and hold GO for two laps. Boost pads and a pit stop give extra speed. Everyone gets a medal on the podium. |
+| 🧁 **Bakery** | Drop ingredients in the bowl (a pickle and a sock are there for laughs) and stir. Bake it (3-2-1, ding!), then frost, sprinkle, add fruit and candles (counted). At the party, blow out the candles and hand out slices: "Yum!" or "Yuck!", and the odd burp. |
+| 🩺 **Animal Doctor** | A friend comes in with a bumped knee, the sniffles, a fever or a tummy ache. Thermometer, stethoscope (heartbeat), x-ray (something silly inside), a tickly "shot", bandages, tissues, an ice pack and bubble medicine. The right one makes them better, then a lollipop. Tapping the patient names body parts. |
+| ✂️ **Salon & Dress-up** | Grow hair with the spray, snip it short (even bald), comb it spiky or curly, and dye it any colour (named out loud). Then hats, glasses, a silly mustache, outfits and a photo, with a mirror showing the new look. |
+| 🛒 **Grocery Store** | A shopper shows a picture list. Find the foods on the shelves (each one is named), scan them at the checkout (counted), then pay by counting coins into the register. |
+| 🚒 **Fire Station** | Slide down the pole, ring the bell, put on a helmet. At the house, spray the cartoon flames until each goes out (counted), raise the ladder to bring the kitten down, and the family says thank you. |
  Muddy cars wait on the road outside; tap one to drive it in. Each car has an animal driver (hippo, frog, lion, pig, elephant or bear) who giggles, cheers and talks with the recorded voice.
 
 **Car Wash & Garage stations:**
