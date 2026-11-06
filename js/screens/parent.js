@@ -1,7 +1,8 @@
 import { go } from '../router.js';
-import { GAMES, getState, update, itemStats, skillLevel, setSkillLevel, resetProgress, todayKey } from '../store.js';
+import { GAMES, getState, update, itemStats, skillLevel, setSkillLevel, resetProgress, todayKey, childName } from '../store.js';
 import { isResting, endRest } from '../session.js';
-import { rankedVoices, voiceQuality, say } from '../speech.js';
+import { rankedVoices, voiceQuality, say, refreshNameVoice } from '../speech.js';
+import { recordName, hasNameRecording, deleteNameRecording, recordingSupported } from '../namevoice.js';
 import { ALPHABET, WORDS, RHYMES, CHALLENGES, LEVEL_INFO, GAME_NAMES, ALL_SHAPES } from '../data.js';
 import { html, esc, range } from '../util.js';
 
@@ -51,20 +52,37 @@ export function parentScreen(ctx) {
         </select>
       </label>
       <p class="note">When time is up, the current round finishes and the garage "closes" for an hour. You can reopen it here.</p>
-      <label>Voice speed
-        <select class="f-rate">${[[0.75, 'Slow'], [0.9, 'Normal'], [1.05, 'Quick']].map(([v, t]) =>
-          `<option value="${v}"${v === s.settings.voiceRate ? ' selected' : ''}>${t}</option>`).join('')}
-        </select>
-      </label>
       <label>Voice
         <span class="row">
-          <select class="f-voice"><option value="">Automatic (best available)</option>${voices.map(v =>
-            `<option value="${esc(v.name)}"${v.name === s.settings.voiceName ? ' selected' : ''}>${esc(v.name)} (${v.lang}) · ${QUALITY[voiceQuality(v)]}</option>`).join('')}
+          <select class="f-mode">
+            <option value="natural"${s.settings.voiceMode !== 'device' ? ' selected' : ''}>Natural recorded voice (recommended)</option>
+            <option value="device"${s.settings.voiceMode === 'device' ? ' selected' : ''}>This device's built-in voice</option>
           </select>
           <button class="secondary-btn test-voice">Test</button>
         </span>
       </label>
-      ${voices.some(v => voiceQuality(v) === 'best') ? '' : `<p class="note voice-tip"><b>Want a more natural voice?</b> On iPad: Settings → Accessibility → Spoken Content → Voices → English, then download a voice marked <b>Premium</b> (Ava, Zoe or Evan sound great) or <b>Enhanced</b>. Then reopen this app and it's picked automatically. On a Windows PC, open the game in Microsoft Edge, which has natural-sounding voices built in.</p>`}
+      <div class="device-voice"${s.settings.voiceMode === 'device' ? '' : ' hidden'}>
+        <label>Device voice speed
+          <select class="f-rate">${[[0.75, 'Slow'], [0.9, 'Normal'], [1.05, 'Quick']].map(([v, t]) =>
+            `<option value="${v}"${v === s.settings.voiceRate ? ' selected' : ''}>${t}</option>`).join('')}
+          </select>
+        </label>
+        <label>Device voice
+          <select class="f-voice"><option value="">Automatic (best available)</option>${voices.map(v =>
+            `<option value="${esc(v.name)}"${v.name === s.settings.voiceName ? ' selected' : ''}>${esc(v.name)} (${v.lang}) · ${QUALITY[voiceQuality(v)]}</option>`).join('')}
+          </select>
+        </label>
+      </div>
+      <div class="name-voice">
+        <b>Their name in your voice</b>
+        <p class="note">The recorded voice can't know your child's name, so it skips it. Record yourself saying the name and the game will use it ("Great job, …!").</p>
+        ${recordingSupported() ? `<span class="row">
+          <button class="secondary-btn rec-name">🎙️ Record (2 seconds)</button>
+          <button class="secondary-btn play-name"${hasNameRecording() ? '' : ' disabled'}>▶ Play</button>
+          <button class="secondary-btn del-name"${hasNameRecording() ? '' : ' disabled'}>Delete</button>
+        </span>
+        <p class="note rec-status"></p>` : '<p class="note">This browser can\'t record audio.</p>'}
+      </div>
       ${isResting() ? '<button class="primary-btn unrest">Reopen the garage now</button>' : ''}
     </section>
 
@@ -129,7 +147,35 @@ export function parentScreen(ctx) {
   q('.f-session').addEventListener('change', e => update(st => { st.settings.sessionMinutes = Number(e.target.value); }));
   q('.f-rate').addEventListener('change', e => update(st => { st.settings.voiceRate = Number(e.target.value); }));
   q('.f-voice').addEventListener('change', e => update(st => { st.settings.voiceName = e.target.value; }));
-  q('.test-voice').addEventListener('click', () => say('Ready, set, go! Let us count to five. One, two, three, four, five!'));
+  q('.test-voice').addEventListener('click', () => say(`Hi ${childName()}! What do you want to play? Numbers, letters, shapes, or memory?`));
+  q('.f-mode').addEventListener('change', e => {
+    update(st => { st.settings.voiceMode = e.target.value; });
+    q('.device-voice').hidden = e.target.value !== 'device';
+  });
+  const status = q('.rec-status');
+  q('.rec-name')?.addEventListener('click', async e => {
+    const btn = e.currentTarget;
+    btn.disabled = true;
+    status.textContent = 'Say the name now…';
+    try {
+      await recordName(2000);
+      await refreshNameVoice();
+      status.textContent = 'Saved! Tap Play to hear it in a sentence.';
+      q('.play-name').disabled = false;
+      q('.del-name').disabled = false;
+    } catch {
+      status.textContent = 'Couldn\'t use the microphone. Check that this site is allowed to use it.';
+    }
+    btn.disabled = false;
+  });
+  q('.play-name')?.addEventListener('click', () => say(`Great job, ${childName()}!`));
+  q('.del-name')?.addEventListener('click', async () => {
+    deleteNameRecording();
+    await refreshNameVoice();
+    q('.play-name').disabled = true;
+    q('.del-name').disabled = true;
+    status.textContent = 'Deleted.';
+  });
   q('.unrest')?.addEventListener('click', () => { endRest(); go('home'); });
   view.querySelectorAll('select[data-game]').forEach(el =>
     el.addEventListener('change', () => { setSkillLevel(el.dataset.game, Number(el.value)); go('parent'); }));

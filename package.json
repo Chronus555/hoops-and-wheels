@@ -1,0 +1,9 @@
+{
+  "name": "hoops-and-wheels",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "voice:collect": "node tools/voice/collect.mjs",
+    "voice:build": "node tools/voice/collect.mjs && tools/voice/.venv/Scripts/python -I tools/voice/build_voice.py"
+  }
+}

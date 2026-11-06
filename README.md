@@ -83,11 +83,25 @@ If you change files later, bump `VERSION` in `sw.js` so the iPad picks up the ne
 
 - **Guided Access** (Settings → Accessibility → Guided Access): triple-click the side or Home button while playing to lock the iPad to the game.
 - Turn off silent mode and turn the volume up. All instructions are spoken.
-- The voice comes from the device's built-in text-to-speech, and the app picks the most natural one it finds. For a much less robotic voice on iPad, go to Settings → Accessibility → Spoken Content → Voices → English and download a **Premium** voice (Ava, Zoe or Evan) or an **Enhanced** one. The app uses it automatically, or you can choose it in the grown-up corner. On a Windows PC, Microsoft Edge has natural voices; Chrome only has the older robotic ones.
+- Record your child's name in the grown-up corner ("Their name in your voice") so the game can cheer for them by name.
+
+## The voice
+
+Every line the game speaks is pre-recorded with [Kokoro](https://huggingface.co/hexgrad/Kokoro-82M), a free, open-source natural-sounding voice (the `af_heart` voice). The clips live in `audio/voice/`, so the voice sounds the same on every device and works offline. A sentence plays as one clip when it was recorded whole; otherwise it's joined from phrase and word clips. Anything without a recording falls back to the device's built-in voice, which you can also choose in the grown-up corner.
+
+**After changing or adding spoken text**, re-record (only new lines are recorded):
+
+```bash
+npm run voice:build
+```
+
+One-time setup for that command is described at the top of `tools/voice/build_voice.py`. On localhost, any sentence without a recording is logged to the browser console as `[voice] no recording:`, so add it to `tools/voice/collect.mjs` if it isn't picked up automatically.
 
 ## Files
 
 - `index.html`, `styles.css`, `manifest.webmanifest`, `sw.js`: the app shell and offline support
 - `js/`: shared code (speech, sound effects, saved progress, router, drawings, word lists)
-- `js/screens/`: one file per screen (start, home, the three games, reward, garage, rest, grown-up corner)
+- `js/screens/`: one file per screen (start, home, world, the games, reward, garage, rest, grown-up corner)
+- `audio/voice/`: the recorded voice clips and their index
+- `tools/voice/`: scripts that collect every spoken line and record it
 - `icons/`: home-screen icons

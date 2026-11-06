@@ -1,0 +1,3234 @@
+[
+ {
+  "key": "0",
+  "text": "0."
+ },
+ {
+  "key": "1",
+  "text": "1)"
+ },
+ {
+  "key": "10",
+  "text": "10."
+ },
+ {
+  "key": "11",
+  "text": "11."
+ },
+ {
+  "key": "12",
+  "text": "12."
+ },
+ {
+  "key": "13",
+  "text": "13."
+ },
+ {
+  "key": "14",
+  "text": "14."
+ },
+ {
+  "key": "15",
+  "text": "15."
+ },
+ {
+  "key": "16",
+  "text": "16."
+ },
+ {
+  "key": "17",
+  "text": "17."
+ },
+ {
+  "key": "18",
+  "text": "18."
+ },
+ {
+  "key": "19",
+  "text": "19."
+ },
+ {
+  "key": "2",
+  "text": "2."
+ },
+ {
+  "key": "20",
+  "text": "20."
+ },
+ {
+  "key": "21",
+  "text": "21."
+ },
+ {
+  "key": "22",
+  "text": "22."
+ },
+ {
+  "key": "23",
+  "text": "23."
+ },
+ {
+  "key": "24",
+  "text": "24."
+ },
+ {
+  "key": "25",
+  "text": "25."
+ },
+ {
+  "key": "26",
+  "text": "26."
+ },
+ {
+  "key": "27",
+  "text": "27."
+ },
+ {
+  "key": "28",
+  "text": "28."
+ },
+ {
+  "key": "29",
+  "text": "29."
+ },
+ {
+  "key": "3",
+  "text": "3."
+ },
+ {
+  "key": "3 1",
+  "text": "3,1)"
+ },
+ {
+  "key": "30",
+  "text": "30."
+ },
+ {
+  "key": "31",
+  "text": "31."
+ },
+ {
+  "key": "32",
+  "text": "32."
+ },
+ {
+  "key": "33",
+  "text": "33."
+ },
+ {
+  "key": "34",
+  "text": "34."
+ },
+ {
+  "key": "35",
+  "text": "35."
+ },
+ {
+  "key": "36",
+  "text": "36."
+ },
+ {
+  "key": "37",
+  "text": "37."
+ },
+ {
+  "key": "38",
+  "text": "38."
+ },
+ {
+  "key": "39",
+  "text": "39."
+ },
+ {
+  "key": "4",
+  "text": "4,."
+ },
+ {
+  "key": "40",
+  "text": "40."
+ },
+ {
+  "key": "5",
+  "text": "5)"
+ },
+ {
+  "key": "55",
+  "text": "55)"
+ },
+ {
+  "key": "6",
+  "text": "6)"
+ },
+ {
+  "key": "7",
+  "text": "7)"
+ },
+ {
+  "key": "75",
+  "text": "75)"
+ },
+ {
+  "key": "8",
+  "text": "8."
+ },
+ {
+  "key": "9",
+  "text": "9."
+ },
+ {
+  "key": "a",
+  "text": "a"
+ },
+ {
+  "key": "a circle",
+  "text": "a circle"
+ },
+ {
+  "key": "a diamond",
+  "text": "a diamond"
+ },
+ {
+  "key": "a heart",
+  "text": "a heart"
+ },
+ {
+  "key": "a oval",
+  "text": "a oval"
+ },
+ {
+  "key": "a rectangle",
+  "text": "a rectangle"
+ },
+ {
+  "key": "a square",
+  "text": "a square"
+ },
+ {
+  "key": "a star",
+  "text": "a star"
+ },
+ {
+  "key": "a triangle",
+  "text": "a triangle"
+ },
+ {
+  "key": "aab",
+  "text": "AAB"
+ },
+ {
+  "key": "aabb",
+  "text": "AABB"
+ },
+ {
+  "key": "ab",
+  "text": "AB"
+ },
+ {
+  "key": "abb",
+  "text": "ABB"
+ },
+ {
+  "key": "abc",
+  "text": "ABC"
+ },
+ {
+  "key": "air",
+  "text": "air."
+ },
+ {
+  "key": "airplane",
+  "text": "airplane"
+ },
+ {
+  "key": "aitch",
+  "text": "H."
+ },
+ {
+  "key": "all aboard the pattern train",
+  "text": "All aboard the pattern train!"
+ },
+ {
+  "key": "all clean",
+  "text": "All clean!"
+ },
+ {
+  "key": "ambulance",
+  "text": "ambulance"
+ },
+ {
+  "key": "an",
+  "text": "an"
+ },
+ {
+  "key": "an circle",
+  "text": "an circle"
+ },
+ {
+  "key": "an diamond",
+  "text": "an diamond"
+ },
+ {
+  "key": "an heart",
+  "text": "an heart"
+ },
+ {
+  "key": "an oval",
+  "text": "an oval"
+ },
+ {
+  "key": "an rectangle",
+  "text": "an rectangle"
+ },
+ {
+  "key": "an square",
+  "text": "an square"
+ },
+ {
+  "key": "an star",
+  "text": "an star"
+ },
+ {
+  "key": "an triangle",
+  "text": "an triangle"
+ },
+ {
+  "key": "and",
+  "text": "and"
+ },
+ {
+  "key": "and remember",
+  "text": "and remember"
+ },
+ {
+  "key": "animal band",
+  "text": "Animal band!"
+ },
+ {
+  "key": "animals",
+  "text": "animals"
+ },
+ {
+  "key": "ap",
+  "text": "ap."
+ },
+ {
+  "key": "apple",
+  "text": "apple"
+ },
+ {
+  "key": "apple has 2 beats",
+  "text": "apple has 2 beats!"
+ },
+ {
+  "key": "apples",
+  "text": "apples"
+ },
+ {
+  "key": "are",
+  "text": "R."
+ },
+ {
+  "key": "are in my basket now",
+  "text": "are in my basket now?"
+ },
+ {
+  "key": "are left",
+  "text": "are left?"
+ },
+ {
+  "key": "astronaut",
+  "text": "astronaut"
+ },
+ {
+  "key": "awesome",
+  "text": "Awesome"
+ },
+ {
+  "key": "ay",
+  "text": "A."
+ },
+ {
+  "key": "back",
+  "text": "Back"
+ },
+ {
+  "key": "ball",
+  "text": "ball"
+ },
+ {
+  "key": "ball has 1 beat",
+  "text": "ball has 1 beat!"
+ },
+ {
+  "key": "balloon",
+  "text": "balloon"
+ },
+ {
+  "key": "balloons",
+  "text": "balloons"
+ },
+ {
+  "key": "balls",
+  "text": "balls"
+ },
+ {
+  "key": "banana",
+  "text": "banana"
+ },
+ {
+  "key": "banana has 3 beats",
+  "text": "banana has 3 beats!"
+ },
+ {
+  "key": "basketball",
+  "text": "basketball"
+ },
+ {
+  "key": "bear",
+  "text": "bear"
+ },
+ {
+  "key": "bears",
+  "text": "bears"
+ },
+ {
+  "key": "beat",
+  "text": "beat"
+ },
+ {
+  "key": "beat drum",
+  "text": "Beat drum!"
+ },
+ {
+  "key": "beats",
+  "text": "beats"
+ },
+ {
+  "key": "bee",
+  "text": "B."
+ },
+ {
+  "key": "beep boop",
+  "text": "Beep boop!"
+ },
+ {
+  "key": "big and small",
+  "text": "Big and small!"
+ },
+ {
+  "key": "big small",
+  "text": "big ➜ small"
+ },
+ {
+  "key": "biggest",
+  "text": "biggest"
+ },
+ {
+  "key": "bike",
+  "text": "bike"
+ },
+ {
+  "key": "bit",
+  "text": "bit."
+ },
+ {
+  "key": "black",
+  "text": "black"
+ },
+ {
+  "key": "blast off",
+  "text": "Blast off!"
+ },
+ {
+  "key": "blue",
+  "text": "blue"
+ },
+ {
+  "key": "blue car",
+  "text": "blue car"
+ },
+ {
+  "key": "bo",
+  "text": "bo."
+ },
+ {
+  "key": "boat",
+  "text": "boat"
+ },
+ {
+  "key": "bounce a ball 5 times and count out loud",
+  "text": "Bounce a ball 5 times and count out loud!"
+ },
+ {
+  "key": "box",
+  "text": "box!"
+ },
+ {
+  "key": "broccoli",
+  "text": "broccoli"
+ },
+ {
+  "key": "broccoli has 3 beats",
+  "text": "broccoli has 3 beats!"
+ },
+ {
+  "key": "brock",
+  "text": "brock."
+ },
+ {
+  "key": "bruh",
+  "text": "bruh."
+ },
+ {
+  "key": "brush",
+  "text": "brush."
+ },
+ {
+  "key": "bug",
+  "text": "bug."
+ },
+ {
+  "key": "buh",
+  "text": "buh."
+ },
+ {
+  "key": "bunny",
+  "text": "bunny"
+ },
+ {
+  "key": "burp",
+  "text": "Burp!"
+ },
+ {
+  "key": "burr",
+  "text": "burr."
+ },
+ {
+  "key": "bus",
+  "text": "bus"
+ },
+ {
+  "key": "bus has 1 beat",
+  "text": "bus has 1 beat!"
+ },
+ {
+  "key": "but",
+  "text": "but."
+ },
+ {
+  "key": "butterfly",
+  "text": "butterfly"
+ },
+ {
+  "key": "butterfly has 3 beats",
+  "text": "butterfly has 3 beats!"
+ },
+ {
+  "key": "bye bye",
+  "text": "Bye bye!"
+ },
+ {
+  "key": "cake",
+  "text": "cake"
+ },
+ {
+  "key": "cake has 1 beat",
+  "text": "cake has 1 beat!"
+ },
+ {
+  "key": "cap",
+  "text": "cap"
+ },
+ {
+  "key": "car",
+  "text": "car"
+ },
+ {
+  "key": "car has 1 beat",
+  "text": "car has 1 beat!"
+ },
+ {
+  "key": "car won this time",
+  "text": "car won this time."
+ },
+ {
+  "key": "car's turn",
+  "text": "car's turn!"
+ },
+ {
+  "key": "carrot",
+  "text": "carrot"
+ },
+ {
+  "key": "carrots",
+  "text": "carrots"
+ },
+ {
+  "key": "cars",
+  "text": "cars"
+ },
+ {
+  "key": "cat",
+  "text": "cat"
+ },
+ {
+  "key": "cat has 1 beat",
+  "text": "cat has 1 beat!"
+ },
+ {
+  "key": "caterpillar",
+  "text": "caterpillar"
+ },
+ {
+  "key": "caterpillar has 4 beats",
+  "text": "caterpillar has 4 beats!"
+ },
+ {
+  "key": "chair",
+  "text": "chair"
+ },
+ {
+  "key": "chick",
+  "text": "chick"
+ },
+ {
+  "key": "chomp",
+  "text": "Chomp!"
+ },
+ {
+  "key": "circle",
+  "text": "circle"
+ },
+ {
+  "key": "circles",
+  "text": "circles"
+ },
+ {
+  "key": "clean-up time",
+  "text": "Clean-up time!"
+ },
+ {
+  "key": "co",
+  "text": "co."
+ },
+ {
+  "key": "colors don't matter",
+  "text": "Colors don't matter!"
+ },
+ {
+  "key": "cook",
+  "text": "cook."
+ },
+ {
+  "key": "cookie",
+  "text": "cookie"
+ },
+ {
+  "key": "cookie has 2 beats",
+  "text": "cookie has 2 beats!"
+ },
+ {
+  "key": "cookies",
+  "text": "cookies"
+ },
+ {
+  "key": "cop",
+  "text": "cop."
+ },
+ {
+  "key": "corn",
+  "text": "corn."
+ },
+ {
+  "key": "count down with me",
+  "text": "Count down with me!"
+ },
+ {
+  "key": "count the wheels on a real car",
+  "text": "Count the wheels on a real car."
+ },
+ {
+  "key": "count your steps from the door to the car",
+  "text": "Count your steps from the door to the car!"
+ },
+ {
+  "key": "crock",
+  "text": "crock."
+ },
+ {
+  "key": "crocodile",
+  "text": "crocodile"
+ },
+ {
+  "key": "crocodile has 3 beats",
+  "text": "crocodile has 3 beats!"
+ },
+ {
+  "key": "cubic-bezier",
+  "text": "cubic-bezier(."
+ },
+ {
+  "key": "cue",
+  "text": "Q."
+ },
+ {
+  "key": "cull",
+  "text": "cull."
+ },
+ {
+  "key": "cup",
+  "text": "cup."
+ },
+ {
+  "key": "cupcake",
+  "text": "cupcake"
+ },
+ {
+  "key": "cupcakes",
+  "text": "cupcakes"
+ },
+ {
+  "key": "dance party",
+  "text": "Dance party!"
+ },
+ {
+  "key": "dee",
+  "text": "D."
+ },
+ {
+  "key": "delivery truck",
+  "text": "delivery truck"
+ },
+ {
+  "key": "dial",
+  "text": "dial."
+ },
+ {
+  "key": "diamond",
+  "text": "diamond"
+ },
+ {
+  "key": "diamonds",
+  "text": "diamonds"
+ },
+ {
+  "key": "die",
+  "text": "die."
+ },
+ {
+  "key": "dinosaur",
+  "text": "dinosaur"
+ },
+ {
+  "key": "dinosaur has 3 beats",
+  "text": "dinosaur has 3 beats!"
+ },
+ {
+  "key": "doesn't rhyme with",
+  "text": "doesn't rhyme with"
+ },
+ {
+  "key": "dog",
+  "text": "dog"
+ },
+ {
+  "key": "dog has 1 beat",
+  "text": "dog has 1 beat!"
+ },
+ {
+  "key": "donut",
+  "text": "donut"
+ },
+ {
+  "key": "donuts",
+  "text": "donuts"
+ },
+ {
+  "key": "double you",
+  "text": "W."
+ },
+ {
+  "key": "drag the car to the right spot",
+  "text": "Drag the car to the right spot."
+ },
+ {
+  "key": "drum",
+  "text": "Drum"
+ },
+ {
+  "key": "drum the beats then tap thumbs up",
+  "text": "Drum the beats, then tap thumbs up."
+ },
+ {
+  "key": "duck",
+  "text": "duck"
+ },
+ {
+  "key": "duh",
+  "text": "duh."
+ },
+ {
+  "key": "ee",
+  "text": "E."
+ },
+ {
+  "key": "eff",
+  "text": "F."
+ },
+ {
+  "key": "egg",
+  "text": "egg"
+ },
+ {
+  "key": "el",
+  "text": "L."
+ },
+ {
+  "key": "elephant",
+  "text": "elephant"
+ },
+ {
+  "key": "elephant has 3 beats",
+  "text": "elephant has 3 beats!"
+ },
+ {
+  "key": "elephants",
+  "text": "elephants"
+ },
+ {
+  "key": "em",
+  "text": "M."
+ },
+ {
+  "key": "en",
+  "text": "N."
+ },
+ {
+  "key": "enter",
+  "text": "Enter"
+ },
+ {
+  "key": "er",
+  "text": "er."
+ },
+ {
+  "key": "ess",
+  "text": "S."
+ },
+ {
+  "key": "ex",
+  "text": "X."
+ },
+ {
+  "key": "eye",
+  "text": "I."
+ },
+ {
+  "key": "fant",
+  "text": "fant."
+ },
+ {
+  "key": "feed me",
+  "text": "Feed me"
+ },
+ {
+  "key": "feed me 1 apple",
+  "text": "Feed me 1 apple!"
+ },
+ {
+  "key": "feed me 1 carrot",
+  "text": "Feed me 1 carrot!"
+ },
+ {
+  "key": "feed me 1 cookie",
+  "text": "Feed me 1 cookie!"
+ },
+ {
+  "key": "feed me 1 cupcake",
+  "text": "Feed me 1 cupcake!"
+ },
+ {
+  "key": "feed me 1 donut",
+  "text": "Feed me 1 donut!"
+ },
+ {
+  "key": "feed me 1 strawberry",
+  "text": "Feed me 1 strawberry!"
+ },
+ {
+  "key": "feed me 10 apples",
+  "text": "Feed me 10 apples!"
+ },
+ {
+  "key": "feed me 10 carrots",
+  "text": "Feed me 10 carrots!"
+ },
+ {
+  "key": "feed me 10 cookies",
+  "text": "Feed me 10 cookies!"
+ },
+ {
+  "key": "feed me 10 cupcakes",
+  "text": "Feed me 10 cupcakes!"
+ },
+ {
+  "key": "feed me 10 donuts",
+  "text": "Feed me 10 donuts!"
+ },
+ {
+  "key": "feed me 10 strawberries",
+  "text": "Feed me 10 strawberries!"
+ },
+ {
+  "key": "feed me 2 apples",
+  "text": "Feed me 2 apples!"
+ },
+ {
+  "key": "feed me 2 carrots",
+  "text": "Feed me 2 carrots!"
+ },
+ {
+  "key": "feed me 2 cookies",
+  "text": "Feed me 2 cookies!"
+ },
+ {
+  "key": "feed me 2 cupcakes",
+  "text": "Feed me 2 cupcakes!"
+ },
+ {
+  "key": "feed me 2 donuts",
+  "text": "Feed me 2 donuts!"
+ },
+ {
+  "key": "feed me 2 strawberries",
+  "text": "Feed me 2 strawberries!"
+ },
+ {
+  "key": "feed me 3 apples",
+  "text": "Feed me 3 apples!"
+ },
+ {
+  "key": "feed me 3 carrots",
+  "text": "Feed me 3 carrots!"
+ },
+ {
+  "key": "feed me 3 cookies",
+  "text": "Feed me 3 cookies!"
+ },
+ {
+  "key": "feed me 3 cupcakes",
+  "text": "Feed me 3 cupcakes!"
+ },
+ {
+  "key": "feed me 3 donuts",
+  "text": "Feed me 3 donuts!"
+ },
+ {
+  "key": "feed me 3 strawberries",
+  "text": "Feed me 3 strawberries!"
+ },
+ {
+  "key": "feed me 4 apples",
+  "text": "Feed me 4 apples!"
+ },
+ {
+  "key": "feed me 4 carrots",
+  "text": "Feed me 4 carrots!"
+ },
+ {
+  "key": "feed me 4 cookies",
+  "text": "Feed me 4 cookies!"
+ },
+ {
+  "key": "feed me 4 cupcakes",
+  "text": "Feed me 4 cupcakes!"
+ },
+ {
+  "key": "feed me 4 donuts",
+  "text": "Feed me 4 donuts!"
+ },
+ {
+  "key": "feed me 4 strawberries",
+  "text": "Feed me 4 strawberries!"
+ },
+ {
+  "key": "feed me 5 apples",
+  "text": "Feed me 5 apples!"
+ },
+ {
+  "key": "feed me 5 carrots",
+  "text": "Feed me 5 carrots!"
+ },
+ {
+  "key": "feed me 5 cookies",
+  "text": "Feed me 5 cookies!"
+ },
+ {
+  "key": "feed me 5 cupcakes",
+  "text": "Feed me 5 cupcakes!"
+ },
+ {
+  "key": "feed me 5 donuts",
+  "text": "Feed me 5 donuts!"
+ },
+ {
+  "key": "feed me 5 strawberries",
+  "text": "Feed me 5 strawberries!"
+ },
+ {
+  "key": "feed me 6 apples",
+  "text": "Feed me 6 apples!"
+ },
+ {
+  "key": "feed me 6 carrots",
+  "text": "Feed me 6 carrots!"
+ },
+ {
+  "key": "feed me 6 cookies",
+  "text": "Feed me 6 cookies!"
+ },
+ {
+  "key": "feed me 6 cupcakes",
+  "text": "Feed me 6 cupcakes!"
+ },
+ {
+  "key": "feed me 6 donuts",
+  "text": "Feed me 6 donuts!"
+ },
+ {
+  "key": "feed me 6 strawberries",
+  "text": "Feed me 6 strawberries!"
+ },
+ {
+  "key": "feed me 7 apples",
+  "text": "Feed me 7 apples!"
+ },
+ {
+  "key": "feed me 7 carrots",
+  "text": "Feed me 7 carrots!"
+ },
+ {
+  "key": "feed me 7 cookies",
+  "text": "Feed me 7 cookies!"
+ },
+ {
+  "key": "feed me 7 cupcakes",
+  "text": "Feed me 7 cupcakes!"
+ },
+ {
+  "key": "feed me 7 donuts",
+  "text": "Feed me 7 donuts!"
+ },
+ {
+  "key": "feed me 7 strawberries",
+  "text": "Feed me 7 strawberries!"
+ },
+ {
+  "key": "feed me 8 apples",
+  "text": "Feed me 8 apples!"
+ },
+ {
+  "key": "feed me 8 carrots",
+  "text": "Feed me 8 carrots!"
+ },
+ {
+  "key": "feed me 8 cookies",
+  "text": "Feed me 8 cookies!"
+ },
+ {
+  "key": "feed me 8 cupcakes",
+  "text": "Feed me 8 cupcakes!"
+ },
+ {
+  "key": "feed me 8 donuts",
+  "text": "Feed me 8 donuts!"
+ },
+ {
+  "key": "feed me 8 strawberries",
+  "text": "Feed me 8 strawberries!"
+ },
+ {
+  "key": "feed me 9 apples",
+  "text": "Feed me 9 apples!"
+ },
+ {
+  "key": "feed me 9 carrots",
+  "text": "Feed me 9 carrots!"
+ },
+ {
+  "key": "feed me 9 cookies",
+  "text": "Feed me 9 cookies!"
+ },
+ {
+  "key": "feed me 9 cupcakes",
+  "text": "Feed me 9 cupcakes!"
+ },
+ {
+  "key": "feed me 9 donuts",
+  "text": "Feed me 9 donuts!"
+ },
+ {
+  "key": "feed me 9 strawberries",
+  "text": "Feed me 9 strawberries!"
+ },
+ {
+  "key": "feed me more",
+  "text": "Feed me more!"
+ },
+ {
+  "key": "find",
+  "text": "Find"
+ },
+ {
+  "key": "find the",
+  "text": "Find the"
+ },
+ {
+  "key": "find the circle",
+  "text": "Find the circle!"
+ },
+ {
+  "key": "find the diamond",
+  "text": "Find the diamond!"
+ },
+ {
+  "key": "find the first letter of your name on a sign",
+  "text": "Find the first letter of your name on a sign!"
+ },
+ {
+  "key": "find the heart",
+  "text": "Find the heart!"
+ },
+ {
+  "key": "find the letter aitch",
+  "text": "Find the letter H!"
+ },
+ {
+  "key": "find the letter are",
+  "text": "Find the letter R!"
+ },
+ {
+  "key": "find the letter ay",
+  "text": "Find the letter A!"
+ },
+ {
+  "key": "find the letter bee",
+  "text": "Find the letter B!"
+ },
+ {
+  "key": "find the letter cue",
+  "text": "Find the letter Q!"
+ },
+ {
+  "key": "find the letter dee",
+  "text": "Find the letter D!"
+ },
+ {
+  "key": "find the letter double you",
+  "text": "Find the letter W!"
+ },
+ {
+  "key": "find the letter ee",
+  "text": "Find the letter E!"
+ },
+ {
+  "key": "find the letter eff",
+  "text": "Find the letter F!"
+ },
+ {
+  "key": "find the letter el",
+  "text": "Find the letter L!"
+ },
+ {
+  "key": "find the letter em",
+  "text": "Find the letter M!"
+ },
+ {
+  "key": "find the letter en",
+  "text": "Find the letter N!"
+ },
+ {
+  "key": "find the letter ess",
+  "text": "Find the letter S!"
+ },
+ {
+  "key": "find the letter ex",
+  "text": "Find the letter X!"
+ },
+ {
+  "key": "find the letter eye",
+  "text": "Find the letter I!"
+ },
+ {
+  "key": "find the letter jay",
+  "text": "Find the letter J!"
+ },
+ {
+  "key": "find the letter jee",
+  "text": "Find the letter G!"
+ },
+ {
+  "key": "find the letter kay",
+  "text": "Find the letter K!"
+ },
+ {
+  "key": "find the letter oh",
+  "text": "Find the letter O!"
+ },
+ {
+  "key": "find the letter pee",
+  "text": "Find the letter P!"
+ },
+ {
+  "key": "find the letter see",
+  "text": "Find the letter C!"
+ },
+ {
+  "key": "find the letter tee",
+  "text": "Find the letter T!"
+ },
+ {
+  "key": "find the letter vee",
+  "text": "Find the letter V!"
+ },
+ {
+  "key": "find the letter why",
+  "text": "Find the letter Y!"
+ },
+ {
+  "key": "find the letter you",
+  "text": "Find the letter U!"
+ },
+ {
+  "key": "find the letter zee",
+  "text": "Find the letter Z!"
+ },
+ {
+  "key": "find the oval",
+  "text": "Find the oval!"
+ },
+ {
+  "key": "find the rectangle",
+  "text": "Find the rectangle!"
+ },
+ {
+  "key": "find the square",
+  "text": "Find the square!"
+ },
+ {
+  "key": "find the star",
+  "text": "Find the star!"
+ },
+ {
+  "key": "find the triangle",
+  "text": "Find the triangle!"
+ },
+ {
+  "key": "finish flag",
+  "text": "finish flag"
+ },
+ {
+  "key": "fire",
+  "text": "fire."
+ },
+ {
+  "key": "fire truck",
+  "text": "fire truck"
+ },
+ {
+  "key": "first",
+  "text": "First,"
+ },
+ {
+  "key": "fish",
+  "text": "fish"
+ },
+ {
+  "key": "fish has 1 beat",
+  "text": "fish has 1 beat!"
+ },
+ {
+  "key": "flower",
+  "text": "flower."
+ },
+ {
+  "key": "fly",
+  "text": "fly."
+ },
+ {
+  "key": "flying saucer",
+  "text": "flying saucer"
+ },
+ {
+  "key": "food",
+  "text": "food"
+ },
+ {
+  "key": "foot",
+  "text": "foot."
+ },
+ {
+  "key": "football",
+  "text": "football"
+ },
+ {
+  "key": "fox",
+  "text": "fox"
+ },
+ {
+  "key": "frog",
+  "text": "frog"
+ },
+ {
+  "key": "from",
+  "text": "From"
+ },
+ {
+  "key": "from biggest to smallest",
+  "text": "From biggest to smallest!"
+ },
+ {
+  "key": "from smallest to biggest",
+  "text": "From smallest to biggest!"
+ },
+ {
+  "key": "garage",
+  "text": "garage!"
+ },
+ {
+  "key": "gas pump",
+  "text": "gas pump"
+ },
+ {
+  "key": "goat",
+  "text": "goat"
+ },
+ {
+  "key": "gold medal",
+  "text": "gold medal"
+ },
+ {
+  "key": "good counting",
+  "text": "Good counting!"
+ },
+ {
+  "key": "great job",
+  "text": "Great job"
+ },
+ {
+  "key": "great listening",
+  "text": "Great listening!"
+ },
+ {
+  "key": "great playing today",
+  "text": "Great playing today,"
+ },
+ {
+  "key": "great sorting",
+  "text": "Great sorting!"
+ },
+ {
+  "key": "green",
+  "text": "green"
+ },
+ {
+  "key": "grown-up challenge",
+  "text": "Grown-up challenge!"
+ },
+ {
+  "key": "guh",
+  "text": "guh."
+ },
+ {
+  "key": "gur",
+  "text": "gur."
+ },
+ {
+  "key": "h",
+  "text": "H"
+ },
+ {
+  "key": "ham",
+  "text": "ham."
+ },
+ {
+  "key": "hamburger",
+  "text": "hamburger"
+ },
+ {
+  "key": "hamburger has 3 beats",
+  "text": "hamburger has 3 beats!"
+ },
+ {
+  "key": "has",
+  "text": "has"
+ },
+ {
+  "key": "hat",
+  "text": "hat"
+ },
+ {
+  "key": "heart",
+  "text": "heart"
+ },
+ {
+  "key": "hearts",
+  "text": "hearts"
+ },
+ {
+  "key": "heh",
+  "text": "heh."
+ },
+ {
+  "key": "helicopter",
+  "text": "helicopter"
+ },
+ {
+  "key": "helicopter has 4 beats",
+  "text": "helicopter has 4 beats!"
+ },
+ {
+  "key": "here come",
+  "text": "Here come"
+ },
+ {
+  "key": "here's",
+  "text": "Here's"
+ },
+ {
+  "key": "hi",
+  "text": "Hi"
+ },
+ {
+  "key": "hmm",
+  "text": "hmm?"
+ },
+ {
+  "key": "hmm not that box",
+  "text": "Hmm, not that box."
+ },
+ {
+  "key": "home",
+  "text": "Home"
+ },
+ {
+  "key": "hoop shot",
+  "text": "Hoop shot!"
+ },
+ {
+  "key": "hot",
+  "text": "hot."
+ },
+ {
+  "key": "hot dog",
+  "text": "hot dog"
+ },
+ {
+  "key": "house",
+  "text": "house"
+ },
+ {
+  "key": "how many",
+  "text": "How many"
+ },
+ {
+  "key": "how many are there",
+  "text": "How many are there?"
+ },
+ {
+  "key": "how many baskets can you make",
+  "text": "How many baskets can you make?"
+ },
+ {
+  "key": "how many dots",
+  "text": "How many dots?"
+ },
+ {
+  "key": "i",
+  "text": "I"
+ },
+ {
+  "key": "i eat",
+  "text": "I eat"
+ },
+ {
+  "key": "i have",
+  "text": "I have"
+ },
+ {
+  "key": "i only ate",
+  "text": "I only ate"
+ },
+ {
+  "key": "i only wanted",
+  "text": "I only wanted"
+ },
+ {
+  "key": "i say words in pieces",
+  "text": "I say words in pieces."
+ },
+ {
+  "key": "i want",
+  "text": "I want"
+ },
+ {
+  "key": "i'm so hungry",
+  "text": "I'm so hungry!"
+ },
+ {
+  "key": "i'm still hungry",
+  "text": "I'm still hungry!"
+ },
+ {
+  "key": "in my basket",
+  "text": "in my basket."
+ },
+ {
+  "key": "is",
+  "text": "is"
+ },
+ {
+  "key": "it",
+  "text": "it."
+ },
+ {
+  "key": "jay",
+  "text": "J."
+ },
+ {
+  "key": "jee",
+  "text": "G."
+ },
+ {
+  "key": "jersey",
+  "text": "jersey"
+ },
+ {
+  "key": "juice",
+  "text": "juice"
+ },
+ {
+  "key": "kang",
+  "text": "kang."
+ },
+ {
+  "key": "kangaroo",
+  "text": "kangaroo"
+ },
+ {
+  "key": "kangaroo has 3 beats",
+  "text": "kangaroo has 3 beats!"
+ },
+ {
+  "key": "kay",
+  "text": "K."
+ },
+ {
+  "key": "keep playing to win this one",
+  "text": "Keep playing to win this one!"
+ },
+ {
+  "key": "key",
+  "text": "key."
+ },
+ {
+  "key": "king",
+  "text": "king"
+ },
+ {
+  "key": "kite",
+  "text": "kite"
+ },
+ {
+  "key": "l",
+  "text": "L"
+ },
+ {
+  "key": "lady",
+  "text": "lady."
+ },
+ {
+  "key": "ladybug",
+  "text": "ladybug"
+ },
+ {
+  "key": "lee",
+  "text": "lee."
+ },
+ {
+  "key": "less",
+  "text": "less"
+ },
+ {
+  "key": "let's build a",
+  "text": "Let's build a"
+ },
+ {
+  "key": "let's count them",
+  "text": "Let's count them!"
+ },
+ {
+  "key": "let's count them together",
+  "text": "Let's count them together!"
+ },
+ {
+  "key": "let's count your baskets",
+  "text": "Let's count your baskets!"
+ },
+ {
+  "key": "let's drum it together",
+  "text": "Let's drum it together."
+ },
+ {
+  "key": "let's go play outside",
+  "text": "Let's go play outside!"
+ },
+ {
+  "key": "let's race to",
+  "text": "Let's race to"
+ },
+ {
+  "key": "let's say it together",
+  "text": "Let's say it together."
+ },
+ {
+  "key": "let's trace",
+  "text": "Let's trace"
+ },
+ {
+  "key": "let's try again",
+  "text": "Let's try again."
+ },
+ {
+  "key": "let's write your name",
+  "text": "Let's write your name,"
+ },
+ {
+  "key": "letter parking",
+  "text": "Letter parking"
+ },
+ {
+  "key": "letters and sounds",
+  "text": "Letters and sounds"
+ },
+ {
+  "key": "line up the",
+  "text": "Line up the"
+ },
+ {
+  "key": "line up the apples from biggest to smallest",
+  "text": "Line up the apples from biggest to smallest."
+ },
+ {
+  "key": "line up the apples from smallest to biggest",
+  "text": "Line up the apples from smallest to biggest."
+ },
+ {
+  "key": "line up the balloons from biggest to smallest",
+  "text": "Line up the balloons from biggest to smallest."
+ },
+ {
+  "key": "line up the balloons from smallest to biggest",
+  "text": "Line up the balloons from smallest to biggest."
+ },
+ {
+  "key": "line up the balls from biggest to smallest",
+  "text": "Line up the balls from biggest to smallest."
+ },
+ {
+  "key": "line up the balls from smallest to biggest",
+  "text": "Line up the balls from smallest to biggest."
+ },
+ {
+  "key": "line up the bears from biggest to smallest",
+  "text": "Line up the bears from biggest to smallest."
+ },
+ {
+  "key": "line up the bears from smallest to biggest",
+  "text": "Line up the bears from smallest to biggest."
+ },
+ {
+  "key": "line up the cars from biggest to smallest",
+  "text": "Line up the cars from biggest to smallest."
+ },
+ {
+  "key": "line up the cars from smallest to biggest",
+  "text": "Line up the cars from smallest to biggest."
+ },
+ {
+  "key": "line up the elephants from biggest to smallest",
+  "text": "Line up the elephants from biggest to smallest."
+ },
+ {
+  "key": "line up the elephants from smallest to biggest",
+  "text": "Line up the elephants from smallest to biggest."
+ },
+ {
+  "key": "line up the fish from biggest to smallest",
+  "text": "Line up the fish from biggest to smallest."
+ },
+ {
+  "key": "line up the fish from smallest to biggest",
+  "text": "Line up the fish from smallest to biggest."
+ },
+ {
+  "key": "line up the stars from biggest to smallest",
+  "text": "Line up the stars from biggest to smallest."
+ },
+ {
+  "key": "line up the stars from smallest to biggest",
+  "text": "Line up the stars from smallest to biggest."
+ },
+ {
+  "key": "line up your toy cars from smallest to biggest",
+  "text": "Line up your toy cars from smallest to biggest!"
+ },
+ {
+  "key": "lion",
+  "text": "lion"
+ },
+ {
+  "key": "listen",
+  "text": "Listen."
+ },
+ {
+  "key": "listen again",
+  "text": "Listen again."
+ },
+ {
+  "key": "listen and find what i said",
+  "text": "Listen, and find what I said!"
+ },
+ {
+  "key": "listen and tap",
+  "text": "Listen and tap!"
+ },
+ {
+  "key": "listen carefully",
+  "text": "Listen carefully"
+ },
+ {
+  "key": "listen carefully and remember 2 things",
+  "text": "Listen carefully, and remember 2 things."
+ },
+ {
+  "key": "listen carefully and remember 3 things",
+  "text": "Listen carefully, and remember 3 things."
+ },
+ {
+  "key": "listen to the band then play it back",
+  "text": "Listen to the band, then play it back!"
+ },
+ {
+  "key": "listen to the beats",
+  "text": "Listen to the beats."
+ },
+ {
+  "key": "little",
+  "text": "little"
+ },
+ {
+  "key": "log",
+  "text": "log"
+ },
+ {
+  "key": "look again",
+  "text": "Look again!"
+ },
+ {
+  "key": "look for the number 4 on a license plate or a sign",
+  "text": "Look for the number 4 on a license plate or a sign!"
+ },
+ {
+  "key": "man",
+  "text": "man."
+ },
+ {
+  "key": "mel",
+  "text": "mel."
+ },
+ {
+  "key": "memory and listening",
+  "text": "Memory and listening"
+ },
+ {
+  "key": "mo",
+  "text": "mo."
+ },
+ {
+  "key": "monkey",
+  "text": "monkey"
+ },
+ {
+  "key": "monkey has 2 beats",
+  "text": "monkey has 2 beats!"
+ },
+ {
+  "key": "monster",
+  "text": "monster"
+ },
+ {
+  "key": "monster munch",
+  "text": "Monster munch!"
+ },
+ {
+  "key": "moon",
+  "text": "moon"
+ },
+ {
+  "key": "more",
+  "text": "more!"
+ },
+ {
+  "key": "more makes",
+  "text": "more makes"
+ },
+ {
+  "key": "motorcycle",
+  "text": "motorcycle"
+ },
+ {
+  "key": "motorcycle has 4 beats",
+  "text": "motorcycle has 4 beats!"
+ },
+ {
+  "key": "mouse",
+  "text": "mouse"
+ },
+ {
+  "key": "mun",
+  "text": "mun."
+ },
+ {
+  "key": "nan",
+  "text": "nan."
+ },
+ {
+  "key": "next time will be a little trickier",
+  "text": "Next time will be a little trickier."
+ },
+ {
+  "key": "next time you go outside find 3 red cars",
+  "text": "Next time you go outside, find 3 red cars!"
+ },
+ {
+  "key": "nice work",
+  "text": "Nice work"
+ },
+ {
+  "key": "nose",
+  "text": "nose"
+ },
+ {
+  "key": "not",
+  "text": "Not"
+ },
+ {
+  "key": "not that one",
+  "text": "Not that one."
+ },
+ {
+  "key": "notes",
+  "text": "notes!"
+ },
+ {
+  "key": "now",
+  "text": "Now"
+ },
+ {
+  "key": "now the next line",
+  "text": "Now the next line!"
+ },
+ {
+  "key": "nuh",
+  "text": "nuh."
+ },
+ {
+  "key": "numbers and counting",
+  "text": "Numbers and counting"
+ },
+ {
+  "key": "numbers letters shapes or memory",
+  "text": "Numbers, letters, shapes, or memory?"
+ },
+ {
+  "key": "octopus",
+  "text": "octopus"
+ },
+ {
+  "key": "oh",
+  "text": "O."
+ },
+ {
+  "key": "one first",
+  "text": "one first!"
+ },
+ {
+  "key": "one that's left",
+  "text": "one that's left!"
+ },
+ {
+  "key": "one time",
+  "text": "one time"
+ },
+ {
+  "key": "oops",
+  "text": "Oops!"
+ },
+ {
+  "key": "orange",
+  "text": "orange"
+ },
+ {
+  "key": "oval",
+  "text": "oval"
+ },
+ {
+  "key": "ovals",
+  "text": "ovals"
+ },
+ {
+  "key": "pan",
+  "text": "pan."
+ },
+ {
+  "key": "pancake",
+  "text": "pancake"
+ },
+ {
+  "key": "panda",
+  "text": "panda"
+ },
+ {
+  "key": "panda has 2 beats",
+  "text": "panda has 2 beats!"
+ },
+ {
+  "key": "park at",
+  "text": "Park at"
+ },
+ {
+  "key": "park in spot",
+  "text": "Park in spot"
+ },
+ {
+  "key": "park in spot 0",
+  "text": "Park in spot 0!"
+ },
+ {
+  "key": "park in spot 1",
+  "text": "Park in spot 1!"
+ },
+ {
+  "key": "park in spot 10",
+  "text": "Park in spot 10!"
+ },
+ {
+  "key": "park in spot 11",
+  "text": "Park in spot 11!"
+ },
+ {
+  "key": "park in spot 12",
+  "text": "Park in spot 12!"
+ },
+ {
+  "key": "park in spot 13",
+  "text": "Park in spot 13!"
+ },
+ {
+  "key": "park in spot 14",
+  "text": "Park in spot 14!"
+ },
+ {
+  "key": "park in spot 15",
+  "text": "Park in spot 15!"
+ },
+ {
+  "key": "park in spot 16",
+  "text": "Park in spot 16!"
+ },
+ {
+  "key": "park in spot 17",
+  "text": "Park in spot 17!"
+ },
+ {
+  "key": "park in spot 18",
+  "text": "Park in spot 18!"
+ },
+ {
+  "key": "park in spot 19",
+  "text": "Park in spot 19!"
+ },
+ {
+  "key": "park in spot 2",
+  "text": "Park in spot 2!"
+ },
+ {
+  "key": "park in spot 20",
+  "text": "Park in spot 20!"
+ },
+ {
+  "key": "park in spot 3",
+  "text": "Park in spot 3!"
+ },
+ {
+  "key": "park in spot 4",
+  "text": "Park in spot 4!"
+ },
+ {
+  "key": "park in spot 5",
+  "text": "Park in spot 5!"
+ },
+ {
+  "key": "park in spot 6",
+  "text": "Park in spot 6!"
+ },
+ {
+  "key": "park in spot 7",
+  "text": "Park in spot 7!"
+ },
+ {
+  "key": "park in spot 8",
+  "text": "Park in spot 8!"
+ },
+ {
+  "key": "park in spot 9",
+  "text": "Park in spot 9!"
+ },
+ {
+  "key": "parking lot",
+  "text": "Parking lot"
+ },
+ {
+  "key": "pee",
+  "text": "P."
+ },
+ {
+  "key": "peet",
+  "text": "peet."
+ },
+ {
+  "key": "pen",
+  "text": "pen."
+ },
+ {
+  "key": "pencil",
+  "text": "pencil"
+ },
+ {
+  "key": "pencil has 2 beats",
+  "text": "pencil has 2 beats!"
+ },
+ {
+  "key": "pick a game",
+  "text": "Pick a game."
+ },
+ {
+  "key": "pickup truck",
+  "text": "pickup truck"
+ },
+ {
+  "key": "pig",
+  "text": "pig"
+ },
+ {
+  "key": "pill",
+  "text": "pill."
+ },
+ {
+  "key": "pink",
+  "text": "pink"
+ },
+ {
+  "key": "pizza",
+  "text": "pizza"
+ },
+ {
+  "key": "pizza has 2 beats",
+  "text": "pizza has 2 beats!"
+ },
+ {
+  "key": "plane",
+  "text": "plane."
+ },
+ {
+  "key": "planet",
+  "text": "planet"
+ },
+ {
+  "key": "play games to win stickers",
+  "text": "Play games to win stickers."
+ },
+ {
+  "key": "police car",
+  "text": "police car"
+ },
+ {
+  "key": "pop",
+  "text": "pop."
+ },
+ {
+  "key": "popcorn",
+  "text": "popcorn"
+ },
+ {
+  "key": "pull",
+  "text": "pull."
+ },
+ {
+  "key": "purple",
+  "text": "purple"
+ },
+ {
+  "key": "put each car in the garage with the same color",
+  "text": "Put each car in the garage with the same color."
+ },
+ {
+  "key": "put each shape in the box with the same shape",
+  "text": "Put each shape in the box with the same shape."
+ },
+ {
+  "key": "put it in the",
+  "text": "Put it in the"
+ },
+ {
+  "key": "put the animals the food and the things that go in the right boxes",
+  "text": "Put the animals, the food, and the things that go in the right boxes."
+ },
+ {
+  "key": "put your finger on the green dot and drive along the road",
+  "text": "Put your finger on the green dot and drive along the road."
+ },
+ {
+  "key": "px",
+  "text": "px,"
+ },
+ {
+  "key": "px scale",
+  "text": "px) scale(."
+ },
+ {
+  "key": "px scale 1",
+  "text": "px) scale(1."
+ },
+ {
+  "key": "rab",
+  "text": "rab."
+ },
+ {
+  "key": "rabbit",
+  "text": "rabbit"
+ },
+ {
+  "key": "rabbit has 2 beats",
+  "text": "rabbit has 2 beats!"
+ },
+ {
+  "key": "race car",
+  "text": "race car"
+ },
+ {
+  "key": "race track",
+  "text": "Race track!"
+ },
+ {
+  "key": "rain",
+  "text": "rain."
+ },
+ {
+  "key": "rainbow",
+  "text": "rainbow"
+ },
+ {
+  "key": "rectangle",
+  "text": "rectangle"
+ },
+ {
+  "key": "rectangles",
+  "text": "rectangles"
+ },
+ {
+  "key": "red",
+  "text": "red"
+ },
+ {
+  "key": "red car",
+  "text": "red car"
+ },
+ {
+  "key": "remember",
+  "text": "remember"
+ },
+ {
+  "key": "ring",
+  "text": "ring"
+ },
+ {
+  "key": "robot",
+  "text": "robot"
+ },
+ {
+  "key": "robot talk",
+  "text": "Robot talk!"
+ },
+ {
+  "key": "rock",
+  "text": "rock."
+ },
+ {
+  "key": "rocket",
+  "text": "rocket"
+ },
+ {
+  "key": "rocket has 2 beats",
+  "text": "rocket has 2 beats!"
+ },
+ {
+  "key": "roo",
+  "text": "roo."
+ },
+ {
+  "key": "rotate",
+  "text": ") rotate("
+ },
+ {
+  "key": "scale",
+  "text": "scale(."
+ },
+ {
+  "key": "scale 1",
+  "text": "scale(1)"
+ },
+ {
+  "key": "scale 1 1",
+  "text": "scale(1,-1)"
+ },
+ {
+  "key": "scooter",
+  "text": "scooter"
+ },
+ {
+  "key": "see",
+  "text": "C."
+ },
+ {
+  "key": "shapes patterns and sorting",
+  "text": "Shapes, patterns and sorting"
+ },
+ {
+  "key": "shoot it in",
+  "text": "Shoot it in!"
+ },
+ {
+  "key": "sigh",
+  "text": "sigh."
+ },
+ {
+  "key": "sill",
+  "text": "sill."
+ },
+ {
+  "key": "slot current",
+  "text": "slot current"
+ },
+ {
+  "key": "small big",
+  "text": "small ➜ big"
+ },
+ {
+  "key": "smallest",
+  "text": "smallest"
+ },
+ {
+  "key": "snake",
+  "text": "snake"
+ },
+ {
+  "key": "sneaker",
+  "text": "sneaker"
+ },
+ {
+  "key": "snow",
+  "text": "snow."
+ },
+ {
+  "key": "snowman",
+  "text": "snowman"
+ },
+ {
+  "key": "sore",
+  "text": "sore."
+ },
+ {
+  "key": "sort your toy cars into groups by color",
+  "text": "Sort your toy cars into groups by color!"
+ },
+ {
+  "key": "spoon",
+  "text": "spoon"
+ },
+ {
+  "key": "square",
+  "text": "square"
+ },
+ {
+  "key": "squares",
+  "text": "squares"
+ },
+ {
+  "key": "star",
+  "text": "star"
+ },
+ {
+  "key": "stars",
+  "text": "stars"
+ },
+ {
+  "key": "start at the green dot",
+  "text": "Start at the green dot."
+ },
+ {
+  "key": "start with",
+  "text": "start with?"
+ },
+ {
+  "key": "starts with",
+  "text": "starts with"
+ },
+ {
+  "key": "sticker",
+  "text": "sticker"
+ },
+ {
+  "key": "sticker for your garage",
+  "text": "sticker for your garage!"
+ },
+ {
+  "key": "stickers",
+  "text": "stickers"
+ },
+ {
+  "key": "strawberries",
+  "text": "strawberries"
+ },
+ {
+  "key": "strawberry",
+  "text": "strawberry"
+ },
+ {
+  "key": "suh",
+  "text": "suh."
+ },
+ {
+  "key": "sun",
+  "text": "sun"
+ },
+ {
+  "key": "sun has 1 beat",
+  "text": "sun has 1 beat!"
+ },
+ {
+  "key": "sunflower",
+  "text": "sunflower"
+ },
+ {
+  "key": "super",
+  "text": "Super"
+ },
+ {
+  "key": "superstar",
+  "text": "superstar"
+ },
+ {
+  "key": "swipe the ball up to a hoop",
+  "text": "Swipe the ball up to a hoop!"
+ },
+ {
+  "key": "t",
+  "text": "T"
+ },
+ {
+  "key": "taco",
+  "text": "taco"
+ },
+ {
+  "key": "taco has 2 beats",
+  "text": "taco has 2 beats!"
+ },
+ {
+  "key": "tah",
+  "text": "tah."
+ },
+ {
+  "key": "take away",
+  "text": "take away"
+ },
+ {
+  "key": "tap",
+  "text": "Tap"
+ },
+ {
+  "key": "tap a color to paint your car",
+  "text": "Tap a color to paint your car!"
+ },
+ {
+  "key": "tap it",
+  "text": "Tap it!"
+ },
+ {
+  "key": "tap it to blast off",
+  "text": "Tap it to blast off!"
+ },
+ {
+  "key": "tap it to drive",
+  "text": "Tap it to drive!"
+ },
+ {
+  "key": "tap it to make it dance",
+  "text": "Tap it to make it dance!"
+ },
+ {
+  "key": "tap the",
+  "text": "Tap the"
+ },
+ {
+  "key": "tap the apple",
+  "text": "Tap the apple!"
+ },
+ {
+  "key": "tap the ball",
+  "text": "Tap the ball!"
+ },
+ {
+  "key": "tap the balloon",
+  "text": "Tap the balloon!"
+ },
+ {
+  "key": "tap the banana",
+  "text": "Tap the banana!"
+ },
+ {
+  "key": "tap the biggest apple",
+  "text": "Tap the biggest apple!"
+ },
+ {
+  "key": "tap the biggest ball",
+  "text": "Tap the biggest ball!"
+ },
+ {
+  "key": "tap the biggest balloon",
+  "text": "Tap the biggest balloon!"
+ },
+ {
+  "key": "tap the biggest bear",
+  "text": "Tap the biggest bear!"
+ },
+ {
+  "key": "tap the biggest car",
+  "text": "Tap the biggest car!"
+ },
+ {
+  "key": "tap the biggest elephant",
+  "text": "Tap the biggest elephant!"
+ },
+ {
+  "key": "tap the biggest fish",
+  "text": "Tap the biggest fish!"
+ },
+ {
+  "key": "tap the biggest star",
+  "text": "Tap the biggest star!"
+ },
+ {
+  "key": "tap the car",
+  "text": "Tap the car!"
+ },
+ {
+  "key": "tap the cat",
+  "text": "Tap the cat!"
+ },
+ {
+  "key": "tap the die",
+  "text": "Tap the die."
+ },
+ {
+  "key": "tap the die to roll",
+  "text": "Tap the die to roll!"
+ },
+ {
+  "key": "tap the dog",
+  "text": "Tap the dog!"
+ },
+ {
+  "key": "tap the drum first",
+  "text": "Tap the drum first!"
+ },
+ {
+  "key": "tap the drum for each beat in",
+  "text": "Tap the drum for each beat in"
+ },
+ {
+  "key": "tap the duck",
+  "text": "Tap the duck!"
+ },
+ {
+  "key": "tap the fish",
+  "text": "Tap the fish!"
+ },
+ {
+  "key": "tap the frog",
+  "text": "Tap the frog!"
+ },
+ {
+  "key": "tap the hat",
+  "text": "Tap the hat!"
+ },
+ {
+  "key": "tap the moon",
+  "text": "Tap the moon!"
+ },
+ {
+  "key": "tap the number",
+  "text": "Tap the number."
+ },
+ {
+  "key": "tap the number 1",
+  "text": "Tap the number 1."
+ },
+ {
+  "key": "tap the number 2",
+  "text": "Tap the number 2."
+ },
+ {
+  "key": "tap the number 3",
+  "text": "Tap the number 3."
+ },
+ {
+  "key": "tap the number 4",
+  "text": "Tap the number 4."
+ },
+ {
+  "key": "tap the number 5",
+  "text": "Tap the number 5."
+ },
+ {
+  "key": "tap the number 6",
+  "text": "Tap the number 6."
+ },
+ {
+  "key": "tap the road",
+  "text": "Tap the road"
+ },
+ {
+  "key": "tap the road to drive to the finish",
+  "text": "Tap the road to drive to the finish!"
+ },
+ {
+  "key": "tap the rocket",
+  "text": "Tap the rocket!"
+ },
+ {
+  "key": "tap the smallest apple",
+  "text": "Tap the smallest apple!"
+ },
+ {
+  "key": "tap the smallest ball",
+  "text": "Tap the smallest ball!"
+ },
+ {
+  "key": "tap the smallest balloon",
+  "text": "Tap the smallest balloon!"
+ },
+ {
+  "key": "tap the smallest bear",
+  "text": "Tap the smallest bear!"
+ },
+ {
+  "key": "tap the smallest car",
+  "text": "Tap the smallest car!"
+ },
+ {
+  "key": "tap the smallest elephant",
+  "text": "Tap the smallest elephant!"
+ },
+ {
+  "key": "tap the smallest fish",
+  "text": "Tap the smallest fish!"
+ },
+ {
+  "key": "tap the smallest star",
+  "text": "Tap the smallest star!"
+ },
+ {
+  "key": "tap the star",
+  "text": "Tap the star!"
+ },
+ {
+  "key": "tap the train",
+  "text": "Tap the train!"
+ },
+ {
+  "key": "tap the tree",
+  "text": "Tap the tree!"
+ },
+ {
+  "key": "taxi",
+  "text": "taxi"
+ },
+ {
+  "key": "tee",
+  "text": "T."
+ },
+ {
+  "key": "tell a grown-up a word that rhymes with car",
+  "text": "Tell a grown-up a word that rhymes with car!"
+ },
+ {
+  "key": "ter",
+  "text": "ter."
+ },
+ {
+  "key": "than",
+  "text": "than"
+ },
+ {
+  "key": "that car is",
+  "text": "That car is"
+ },
+ {
+  "key": "that goes with the",
+  "text": "That goes with the"
+ },
+ {
+  "key": "that's",
+  "text": "That's"
+ },
+ {
+  "key": "that's a",
+  "text": "That's a"
+ },
+ {
+  "key": "that's the",
+  "text": "That's the"
+ },
+ {
+  "key": "the",
+  "text": "The"
+ },
+ {
+  "key": "the garage is closed now so your car can rest",
+  "text": "The garage is closed now, so your car can rest."
+ },
+ {
+  "key": "the letter",
+  "text": "the letter"
+ },
+ {
+  "key": "the number",
+  "text": "the number"
+ },
+ {
+  "key": "the round shape with no corners",
+  "text": "the round shape with no corners"
+ },
+ {
+  "key": "the shape with 2 long sides and 2 short sides",
+  "text": "the shape with 2 long sides and 2 short sides"
+ },
+ {
+  "key": "the shape with 3 sides",
+  "text": "the shape with 3 sides"
+ },
+ {
+  "key": "the shape with 4 sides that are all the same",
+  "text": "the shape with 4 sides that are all the same"
+ },
+ {
+  "key": "the shape with 5 points",
+  "text": "the shape with 5 points"
+ },
+ {
+  "key": "then",
+  "text": "then"
+ },
+ {
+  "key": "then tap the thumbs up",
+  "text": "Then tap the thumbs up."
+ },
+ {
+  "key": "then tap thumbs up",
+  "text": "then tap thumbs up."
+ },
+ {
+  "key": "they rhyme",
+  "text": "They rhyme!"
+ },
+ {
+  "key": "things",
+  "text": "things"
+ },
+ {
+  "key": "things that go",
+  "text": "things that go"
+ },
+ {
+  "key": "times",
+  "text": "times"
+ },
+ {
+  "key": "tire",
+  "text": "tire"
+ },
+ {
+  "key": "to",
+  "text": "to"
+ },
+ {
+  "key": "to drive",
+  "text": "to drive!"
+ },
+ {
+  "key": "too many",
+  "text": "Too many!"
+ },
+ {
+  "key": "tooth",
+  "text": "tooth."
+ },
+ {
+  "key": "toothbrush",
+  "text": "toothbrush"
+ },
+ {
+  "key": "toss socks into a laundry basket",
+  "text": "Toss socks into a laundry basket."
+ },
+ {
+  "key": "tractor",
+  "text": "tractor"
+ },
+ {
+  "key": "traffic light",
+  "text": "traffic light"
+ },
+ {
+  "key": "train",
+  "text": "train"
+ },
+ {
+  "key": "translate",
+  "text": "translate("
+ },
+ {
+  "key": "translate 0 0 scale 1",
+  "text": "translate(0,0) scale(1)"
+ },
+ {
+  "key": "tree",
+  "text": "tree"
+ },
+ {
+  "key": "triangle",
+  "text": "triangle"
+ },
+ {
+  "key": "triangles",
+  "text": "triangles"
+ },
+ {
+  "key": "trophy",
+  "text": "trophy"
+ },
+ {
+  "key": "truck",
+  "text": "truck"
+ },
+ {
+  "key": "try again",
+  "text": "Try again!"
+ },
+ {
+  "key": "uh",
+  "text": "uh."
+ },
+ {
+  "key": "umbrella",
+  "text": "umbrella"
+ },
+ {
+  "key": "un",
+  "text": "un."
+ },
+ {
+  "key": "van",
+  "text": "van"
+ },
+ {
+  "key": "vee",
+  "text": "V."
+ },
+ {
+  "key": "vroom vroom",
+  "text": "Vroom vroom!"
+ },
+ {
+  "key": "wah",
+  "text": "wah."
+ },
+ {
+  "key": "watermelon",
+  "text": "watermelon"
+ },
+ {
+  "key": "watermelon has 4 beats",
+  "text": "watermelon has 4 beats!"
+ },
+ {
+  "key": "way to go",
+  "text": "Way to go"
+ },
+ {
+  "key": "welcome to your garage",
+  "text": "Welcome to your garage!"
+ },
+ {
+  "key": "whale",
+  "text": "whale"
+ },
+ {
+  "key": "what a great race",
+  "text": "What a great race!"
+ },
+ {
+  "key": "what comes next",
+  "text": "What comes next?"
+ },
+ {
+  "key": "what did the robot say",
+  "text": "What did the robot say?"
+ },
+ {
+  "key": "what is missing",
+  "text": "What is missing?"
+ },
+ {
+  "key": "what letter does",
+  "text": "What letter does"
+ },
+ {
+  "key": "what letter does apple start with",
+  "text": "What letter does apple start with?"
+ },
+ {
+  "key": "what letter does ball start with",
+  "text": "What letter does ball start with?"
+ },
+ {
+  "key": "what letter does car start with",
+  "text": "What letter does car start with?"
+ },
+ {
+  "key": "what letter does dog start with",
+  "text": "What letter does dog start with?"
+ },
+ {
+  "key": "what letter does egg start with",
+  "text": "What letter does egg start with?"
+ },
+ {
+  "key": "what letter does fish start with",
+  "text": "What letter does fish start with?"
+ },
+ {
+  "key": "what letter does goat start with",
+  "text": "What letter does goat start with?"
+ },
+ {
+  "key": "what letter does hat start with",
+  "text": "What letter does hat start with?"
+ },
+ {
+  "key": "what letter does juice start with",
+  "text": "What letter does juice start with?"
+ },
+ {
+  "key": "what letter does kite start with",
+  "text": "What letter does kite start with?"
+ },
+ {
+  "key": "what letter does lion start with",
+  "text": "What letter does lion start with?"
+ },
+ {
+  "key": "what letter does moon start with",
+  "text": "What letter does moon start with?"
+ },
+ {
+  "key": "what letter does nose start with",
+  "text": "What letter does nose start with?"
+ },
+ {
+  "key": "what letter does octopus start with",
+  "text": "What letter does octopus start with?"
+ },
+ {
+  "key": "what letter does pig start with",
+  "text": "What letter does pig start with?"
+ },
+ {
+  "key": "what letter does robot start with",
+  "text": "What letter does robot start with?"
+ },
+ {
+  "key": "what letter does sun start with",
+  "text": "What letter does sun start with?"
+ },
+ {
+  "key": "what letter does truck start with",
+  "text": "What letter does truck start with?"
+ },
+ {
+  "key": "what letter does umbrella start with",
+  "text": "What letter does umbrella start with?"
+ },
+ {
+  "key": "what letter does van start with",
+  "text": "What letter does van start with?"
+ },
+ {
+  "key": "what letter does watermelon start with",
+  "text": "What letter does watermelon start with?"
+ },
+ {
+  "key": "what letter does yo-yo start with",
+  "text": "What letter does yo-yo start with?"
+ },
+ {
+  "key": "what letter does zebra start with",
+  "text": "What letter does zebra start with?"
+ },
+ {
+  "key": "what rhymes with",
+  "text": "What rhymes with"
+ },
+ {
+  "key": "what rhymes with bear",
+  "text": "What rhymes with bear?"
+ },
+ {
+  "key": "what rhymes with bee",
+  "text": "What rhymes with bee?"
+ },
+ {
+  "key": "what rhymes with boat",
+  "text": "What rhymes with boat?"
+ },
+ {
+  "key": "what rhymes with box",
+  "text": "What rhymes with box?"
+ },
+ {
+  "key": "what rhymes with cake",
+  "text": "What rhymes with cake?"
+ },
+ {
+  "key": "what rhymes with car",
+  "text": "What rhymes with car?"
+ },
+ {
+  "key": "what rhymes with cat",
+  "text": "What rhymes with cat?"
+ },
+ {
+  "key": "what rhymes with chair",
+  "text": "What rhymes with chair?"
+ },
+ {
+  "key": "what rhymes with duck",
+  "text": "What rhymes with duck?"
+ },
+ {
+  "key": "what rhymes with fox",
+  "text": "What rhymes with fox?"
+ },
+ {
+  "key": "what rhymes with frog",
+  "text": "What rhymes with frog?"
+ },
+ {
+  "key": "what rhymes with goat",
+  "text": "What rhymes with goat?"
+ },
+ {
+  "key": "what rhymes with hat",
+  "text": "What rhymes with hat?"
+ },
+ {
+  "key": "what rhymes with house",
+  "text": "What rhymes with house?"
+ },
+ {
+  "key": "what rhymes with king",
+  "text": "What rhymes with king?"
+ },
+ {
+  "key": "what rhymes with log",
+  "text": "What rhymes with log?"
+ },
+ {
+  "key": "what rhymes with moon",
+  "text": "What rhymes with moon?"
+ },
+ {
+  "key": "what rhymes with mouse",
+  "text": "What rhymes with mouse?"
+ },
+ {
+  "key": "what rhymes with ring",
+  "text": "What rhymes with ring?"
+ },
+ {
+  "key": "what rhymes with snake",
+  "text": "What rhymes with snake?"
+ },
+ {
+  "key": "what rhymes with spoon",
+  "text": "What rhymes with spoon?"
+ },
+ {
+  "key": "what rhymes with star",
+  "text": "What rhymes with star?"
+ },
+ {
+  "key": "what rhymes with tree",
+  "text": "What rhymes with tree?"
+ },
+ {
+  "key": "what rhymes with truck",
+  "text": "What rhymes with truck?"
+ },
+ {
+  "key": "where do you want to play",
+  "text": "Where do you want to play?"
+ },
+ {
+  "key": "where do you want to play next",
+  "text": "Where do you want to play next?"
+ },
+ {
+  "key": "which plate has",
+  "text": "Which plate has"
+ },
+ {
+  "key": "why",
+  "text": "Y."
+ },
+ {
+  "key": "wow",
+  "text": "Wow"
+ },
+ {
+  "key": "wrench",
+  "text": "wrench"
+ },
+ {
+  "key": "yellow",
+  "text": "yellow"
+ },
+ {
+  "key": "yes",
+  "text": "Yes!"
+ },
+ {
+  "key": "yo-yo",
+  "text": "yo-yo"
+ },
+ {
+  "key": "you",
+  "text": "U."
+ },
+ {
+  "key": "you drummed",
+  "text": "You drummed"
+ },
+ {
+  "key": "you got it",
+  "text": "You got it"
+ },
+ {
+  "key": "you have",
+  "text": "You have"
+ },
+ {
+  "key": "you have every sticker so here's a gold star",
+  "text": "You have every sticker, so here's a gold star!"
+ },
+ {
+  "key": "you remembered",
+  "text": "You remembered"
+ },
+ {
+  "key": "you rolled",
+  "text": "You rolled"
+ },
+ {
+  "key": "you rolled 1",
+  "text": "You rolled 1!"
+ },
+ {
+  "key": "you rolled 2",
+  "text": "You rolled 2!"
+ },
+ {
+  "key": "you rolled 3",
+  "text": "You rolled 3!"
+ },
+ {
+  "key": "you rolled 4",
+  "text": "You rolled 4!"
+ },
+ {
+  "key": "you rolled 5",
+  "text": "You rolled 5!"
+ },
+ {
+  "key": "you rolled 6",
+  "text": "You rolled 6!"
+ },
+ {
+  "key": "you won a",
+  "text": "You won a"
+ },
+ {
+  "key": "you won the race",
+  "text": "You won the race,"
+ },
+ {
+  "key": "you wrote",
+  "text": "You wrote"
+ },
+ {
+  "key": "you wrote your name",
+  "text": "You wrote your name!"
+ },
+ {
+  "key": "you're getting so good",
+  "text": "You're getting so good!"
+ },
+ {
+  "key": "you're on",
+  "text": "You're on"
+ },
+ {
+  "key": "you're on 1",
+  "text": "You're on 1!"
+ },
+ {
+  "key": "you're on 10",
+  "text": "You're on 10!"
+ },
+ {
+  "key": "you're on 11",
+  "text": "You're on 11!"
+ },
+ {
+  "key": "you're on 12",
+  "text": "You're on 12!"
+ },
+ {
+  "key": "you're on 13",
+  "text": "You're on 13!"
+ },
+ {
+  "key": "you're on 14",
+  "text": "You're on 14!"
+ },
+ {
+  "key": "you're on 15",
+  "text": "You're on 15!"
+ },
+ {
+  "key": "you're on 16",
+  "text": "You're on 16!"
+ },
+ {
+  "key": "you're on 17",
+  "text": "You're on 17!"
+ },
+ {
+  "key": "you're on 18",
+  "text": "You're on 18!"
+ },
+ {
+  "key": "you're on 19",
+  "text": "You're on 19!"
+ },
+ {
+  "key": "you're on 2",
+  "text": "You're on 2!"
+ },
+ {
+  "key": "you're on 20",
+  "text": "You're on 20!"
+ },
+ {
+  "key": "you're on 3",
+  "text": "You're on 3!"
+ },
+ {
+  "key": "you're on 4",
+  "text": "You're on 4!"
+ },
+ {
+  "key": "you're on 5",
+  "text": "You're on 5!"
+ },
+ {
+  "key": "you're on 6",
+  "text": "You're on 6!"
+ },
+ {
+  "key": "you're on 7",
+  "text": "You're on 7!"
+ },
+ {
+  "key": "you're on 8",
+  "text": "You're on 8!"
+ },
+ {
+  "key": "you're on 9",
+  "text": "You're on 9!"
+ },
+ {
+  "key": "your car is ready",
+  "text": "Your car is ready!"
+ },
+ {
+  "key": "your robot is ready",
+  "text": "Your robot is ready!"
+ },
+ {
+  "key": "your rocket is ready",
+  "text": "Your rocket is ready!"
+ },
+ {
+  "key": "your turn",
+  "text": "Your turn!"
+ },
+ {
+  "key": "yum",
+  "text": "Yum!"
+ },
+ {
+  "key": "zebra",
+  "text": "zebra"
+ },
+ {
+  "key": "zebra has 2 beats",
+  "text": "zebra has 2 beats!"
+ },
+ {
+  "key": "zee",
+  "text": "Z."
+ }
+]

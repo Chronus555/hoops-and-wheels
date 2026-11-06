@@ -2,6 +2,9 @@
 // and repeated if the child goes quiet.
 
 import { getState } from './store.js';
+import { audioContext, voiceOutput } from './sound.js';
+import { splitSentences, normKey } from './voicekey.js';
+import { loadNameBuffer } from './namevoice.js';
 
 const synth = 'speechSynthesis' in window ? window.speechSynthesis : null;
 // Apple's novelty voices (and a few very old ones) sound robotic on purpose.
@@ -53,9 +56,130 @@ function pickVoice() {
   return englishVoices().find(v => v.name === chosen) || rankedVoices()[0] || null;
 }
 
-// Resolves when the sentence finishes (or is cut off by the next one).
+// ---- Recorded voice --------------------------------------------------------------
+// Every line the app says was pre-recorded with a natural neural voice
+// (tools/voice). A sentence plays as one clip when it exists whole, otherwise
+// stitched from phrase and word clips. Only sentences with no recording at all
+// fall back to the device's text-to-speech.
+
+const VOICE_DIR = 'audio/voice/';
+let clipIndex = null;
+let maxWords = 1;
+const indexReady = fetch(`${VOICE_DIR}index.json`)
+  .then(r => (r.ok ? r.json() : null))
+  .then(json => {
+    clipIndex = json;
+    if (json) maxWords = Math.max(...Object.keys(json).map(k => k.split(' ').length));
+  })
+  .catch(() => {});
+
+const buffers = new Map();
+function loadClip(file) {
+  if (!buffers.has(file)) {
+    const ac = audioContext();
+    const p = fetch(VOICE_DIR + file)
+      .then(r => { if (!r.ok) throw new Error(file); return r.arrayBuffer(); })
+      .then(buf => new Promise((res, rej) => ac.decodeAudioData(buf, res, rej)));
+    p.catch(() => buffers.delete(file));
+    buffers.set(file, p);
+  }
+  return buffers.get(file);
+}
+
+let nameBuffer = null;
+export async function refreshNameVoice() {
+  nameBuffer = await loadNameBuffer(audioContext());
+}
+
+// Fewest clips that cover the whole sentence; the child's name uses the grown-up's
+// recording, or is skipped if there isn't one. Returns null if a word has no clip.
+function planSentence(sentence) {
+  const tokens = normKey(sentence).split(' ').filter(Boolean);
+  const name = normKey(getState().childName).split(' ').filter(Boolean);
+  const n = tokens.length;
+  const best = Array(n + 1).fill(null);
+  best[n] = [];
+  for (let i = n - 1; i >= 0; i--) {
+    let choice = null;
+    if (name.length && name.every((t, k) => tokens[i + k] === t) && best[i + name.length]) {
+      choice = nameBuffer ? [{ name: true }, ...best[i + name.length]] : best[i + name.length];
+    }
+    for (let len = Math.min(maxWords, n - i); len > 0; len--) {
+      const file = clipIndex[tokens.slice(i, i + len).join(' ')];
+      const rest = best[i + len];
+      if (file && rest && (!choice || rest.length + 1 < choice.length)) choice = [{ file }, ...rest];
+    }
+    best[i] = choice;
+  }
+  return best[0];
+}
+
+let playId = 0;
+let playing = [];
+let cancelWait = null;
+
+async function playClips(plan, id, slow) {
+  const ac = audioContext();
+  const list = await Promise.all(plan.map(p => (p.name ? nameBuffer : loadClip(p.file))));
+  if (id !== playId) return;
+  if (ac.state !== 'running') ac.resume();
+  const rate = slow ? 0.94 : 1;
+  let t = ac.currentTime + 0.03;
+  for (const buffer of list) {
+    const src = ac.createBufferSource();
+    src.buffer = buffer;
+    src.playbackRate.value = rate;
+    src.connect(voiceOutput());
+    src.start(t);
+    playing.push(src);
+    t += buffer.duration / rate + 0.04;
+  }
+  await new Promise(resolve => {
+    const timer = setTimeout(resolve, (t - ac.currentTime) * 1000);
+    cancelWait = () => { clearTimeout(timer); resolve(); };
+  });
+  if (id === playId) playing = [];
+}
+
+// Dev aid: sentences with no recording are listed here (and in the console on localhost).
+export const missingLines = new Set();
+
+// Resolves when the whole text has been spoken (or it's cut off by the next say).
+export async function say(text, opts = {}) {
+  stopSpeech();
+  const id = ++playId;
+  if (!text) return;
+  await indexReady;
+  const natural = clipIndex && audioContext() && getState().settings.voiceMode !== 'device';
+  const sentences = splitSentences(text);
+  // Coverage check used during development: note gaps without actually speaking.
+  if (window.__voiceCoverage) {
+    sentences.filter(s => !planSentence(s)).forEach(s => missingLines.add(s));
+    return;
+  }
+  for (let s = 0; s < sentences.length && id === playId; s++) {
+    const plan = natural ? planSentence(sentences[s]) : null;
+    if (plan) {
+      try {
+        await playClips(plan, id, opts.pitch < 1);
+      } catch {
+        if (id === playId) await deviceSay(sentences[s], opts);
+      }
+    } else {
+      if (natural) {
+        missingLines.add(sentences[s]);
+        if (['localhost', '127.0.0.1'].includes(location.hostname)) console.info('[voice] no recording:', sentences[s]);
+      }
+      if (id === playId) await deviceSay(sentences[s], opts);
+    }
+    if (s < sentences.length - 1 && id === playId) await new Promise(r => setTimeout(r, 160));
+  }
+}
+
+// ---- Device text-to-speech (backup) ------------------------------------------
+
 // Pitch stays at 1: shifting it makes most voices sound more synthetic.
-export function say(text, { rate, pitch = 1 } = {}) {
+function deviceSay(text, { rate, pitch = 1 } = {}) {
   if (!synth || !text) return Promise.resolve();
   synth.cancel();
   return new Promise(resolve => {
@@ -81,7 +205,12 @@ export function say(text, { rate, pitch = 1 } = {}) {
 }
 
 export function stopSpeech() {
+  playId++;
   synth?.cancel();
+  playing.forEach(src => { try { src.stop(); } catch { /* already done */ } });
+  playing = [];
+  cancelWait?.();
+  cancelWait = null;
 }
 
 // iOS only allows speech that starts from a tap, so call this inside the first tap.

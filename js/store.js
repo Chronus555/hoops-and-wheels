@@ -13,7 +13,7 @@ function defaults() {
     childName: '',
     carColor: '#e63946',
     setupDone: false,
-    settings: { sessionMinutes: 10, voiceRate: 0.9, voiceName: '' },
+    settings: { sessionMinutes: 10, voiceRate: 0.9, voiceName: '', voiceMode: 'natural' },
     skills: Object.fromEntries(GAMES.map(g => [g, { level: 1, recent: [] }])),
     items: {},      // 'num:4' -> { seen, correct } (correct = right on the first try)
     stickers: [],

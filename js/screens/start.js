@@ -2,7 +2,7 @@ import { go } from '../router.js';
 import { getState } from '../store.js';
 import { carSVG, ballSVG } from '../art.js';
 import { unlockAudio, sfx } from '../sound.js';
-import { primeSpeech } from '../speech.js';
+import { primeSpeech, refreshNameVoice } from '../speech.js';
 import { startSession } from '../session.js';
 import { html } from '../util.js';
 
@@ -20,6 +20,7 @@ export function startScreen(ctx) {
   view.querySelector('.play-btn').addEventListener('click', () => {
     unlockAudio();
     primeSpeech();
+    refreshNameVoice();
     startSession();
     sfx.vroom();
     go('home');
