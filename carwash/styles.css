@@ -444,3 +444,22 @@ svg { display: block; }
 .tb-music .halldoor { left: 120px; top: 260px; width: 210px; height: 204px; border-radius: 100px 100px 0 0; background: #2b2d42; }
 .tb-art .artwall { position: absolute; left: 0; right: 0; top: 120px; bottom: 0; background: #fefae0; }
 .tb .awning.rainbow { background: linear-gradient(90deg, #ef476f, #f8961e, #ffd166, #06d6a0, #4895ef, #9b5de5); }
+
+/* Shared animations used by several places */
+@keyframes sway { from { transform: rotate(-10deg); } to { transform: rotate(10deg); } }
+@keyframes glowbar { 50% { box-shadow: 0 0 0 8px #fff, 0 0 40px 10px #fff; transform: translateY(-10px); } }
+
+/* Batch 4 buildings */
+.tb-farm .barnwall { position: absolute; left: 0; right: 0; top: 150px; bottom: 0; background: #c1121f; }
+.tb-farm .barnroof { position: absolute; left: -20px; right: -20px; top: 70px; height: 100px; background: #780000; clip-path: polygon(15% 0, 85% 0, 100% 100%, 0 100%); }
+.tb-farm .silo { position: absolute; left: 20px; top: 200px; width: 90px; height: 264px; border-radius: 45px 45px 0 0; background: repeating-linear-gradient(180deg, #adb5bd 0 30px, #ced4da 30px 34px); }
+.tb-farm .barndoor { left: 160px; top: 240px; width: 220px; height: 224px; background: repeating-linear-gradient(45deg, #fff 0 8px, #9d0208 8px 40px); border: 8px solid #fff; border-bottom: 0; }
+.tb-ocean .aquawall { position: absolute; left: 0; right: 0; top: 120px; bottom: 0; background: linear-gradient(#48cae4, #0077b6); }
+.tb-ocean .aquaroof { position: absolute; left: -16px; right: -16px; top: 92px; height: 50px; border-radius: 25px; background: repeating-linear-gradient(90deg, #90e0ef 0 40px, #fff 40px 80px); }
+.tb-camp .cabinwall { position: absolute; left: 0; right: 0; top: 150px; bottom: 0; background: repeating-linear-gradient(180deg, #8d5a3b 0 34px, #6d4128 34px 38px); }
+.tb-camp .cabinroof { position: absolute; left: -24px; right: -24px; top: 60px; height: 110px; background: #2d6a4f; clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+.tb-dino .musewall { position: absolute; left: 0; right: 0; top: 140px; bottom: 0; background: #e9e5dc; }
+.tb-dino .museroof { position: absolute; left: -20px; right: -20px; top: 70px; height: 90px; background: #bcb8b1; clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+.tb-dino .pillars i { position: absolute; top: 160px; width: 34px; height: 304px; background: repeating-linear-gradient(90deg, #f4f3ee 0 8px, #d6d3cc 8px 12px); }
+.tb-dino .pillars i:nth-child(1) { left: 40px; }
+.tb-dino .pillars i:nth-child(2) { left: 140px; }

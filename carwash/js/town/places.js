@@ -16,4 +16,8 @@ export const PLACES = [
   { id: 'monster', load: () => import('../places/monster/index.js') },
   { id: 'music', load: () => import('../places/music/index.js') },
   { id: 'art', load: () => import('../places/art/index.js') },
+  { id: 'farm', load: () => import('../places/farm/index.js') },
+  { id: 'ocean', load: () => import('../places/ocean/index.js') },
+  { id: 'camp', load: () => import('../places/camp/index.js') },
+  { id: 'dino', load: () => import('../places/dino/index.js') },
 ];

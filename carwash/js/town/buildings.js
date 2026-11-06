@@ -74,4 +74,24 @@ export const BUILDINGS = {
     html: `<div class="artwall"></div><div class="awning rainbow"></div><div class="bigsign">🎨</div><div class="window wl">🖍️</div>
       <div class="door shopdoor"><div class="shutter"></div></div>`,
   },
+  farm: {
+    width: 450,
+    html: `<div class="barnwall"></div><div class="barnroof"></div><div class="bigsign">🐮</div><div class="silo"></div>
+      <div class="door barndoor"><div class="shutter"></div></div>`,
+  },
+  ocean: {
+    width: 450,
+    html: `<div class="aquawall"></div><div class="aquaroof"></div><div class="bigsign">🐠</div><div class="window wl">🐙</div>
+      <div class="door shopdoor"><div class="shutter"></div></div>`,
+  },
+  camp: {
+    width: 450,
+    html: `<div class="cabinwall"></div><div class="cabinroof"></div><div class="bigsign">🏕️</div><div class="window wl">🔥</div>
+      <div class="door shopdoor"><div class="shutter"></div></div>`,
+  },
+  dino: {
+    width: 450,
+    html: `<div class="musewall"></div><div class="museroof"></div><div class="bigsign">🦖</div><div class="pillars"><i></i><i></i></div>
+      <div class="door shopdoor"><div class="shutter"></div></div>`,
+  },
 };

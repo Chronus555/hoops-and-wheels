@@ -2,7 +2,7 @@
 // npm run carwash:release bumps VERSION and rewrites files.json; both are needed
 // for the iPad to pick up a new version.
 
-const VERSION = 'sg-v5';
+const VERSION = 'sg-v6';
 // The app files are listed in files.json (made by npm run carwash:release).
 async function appFiles() {
   return ['./', ...(await (await fetch('files.json', { cache: 'no-store' })).json())];

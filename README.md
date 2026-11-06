@@ -119,6 +119,10 @@ Places so far:
 | 👾 **Monster Maker** | Make a friendly monster: shape, colour, 1 to 5 eyes (counted out loud), mouth, horns and pattern. Then feed it (it says "Yucky!" to broccoli and loves socks). It grows with each bite, then burps. Tickle its tummy. |
 | 🎵 **Music Stage** | A drum kit, rainbow xylophone, horn and microphone with a band of friends. ⭐ and 🐑 light up the next bar of Twinkle Twinkle or Mary Had a Little Lamb. 🥁 starts a beat to dance to. 🎤 records him singing and plays it back with an echo. |
 | 🎨 **Art Studio** | Finger-paint with named colours, a rainbow brush, glitter, stamps and an eraser. Tap-to-fill coloring pages (car, house, fish, rocket). Pictures go on the fridge. |
+| 🌱 **Farm & Garden** | Plant seeds in six plots and water them to grow (they also grow a little by themselves over time). Pick ripe crops into the basket, which counts them. In the barnyard, tap animals ("The cow says moo!"), feed them, and the hen lays an egg that hatches. |
+| 🌊 **Ocean Dive** | Steer a submarine with a finger. It gets darker the deeper it goes (turn on the headlight). Sea creatures are named as he finds them: the pufferfish puffs, the octopus squirts ink, the whale sings. Treasure chests on the seabed count out gems. |
+| 🏕️ **Campground** | Pitch the tent in three counted steps and build a campfire. At night, toast marshmallows (golden is yummy, too long is crunchy), find hidden animals with the flashlight, and connect numbered stars to make a picture. |
+| 🦕 **Dinosaur Dig** | Brush away sand to find five bones (counted). In the museum, put them on the skeleton outline; the dinosaur is named (T. rex, Triceratops, Brachiosaurus) and roars. Tap the egg three times to hatch a baby. |
  Muddy cars wait on the road outside; tap one to drive it in. Each car has an animal driver (hippo, frog, lion, pig, elephant or bear) who giggles, cheers and talks with the recorded voice.
 
 **Car Wash & Garage stations:**

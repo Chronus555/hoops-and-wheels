@@ -1,11 +1,47 @@
 [
  {
+  "key": "a baby dinosaur rawr",
+  "text": "A baby dinosaur! Rawr!"
+ },
+ {
   "key": "a big smile",
   "text": "A big smile!"
  },
  {
+  "key": "a bone",
+  "text": "A bone!"
+ },
+ {
+  "key": "a bunny",
+  "text": "A bunny!"
+ },
+ {
+  "key": "a cozy campfire",
+  "text": "A cozy campfire!"
+ },
+ {
+  "key": "a crab",
+  "text": "A crab!"
+ },
+ {
+  "key": "a deer",
+  "text": "A deer!"
+ },
+ {
+  "key": "a fish",
+  "text": "A fish!"
+ },
+ {
   "key": "a haircut",
   "text": "A haircut!"
+ },
+ {
+  "key": "a hedgehog",
+  "text": "A hedgehog!"
+ },
+ {
+  "key": "a jellyfish",
+  "text": "A jellyfish!"
  },
  {
   "key": "a lollipop yay",
@@ -20,12 +56,36 @@
   "text": "A pickle?"
  },
  {
+  "key": "a pufferfish",
+  "text": "A pufferfish!"
+ },
+ {
+  "key": "a raccoon",
+  "text": "A raccoon!"
+ },
+ {
   "key": "a roof",
   "text": "A roof!"
  },
  {
+  "key": "a sea turtle",
+  "text": "A sea turtle!"
+ },
+ {
   "key": "a sock silly",
   "text": "A sock? Silly!"
+ },
+ {
+  "key": "a squid",
+  "text": "A squid!"
+ },
+ {
+  "key": "a starfish",
+  "text": "A starfish!"
+ },
+ {
+  "key": "a whale",
+  "text": "A whale!"
  },
  {
   "key": "achoo",
@@ -64,6 +124,22 @@
   "text": "Almost!"
  },
  {
+  "key": "an egg",
+  "text": "An egg!"
+ },
+ {
+  "key": "an octopus",
+  "text": "An octopus!"
+ },
+ {
+  "key": "an owl hoo hoo",
+  "text": "An owl! Hoo hoo!"
+ },
+ {
+  "key": "another bone",
+  "text": "Another bone!"
+ },
+ {
   "key": "antenna",
   "text": "Antenna!"
  },
@@ -82,6 +158,10 @@
  {
   "key": "back for more",
   "text": "Back for more!"
+ },
+ {
+  "key": "back to the top",
+  "text": "Back to the top!"
  },
  {
   "key": "banana",
@@ -156,6 +236,10 @@
   "text": "Bouncy!"
  },
  {
+  "key": "brachiosaurus",
+  "text": "Brachiosaurus!"
+ },
+ {
   "key": "bravo",
   "text": "Bravo!"
  },
@@ -174,6 +258,10 @@
  {
   "key": "brrr cold",
   "text": "Brrr, cold!"
+ },
+ {
+  "key": "brush away the sand",
+  "text": "Brush away the sand!"
  },
  {
   "key": "bubbles",
@@ -240,6 +328,10 @@
   "text": "Color the picture!"
  },
  {
+  "key": "connect the stars",
+  "text": "Connect the stars!"
+ },
+ {
   "key": "cookies",
   "text": "Cookies!"
  },
@@ -252,6 +344,14 @@
   "text": "Cool wheels!"
  },
  {
+  "key": "corn",
+  "text": "Corn!"
+ },
+ {
+  "key": "crack crack",
+  "text": "Crack, crack!"
+ },
+ {
   "key": "crash",
   "text": "Crash!"
  },
@@ -262,6 +362,10 @@
  {
   "key": "dance party",
   "text": "Dance party!"
+ },
+ {
+  "key": "deeper and deeper",
+  "text": "Deeper and deeper!"
  },
  {
   "key": "delicious",
@@ -278,6 +382,10 @@
  {
   "key": "ding the cake is ready",
   "text": "Ding! The cake is ready!"
+ },
+ {
+  "key": "dive dive dive",
+  "text": "Dive, dive, dive!"
  },
  {
   "key": "ears",
@@ -330,6 +438,10 @@
  {
   "key": "fire fighters ready",
   "text": "Fire fighters, ready!"
+ },
+ {
+  "key": "fireflies",
+  "text": "Fireflies!"
  },
  {
   "key": "first place",
@@ -412,6 +524,10 @@
   "text": "Going up!"
  },
  {
+  "key": "golden and yummy",
+  "text": "Golden and yummy!"
+ },
+ {
   "key": "got it",
   "text": "Got it!"
  },
@@ -434,6 +550,10 @@
  {
   "key": "green means go",
   "text": "Green means go!"
+ },
+ {
+  "key": "grow grow",
+  "text": "Grow, grow!"
  },
  {
   "key": "ha ha a mustache",
@@ -592,12 +712,36 @@
   "text": "Ice cream, please!"
  },
  {
+  "key": "into the dirt",
+  "text": "Into the dirt!"
+ },
+ {
   "key": "into the oven",
   "text": "Into the oven!"
  },
  {
   "key": "is that me",
   "text": "Is that me?"
+ },
+ {
+  "key": "it is a bear",
+  "text": "It is a bear!"
+ },
+ {
+  "key": "it is a car",
+  "text": "It is a car!"
+ },
+ {
+  "key": "it is a fish",
+  "text": "It is a fish!"
+ },
+ {
+  "key": "it is a rocket",
+  "text": "It is a rocket!"
+ },
+ {
+  "key": "it is getting dark",
+  "text": "It is getting dark!"
  },
  {
   "key": "it's growing",
@@ -640,12 +784,32 @@
   "text": "Let's dig!"
  },
  {
+  "key": "let's dig for dinosaur bones",
+  "text": "Let's dig for dinosaur bones!"
+ },
+ {
+  "key": "let's dig up another dinosaur",
+  "text": "Let's dig up another dinosaur!"
+ },
+ {
   "key": "let's drive",
   "text": "Let's drive!"
  },
  {
+  "key": "let's explore the ocean",
+  "text": "Let's explore the ocean!"
+ },
+ {
   "key": "let's go",
   "text": "Let's go!"
+ },
+ {
+  "key": "let's go camping",
+  "text": "Let's go camping!"
+ },
+ {
+  "key": "let's grow some food",
+  "text": "Let's grow some food!"
  },
  {
   "key": "let's make another cake",
@@ -680,6 +844,10 @@
   "text": "Lightning bolt!"
  },
  {
+  "key": "lights on",
+  "text": "Lights on!"
+ },
+ {
   "key": "listen",
   "text": "Listen!"
  },
@@ -700,12 +868,24 @@
   "text": "Longer hair!"
  },
  {
+  "key": "look at all our food",
+  "text": "Look at all our food!"
+ },
+ {
   "key": "look at all this mud",
   "text": "Look at all this mud!"
  },
  {
+  "key": "look closely",
+  "text": "Look closely!"
+ },
+ {
   "key": "look inside",
   "text": "Look inside!"
+ },
+ {
+  "key": "look it grew",
+  "text": "Look, it grew!"
  },
  {
   "key": "looking good",
@@ -760,6 +940,10 @@
   "text": "More dirt!"
  },
  {
+  "key": "more logs",
+  "text": "More logs!"
+ },
+ {
   "key": "more please",
   "text": "More, please!"
  },
@@ -770,6 +954,10 @@
  {
   "key": "muddy again",
   "text": "Muddy again!"
+ },
+ {
+  "key": "munch munch",
+  "text": "Munch munch!"
  },
  {
   "key": "my new color",
@@ -798,6 +986,10 @@
  {
   "key": "night night",
   "text": "Night night!"
+ },
+ {
+  "key": "night time look at the stars",
+  "text": "Night time! Look at the stars!"
  },
  {
   "key": "nine",
@@ -868,6 +1060,10 @@
   "text": "Ooh, try again!"
  },
  {
+  "key": "oops crunchy",
+  "text": "Oops! Crunchy!"
+ },
+ {
   "key": "oops erase",
   "text": "Oops, erase!"
  },
@@ -876,12 +1072,24 @@
   "text": "Orange!"
  },
  {
+  "key": "our tent is ready",
+  "text": "Our tent is ready!"
+ },
+ {
   "key": "oval",
   "text": "Oval!"
  },
  {
   "key": "paw prints",
   "text": "Paw prints!"
+ },
+ {
+  "key": "peekaboo",
+  "text": "Peekaboo!"
+ },
+ {
+  "key": "peep peep a baby chick",
+  "text": "Peep peep! A baby chick!"
  },
  {
   "key": "pick a kart",
@@ -908,6 +1116,10 @@
   "text": "Plain!"
  },
  {
+  "key": "plant a seed",
+  "text": "Plant a seed!"
+ },
+ {
   "key": "power off night night",
   "text": "Power off. Night night!"
  },
@@ -920,8 +1132,20 @@
   "text": "Propeller!"
  },
  {
+  "key": "puff",
+  "text": "Puff!"
+ },
+ {
+  "key": "pumpkin",
+  "text": "Pumpkin!"
+ },
+ {
   "key": "purple",
   "text": "Purple!"
+ },
+ {
+  "key": "put the bones together",
+  "text": "Put the bones together!"
  },
  {
   "key": "race again",
@@ -952,6 +1176,10 @@
   "text": "Ready to bake!"
  },
  {
+  "key": "ready to pick",
+  "text": "Ready to pick!"
+ },
+ {
   "key": "rectangle",
   "text": "Rectangle!"
  },
@@ -966,6 +1194,10 @@
  {
   "key": "red means stop",
   "text": "Red means stop!"
+ },
+ {
+  "key": "roar",
+  "text": "Roar!"
  },
  {
   "key": "robot arms",
@@ -1018,6 +1250,10 @@
  {
   "key": "shiny",
   "text": "Shiny!"
+ },
+ {
+  "key": "shiny gems",
+  "text": "Shiny gems!"
  },
  {
   "key": "shoot the ball",
@@ -1132,6 +1368,14 @@
   "text": "Square!"
  },
  {
+  "key": "squirt ink",
+  "text": "Squirt! Ink!"
+ },
+ {
+  "key": "squishy",
+  "text": "Squishy!"
+ },
+ {
   "key": "star",
   "text": "Star!"
  },
@@ -1154,6 +1398,10 @@
  {
   "key": "sugar",
   "text": "Sugar!"
+ },
+ {
+  "key": "sunflower",
+  "text": "Sunflower!"
  },
  {
   "key": "super speed",
@@ -1216,16 +1464,48 @@
   "text": "That's everything!"
  },
  {
+  "key": "the bottom of the sea",
+  "text": "The bottom of the sea!"
+ },
+ {
   "key": "the bus is full",
   "text": "The bus is full!"
+ },
+ {
+  "key": "the chicken says cluck",
+  "text": "The chicken says cluck!"
+ },
+ {
+  "key": "the cow says moo",
+  "text": "The cow says moo!"
+ },
+ {
+  "key": "the duck says quack",
+  "text": "The duck says quack!"
+ },
+ {
+  "key": "the horse says neigh",
+  "text": "The horse says neigh!"
  },
  {
   "key": "the kitten is safe",
   "text": "The kitten is safe!"
  },
  {
+  "key": "the pig says oink",
+  "text": "The pig says oink!"
+ },
+ {
+  "key": "the sheep says baa",
+  "text": "The sheep says baa!"
+ },
+ {
   "key": "the truck is full",
   "text": "The truck is full!"
+ },
+ {
+  "key": "the whale is singing",
+  "text": "The whale is singing!"
  },
  {
   "key": "third place",
@@ -1264,12 +1544,24 @@
   "text": "To the shop, please!"
  },
  {
+  "key": "tomato",
+  "text": "Tomato!"
+ },
+ {
   "key": "tracks",
   "text": "Tracks!"
  },
  {
+  "key": "treasure",
+  "text": "Treasure!"
+ },
+ {
   "key": "triangle",
   "text": "Triangle!"
+ },
+ {
+  "key": "triceratops",
+  "text": "Triceratops!"
  },
  {
   "key": "tummy",
@@ -1294,6 +1586,10 @@
  {
   "key": "two eyes",
   "text": "Two eyes!"
+ },
+ {
+  "key": "tyrannosaurus rex",
+  "text": "Tyrannosaurus rex!"
  },
  {
   "key": "uh oh it fell down",
@@ -1324,6 +1620,10 @@
   "text": "Up the ladder!"
  },
  {
+  "key": "vroom tractor ride",
+  "text": "Vroom! Tractor ride!"
+ },
+ {
   "key": "vroom vroom",
   "text": "Vroom vroom!"
  },
@@ -1332,12 +1632,24 @@
   "text": "Wanna play?"
  },
  {
+  "key": "water makes it grow",
+  "text": "Water makes it grow!"
+ },
+ {
   "key": "watermelon",
   "text": "Watermelon!"
  },
  {
+  "key": "we found all the bones",
+  "text": "We found all the bones!"
+ },
+ {
   "key": "wee woo",
   "text": "Wee woo!"
+ },
+ {
+  "key": "welcome to the farm",
+  "text": "Welcome to the farm!"
  },
  {
   "key": "welcome to the show",
@@ -1346,6 +1658,10 @@
  {
   "key": "what a cool hat",
   "text": "What a cool hat!"
+ },
+ {
+  "key": "what a nice day",
+  "text": "What a nice day!"
  },
  {
   "key": "what a sunny day",
@@ -1462,6 +1778,10 @@
  {
   "key": "yum",
   "text": "Yum!"
+ },
+ {
+  "key": "yum a toasty marshmallow",
+  "text": "Yum, a toasty marshmallow!"
  },
  {
   "key": "yum bubble medicine",
